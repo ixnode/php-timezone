@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Releases
 
+### [0.1.2] - 2023-07-01
+
+* Add more european codes
+* Refactoring
+
 ### [0.1.1] - 2023-07-01
 
 * Add unknown and invalid codes
