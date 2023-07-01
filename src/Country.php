@@ -54,6 +54,24 @@ class Country
     }
 
     /**
+     * Returns the code of country.
+     *
+     * @return string
+     */
+    public function getCode(): string
+    {
+        if ($this->country === '') {
+            return CountryUnknown::COUNTRY_CODE_IV;
+        }
+
+        if (!array_key_exists($this->country, CountryAll::COUNTRY_NAMES)) {
+            return CountryUnknown::COUNTRY_CODE_UK;
+        }
+
+        return $this->country;
+    }
+
+    /**
      * Returns the name of country.
      *
      * @param string $language
