@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Releases
 
+### [0.1.6] - 2023-07-01
+
+* Add more european codes
+
 ### [0.1.5] - 2023-07-01
 
 * Add countryCode length checker
