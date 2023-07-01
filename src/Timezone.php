@@ -118,16 +118,34 @@ class Timezone
     ];
 
     /*
-     * Codes Europe
+     * Codes Pacific
      */
     public const COUNTRY_CODE_PG = 'PG';
 
     /*
-     * Countries Europe
+     * Countries Pacific
      */
     public const COUNTRY_NAME_PG = [
         self::DE_DE => 'Papua-Neuguinea',
         self::EN_GB => 'Papua New Guinea',
+    ];
+
+    /*
+     * Codes Unknown/Invalid
+     */
+    public const COUNTRY_CODE_UK = 'UK';
+    public const COUNTRY_CODE_IV = 'IV';
+
+    /*
+     * Countries Unknown/Invalid
+     */
+    public const COUNTRY_NAME_UK = [
+        self::DE_DE => 'Unbekannt',
+        self::EN_GB => 'Unknown',
+    ];
+    public const COUNTRY_NAME_IV = [
+        self::DE_DE => 'Ungültig',
+        self::EN_GB => 'Invalid',
     ];
 
     private const COUNTRY_NAMES = [
@@ -164,6 +182,12 @@ class Timezone
          * Pacific
          */
         self::COUNTRY_CODE_PG => self::COUNTRY_NAME_PG,
+
+        /*
+         * Unknown/Invalid
+         */
+        self::COUNTRY_CODE_UK => self::COUNTRY_NAME_UK,
+        self::COUNTRY_CODE_IV => self::COUNTRY_NAME_IV,
     ];
 
     /**
@@ -176,21 +200,31 @@ class Timezone
     /**
      * Returns the country of given timezone.
      *
-     * @return string|null
+     * @return string
      */
-    public function getCountryCode(): ?string
+    public function getCountryCode(): string
     {
+        if ($this->timezone === '') {
+            return self::COUNTRY_CODE_IV;
+        }
+
         try {
             $dateTimeZone = new DateTimeZone($this->timezone);
             $location = $dateTimeZone->getLocation();
 
             if ($location === false) {
-                return null;
+                return self::COUNTRY_CODE_IV;
             }
 
-            return $location['country_code'];
+            $countryCode = $location['country_code'];
+
+            if ($countryCode === '??') {
+                return self::COUNTRY_CODE_UK;
+            }
+
+            return $countryCode;
         } catch (Exception) {
-            return null;
+            return self::COUNTRY_CODE_IV;
         }
     }
 
@@ -200,15 +234,10 @@ class Timezone
      * @param string $language
      * @return string|null
      * @throws ArrayKeyNotFoundException
-     * @throws CaseInvalidException
      */
     public function getCountryName(string $language = self::EN_GB): ?string
     {
         $countryCode = $this->getCountryCode();
-
-        if (is_null($countryCode)) {
-            throw new CaseInvalidException($this->timezone, ['Valid timezone']);
-        }
 
         if (!array_key_exists($countryCode, self::COUNTRY_NAMES)) {
             throw new ArrayKeyNotFoundException($countryCode);

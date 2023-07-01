@@ -114,6 +114,16 @@ final class TimezoneTest extends TestCase
              */
             [++$number, 'getCountryCode', null, 'Pacific/Port_Moresby', Timezone::COUNTRY_CODE_PG],
             [++$number, 'getCountryName', null, 'Pacific/Port_Moresby', Timezone::COUNTRY_NAME_PG[Timezone::EN_GB]],
+
+            /**
+             * getCountry/getCountryName: Unknown/Invalid
+             */
+            [++$number, 'getCountryCode', null, '', Timezone::COUNTRY_CODE_IV],
+            [++$number, 'getCountryName', null, '', Timezone::COUNTRY_NAME_IV[Timezone::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Dresden', Timezone::COUNTRY_CODE_IV],
+            [++$number, 'getCountryName', null, 'Europe/Dresden', Timezone::COUNTRY_NAME_IV[Timezone::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Asia/Ashkhabad', Timezone::COUNTRY_CODE_UK],
+            [++$number, 'getCountryName', null, 'Asia/Ashkhabad', Timezone::COUNTRY_NAME_UK[Timezone::EN_GB]],
         ];
     }
 }
