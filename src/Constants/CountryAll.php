@@ -59,12 +59,21 @@ class CountryAll
         CountryEurope::COUNTRY_CODE_DK => CountryEurope::COUNTRY_NAME_DK,
         CountryEurope::COUNTRY_CODE_ES => CountryEurope::COUNTRY_NAME_ES,
         CountryEurope::COUNTRY_CODE_FR => CountryEurope::COUNTRY_NAME_FR,
+        CountryEurope::COUNTRY_CODE_GB => CountryEurope::COUNTRY_NAME_GB,
+        CountryEurope::COUNTRY_CODE_HR => CountryEurope::COUNTRY_NAME_HR,
+        CountryEurope::COUNTRY_CODE_HU => CountryEurope::COUNTRY_NAME_HU,
         CountryEurope::COUNTRY_CODE_IT => CountryEurope::COUNTRY_NAME_IT,
+        CountryEurope::COUNTRY_CODE_LI => CountryEurope::COUNTRY_NAME_LI,
+        CountryEurope::COUNTRY_CODE_MC => CountryEurope::COUNTRY_NAME_MC,
         CountryEurope::COUNTRY_CODE_NL => CountryEurope::COUNTRY_NAME_NL,
+        CountryEurope::COUNTRY_CODE_NO => CountryEurope::COUNTRY_NAME_NO,
         CountryEurope::COUNTRY_CODE_LU => CountryEurope::COUNTRY_NAME_LU,
         CountryEurope::COUNTRY_CODE_PL => CountryEurope::COUNTRY_NAME_PL,
         CountryEurope::COUNTRY_CODE_RS => CountryEurope::COUNTRY_NAME_RS,
+        CountryEurope::COUNTRY_CODE_SE => CountryEurope::COUNTRY_NAME_SE,
+        CountryEurope::COUNTRY_CODE_SI => CountryEurope::COUNTRY_NAME_SI,
         CountryEurope::COUNTRY_CODE_SK => CountryEurope::COUNTRY_NAME_SK,
+        CountryEurope::COUNTRY_CODE_VA => CountryEurope::COUNTRY_NAME_VA,
 
         /*
          * Pacific

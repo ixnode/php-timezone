@@ -72,6 +72,7 @@ final class TimezoneTest extends TestCase
      * Data provider.
      *
      * @return array<int, array<int, string|int|null>>
+     * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
      */
     public function dataProvider(): array
     {
@@ -122,24 +123,42 @@ final class TimezoneTest extends TestCase
             [++$number, 'getCountryName', Language::DE_DE, 'Europe/Berlin', CountryEurope::COUNTRY_NAME_DE[Language::DE_DE]],
             [++$number, 'getCountryCode', null, 'Europe/Bratislava', CountryEurope::COUNTRY_CODE_SK],
             [++$number, 'getCountryName', null, 'Europe/Bratislava', CountryEurope::COUNTRY_NAME_SK[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Budapest', CountryEurope::COUNTRY_CODE_HU],
+            [++$number, 'getCountryName', null, 'Europe/Budapest', CountryEurope::COUNTRY_NAME_HU[Language::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Brussels', CountryEurope::COUNTRY_CODE_BE],
             [++$number, 'getCountryName', null, 'Europe/Brussels', CountryEurope::COUNTRY_NAME_BE[Language::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Copenhagen', CountryEurope::COUNTRY_CODE_DK],
             [++$number, 'getCountryName', null, 'Europe/Copenhagen', CountryEurope::COUNTRY_NAME_DK[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Ljubljana', CountryEurope::COUNTRY_CODE_SI],
+            [++$number, 'getCountryName', null, 'Europe/Ljubljana', CountryEurope::COUNTRY_NAME_SI[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/London', CountryEurope::COUNTRY_CODE_GB],
+            [++$number, 'getCountryName', null, 'Europe/London', CountryEurope::COUNTRY_NAME_GB[Language::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Luxembourg', CountryEurope::COUNTRY_CODE_LU],
             [++$number, 'getCountryName', null, 'Europe/Luxembourg', CountryEurope::COUNTRY_NAME_LU[Language::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Madrid', CountryEurope::COUNTRY_CODE_ES],
             [++$number, 'getCountryName', null, 'Europe/Madrid', CountryEurope::COUNTRY_NAME_ES[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Monaco', CountryEurope::COUNTRY_CODE_MC],
+            [++$number, 'getCountryName', null, 'Europe/Monaco', CountryEurope::COUNTRY_NAME_MC[Language::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Moscow', CountryAsia::COUNTRY_CODE_RU],
             [++$number, 'getCountryName', null, 'Europe/Moscow', CountryAsia::COUNTRY_NAME_RU[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Oslo', CountryEurope::COUNTRY_CODE_NO],
+            [++$number, 'getCountryName', null, 'Europe/Oslo', CountryEurope::COUNTRY_NAME_NO[Language::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Paris', CountryEurope::COUNTRY_CODE_FR],
             [++$number, 'getCountryName', null, 'Europe/Paris', CountryEurope::COUNTRY_NAME_FR[Language::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Prague', CountryEurope::COUNTRY_CODE_CZ],
             [++$number, 'getCountryName', null, 'Europe/Prague', CountryEurope::COUNTRY_NAME_CZ[Language::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Rome', CountryEurope::COUNTRY_CODE_IT],
             [++$number, 'getCountryName', null, 'Europe/Rome', CountryEurope::COUNTRY_NAME_IT[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Stockholm', CountryEurope::COUNTRY_CODE_SE],
+            [++$number, 'getCountryName', null, 'Europe/Stockholm', CountryEurope::COUNTRY_NAME_SE[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Vaduz', CountryEurope::COUNTRY_CODE_LI],
+            [++$number, 'getCountryName', null, 'Europe/Vaduz', CountryEurope::COUNTRY_NAME_LI[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Vatican', CountryEurope::COUNTRY_CODE_VA],
+            [++$number, 'getCountryName', null, 'Europe/Vatican', CountryEurope::COUNTRY_NAME_VA[Language::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Warsaw', CountryEurope::COUNTRY_CODE_PL],
             [++$number, 'getCountryName', null, 'Europe/Warsaw', CountryEurope::COUNTRY_NAME_PL[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Zagreb', CountryEurope::COUNTRY_CODE_HR],
+            [++$number, 'getCountryName', null, 'Europe/Zagreb', CountryEurope::COUNTRY_NAME_HR[Language::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Zurich', CountryEurope::COUNTRY_CODE_CH],
             [++$number, 'getCountryName', null, 'Europe/Zurich', CountryEurope::COUNTRY_NAME_CH[Language::EN_GB]],
 

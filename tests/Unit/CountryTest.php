@@ -123,12 +123,21 @@ final class CountryTest extends TestCase
             [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_DK, CountryEurope::COUNTRY_NAME_DK[Language::EN_GB]],
             [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_ES, CountryEurope::COUNTRY_NAME_ES[Language::EN_GB]],
             [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_FR, CountryEurope::COUNTRY_NAME_FR[Language::EN_GB]],
+            [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_GB, CountryEurope::COUNTRY_NAME_GB[Language::EN_GB]],
             [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_IT, CountryEurope::COUNTRY_NAME_IT[Language::EN_GB]],
+            [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_HR, CountryEurope::COUNTRY_NAME_HR[Language::EN_GB]],
+            [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_HU, CountryEurope::COUNTRY_NAME_HU[Language::EN_GB]],
+            [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_LI, CountryEurope::COUNTRY_NAME_LI[Language::EN_GB]],
             [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_LU, CountryEurope::COUNTRY_NAME_LU[Language::EN_GB]],
+            [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_MC, CountryEurope::COUNTRY_NAME_MC[Language::EN_GB]],
             [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_NL, CountryEurope::COUNTRY_NAME_NL[Language::EN_GB]],
+            [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_NO, CountryEurope::COUNTRY_NAME_NO[Language::EN_GB]],
             [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_PL, CountryEurope::COUNTRY_NAME_PL[Language::EN_GB]],
             [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_RS, CountryEurope::COUNTRY_NAME_RS[Language::EN_GB]],
+            [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_SE, CountryEurope::COUNTRY_NAME_SE[Language::EN_GB]],
+            [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_SI, CountryEurope::COUNTRY_NAME_SI[Language::EN_GB]],
             [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_SK, CountryEurope::COUNTRY_NAME_SK[Language::EN_GB]],
+            [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_VA, CountryEurope::COUNTRY_NAME_VA[Language::EN_GB]],
 
             /**
              * getName: Pacific
