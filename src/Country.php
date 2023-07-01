@@ -29,10 +29,12 @@ use Ixnode\PhpTimezone\Tests\Unit\CountryTest;
  */
 class Country
 {
+    private const LENGTH_COUNTRY_CODE = 2;
+
     /**
-     * @param string $country
+     * @param string $countryCode
      */
-    public function __construct(protected string $country)
+    public function __construct(protected string $countryCode)
     {
     }
 
@@ -60,15 +62,19 @@ class Country
      */
     public function getCode(): string
     {
-        if ($this->country === '') {
+        if ($this->countryCode === '') {
             return CountryUnknown::COUNTRY_CODE_IV;
         }
 
-        if (!array_key_exists($this->country, CountryAll::COUNTRY_NAMES)) {
+        if (strlen($this->countryCode) !== self::LENGTH_COUNTRY_CODE) {
+            return CountryUnknown::COUNTRY_CODE_IV;
+        }
+
+        if (!array_key_exists($this->countryCode, CountryAll::COUNTRY_NAMES)) {
             return CountryUnknown::COUNTRY_CODE_UK;
         }
 
-        return $this->country;
+        return $this->countryCode;
     }
 
     /**
@@ -80,14 +86,20 @@ class Country
      */
     public function getName(string $language = Language::EN_GB): string
     {
-        if ($this->country === '') {
+        $countryCode = $this->getCode();
+
+        if ($countryCode === CountryUnknown::COUNTRY_CODE_IV) {
             return $this->getLanguage(CountryUnknown::COUNTRY_NAME_IV, $language);
         }
 
-        if (!array_key_exists($this->country, CountryAll::COUNTRY_NAMES)) {
+        if ($countryCode === CountryUnknown::COUNTRY_CODE_UK) {
             return $this->getLanguage(CountryUnknown::COUNTRY_NAME_UK, $language);
         }
 
-        return $this->getLanguage(CountryAll::COUNTRY_NAMES[$this->country], $language);
+        if (!array_key_exists($countryCode, CountryAll::COUNTRY_NAMES)) {
+            return $this->getLanguage(CountryUnknown::COUNTRY_NAME_UK, $language);
+        }
+
+        return $this->getLanguage(CountryAll::COUNTRY_NAMES[$this->countryCode], $language);
     }
 }
