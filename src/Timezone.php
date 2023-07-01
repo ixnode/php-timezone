@@ -16,7 +16,7 @@ namespace Ixnode\PhpTimezone;
 use DateTimeZone;
 use Exception;
 use Ixnode\PhpException\ArrayType\ArrayKeyNotFoundException;
-use Ixnode\PhpTimezone\Constants\Country;
+use Ixnode\PhpTimezone\Constants\CountryAll;
 use Ixnode\PhpTimezone\Constants\CountryUnknown;
 use Ixnode\PhpTimezone\Constants\Language;
 use Ixnode\PhpTimezone\Tests\Unit\TimezoneTest;
@@ -80,11 +80,11 @@ class Timezone
     {
         $countryCode = $this->getCountryCode();
 
-        if (!array_key_exists($countryCode, Country::COUNTRY_NAMES)) {
+        if (!array_key_exists($countryCode, CountryAll::COUNTRY_NAMES)) {
             throw new ArrayKeyNotFoundException($countryCode);
         }
 
-        $countryName = Country::COUNTRY_NAMES[$countryCode];
+        $countryName = CountryAll::COUNTRY_NAMES[$countryCode];
 
         if (!array_key_exists($language, $countryName)) {
             throw new ArrayKeyNotFoundException($language);

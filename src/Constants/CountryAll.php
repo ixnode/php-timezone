@@ -14,13 +14,13 @@ declare(strict_types=1);
 namespace Ixnode\PhpTimezone\Constants;
 
 /**
- * Class Country
+ * Class CountryAll
  *
  * @author Björn Hempel <bjoern@hempel.li>
  * @version 0.1.0 (2023-07-01)
  * @since 0.1.0 (2023-07-01) First version.
  */
-class Country
+class CountryAll
 {
     public const COUNTRY_NAMES = [
         /*

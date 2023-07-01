@@ -40,7 +40,7 @@ final class TimezoneTest extends TestCase
      * @dataProvider dataProvider
      *
      * @test
-     * @testdox $number) Test SizeByte: $method
+     * @testdox $number) Test Timezone: $method
      * @param int $number
      * @param string $method
      * @param string|null $parameter
