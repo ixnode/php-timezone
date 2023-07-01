@@ -25,11 +25,16 @@ class CountryPacific
     /*
      * Codes Pacific
      */
+    public const COUNTRY_CODE_PF = 'PF';
     public const COUNTRY_CODE_PG = 'PG';
 
     /*
      * Countries Pacific
      */
+    public const COUNTRY_NAME_PF = [
+        Language::DE_DE => 'Französisch-Polynesien',
+        Language::EN_GB => 'French Polynesia',
+    ];
     public const COUNTRY_NAME_PG = [
         Language::DE_DE => 'Papua-Neuguinea',
         Language::EN_GB => 'Papua New Guinea',

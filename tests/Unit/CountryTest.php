@@ -142,6 +142,7 @@ final class CountryTest extends TestCase
             /**
              * getName: Pacific
              */
+            [++$number, 'getName', null, CountryPacific::COUNTRY_CODE_PF, CountryPacific::COUNTRY_NAME_PF[Language::EN_GB]],
             [++$number, 'getName', null, CountryPacific::COUNTRY_CODE_PG, CountryPacific::COUNTRY_NAME_PG[Language::EN_GB]],
 
             /**

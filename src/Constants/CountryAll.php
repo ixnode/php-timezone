@@ -78,6 +78,7 @@ class CountryAll
         /*
          * Pacific
          */
+        CountryPacific::COUNTRY_CODE_PF => CountryPacific::COUNTRY_NAME_PF,
         CountryPacific::COUNTRY_CODE_PG => CountryPacific::COUNTRY_NAME_PG,
 
         /*

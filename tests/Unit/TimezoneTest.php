@@ -165,6 +165,8 @@ final class TimezoneTest extends TestCase
             /**
              * getCountry/getCountryName: Pacific
              */
+            [++$number, 'getCountryCode', null, 'Pacific/Marquesas', CountryPacific::COUNTRY_CODE_PF],
+            [++$number, 'getCountryName', null, 'Pacific/Marquesas', CountryPacific::COUNTRY_NAME_PF[Language::EN_GB]],
             [++$number, 'getCountryCode', null, 'Pacific/Port_Moresby', CountryPacific::COUNTRY_CODE_PG],
             [++$number, 'getCountryName', null, 'Pacific/Port_Moresby', CountryPacific::COUNTRY_NAME_PG[Language::EN_GB]],
 
