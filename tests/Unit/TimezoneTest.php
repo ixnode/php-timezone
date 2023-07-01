@@ -13,6 +13,14 @@ declare(strict_types=1);
 
 namespace Ixnode\PhpTimezone\Tests\Unit;
 
+use Ixnode\PhpTimezone\Constants\CountryAfrica;
+use Ixnode\PhpTimezone\Constants\CountryAmerica;
+use Ixnode\PhpTimezone\Constants\CountryAsia;
+use Ixnode\PhpTimezone\Constants\CountryAustralia;
+use Ixnode\PhpTimezone\Constants\CountryEurope;
+use Ixnode\PhpTimezone\Constants\CountryPacific;
+use Ixnode\PhpTimezone\Constants\CountryUnknown;
+use Ixnode\PhpTimezone\Constants\Language;
 use Ixnode\PhpTimezone\Timezone;
 use PHPUnit\Framework\TestCase;
 
@@ -74,56 +82,82 @@ final class TimezoneTest extends TestCase
             /**
              * getCountry/getCountryName: Africa
              */
-            [++$number, 'getCountryCode', null, 'Africa/Abidjan', Timezone::COUNTRY_CODE_CI],
-            [++$number, 'getCountryName', null, 'Africa/Abidjan', Timezone::COUNTRY_NAME_CI[Timezone::EN_GB]],
-            [++$number, 'getCountryCode', null, 'Africa/Accra', Timezone::COUNTRY_CODE_GH],
-            [++$number, 'getCountryName', null, 'Africa/Accra', Timezone::COUNTRY_NAME_GH[Timezone::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Africa/Abidjan', CountryAfrica::COUNTRY_CODE_CI],
+            [++$number, 'getCountryName', null, 'Africa/Abidjan', CountryAfrica::COUNTRY_NAME_CI[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Africa/Accra', CountryAfrica::COUNTRY_CODE_GH],
+            [++$number, 'getCountryName', null, 'Africa/Accra', CountryAfrica::COUNTRY_NAME_GH[Language::EN_GB]],
 
             /**
              * getCountry/getCountryName: Africa
              */
-            [++$number, 'getCountryCode', null, 'America/Argentina/Tucuman', Timezone::COUNTRY_CODE_AR],
-            [++$number, 'getCountryName', null, 'America/Argentina/Tucuman', Timezone::COUNTRY_NAME_AR[Timezone::EN_GB]],
+            [++$number, 'getCountryCode', null, 'America/Argentina/Tucuman', CountryAmerica::COUNTRY_CODE_AR],
+            [++$number, 'getCountryName', null, 'America/Argentina/Tucuman', CountryAmerica::COUNTRY_NAME_AR[Language::EN_GB]],
 
             /**
              * getCountry/getCountryName: Asia
              */
-            [++$number, 'getCountryCode', null, 'Asia/Dubai', Timezone::COUNTRY_CODE_AE],
-            [++$number, 'getCountryName', null, 'Asia/Dubai', Timezone::COUNTRY_NAME_AE[Timezone::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Asia/Almaty', CountryAsia::COUNTRY_CODE_KZ],
+            [++$number, 'getCountryName', null, 'Asia/Almaty', CountryAsia::COUNTRY_NAME_KZ[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Asia/Dubai', CountryAsia::COUNTRY_CODE_AE],
+            [++$number, 'getCountryName', null, 'Asia/Dubai', CountryAsia::COUNTRY_NAME_AE[Language::EN_GB]],
 
             /**
-             * getCountry/getCountryName: Asia
+             * getCountry/getCountryName: Australia
              */
-            [++$number, 'getCountryCode', null, 'Australia/Sydney', Timezone::COUNTRY_CODE_AU],
-            [++$number, 'getCountryName', null, 'Australia/Sydney', Timezone::COUNTRY_NAME_AU[Timezone::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Australia/Sydney', CountryAustralia::COUNTRY_CODE_AU],
+            [++$number, 'getCountryName', null, 'Australia/Sydney', CountryAustralia::COUNTRY_NAME_AU[Language::EN_GB]],
 
             /**
              * getCountry/getCountryName: Europe
              */
-            [++$number, 'getCountryCode', null, 'Europe/Amsterdam', Timezone::COUNTRY_CODE_NL],
-            [++$number, 'getCountryName', null, 'Europe/Amsterdam', Timezone::COUNTRY_NAME_NL[Timezone::EN_GB]],
-            [++$number, 'getCountryCode', null, 'Europe/Berlin', Timezone::COUNTRY_CODE_DE],
-            [++$number, 'getCountryName', null, 'Europe/Berlin', Timezone::COUNTRY_NAME_DE[Timezone::EN_GB]],
-            [++$number, 'getCountryName', Timezone::EN_GB, 'Europe/Berlin', Timezone::COUNTRY_NAME_DE[Timezone::EN_GB]],
-            [++$number, 'getCountryName', Timezone::DE_DE, 'Europe/Berlin', Timezone::COUNTRY_NAME_DE[Timezone::DE_DE]],
-            [++$number, 'getCountryCode', null, 'Europe/Zurich', Timezone::COUNTRY_CODE_CH],
-            [++$number, 'getCountryName', null, 'Europe/Zurich', Timezone::COUNTRY_NAME_CH[Timezone::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Andorra', CountryEurope::COUNTRY_CODE_AD],
+            [++$number, 'getCountryName', null, 'Europe/Andorra', CountryEurope::COUNTRY_NAME_AD[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Amsterdam', CountryEurope::COUNTRY_CODE_NL],
+            [++$number, 'getCountryName', null, 'Europe/Amsterdam', CountryEurope::COUNTRY_NAME_NL[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Belgrade', CountryEurope::COUNTRY_CODE_RS],
+            [++$number, 'getCountryName', null, 'Europe/Belgrade', CountryEurope::COUNTRY_NAME_RS[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Berlin', CountryEurope::COUNTRY_CODE_DE],
+            [++$number, 'getCountryName', null, 'Europe/Berlin', CountryEurope::COUNTRY_NAME_DE[Language::EN_GB]],
+            [++$number, 'getCountryName', Language::EN_GB, 'Europe/Berlin', CountryEurope::COUNTRY_NAME_DE[Language::EN_GB]],
+            [++$number, 'getCountryName', Language::DE_DE, 'Europe/Berlin', CountryEurope::COUNTRY_NAME_DE[Language::DE_DE]],
+            [++$number, 'getCountryCode', null, 'Europe/Bratislava', CountryEurope::COUNTRY_CODE_SK],
+            [++$number, 'getCountryName', null, 'Europe/Bratislava', CountryEurope::COUNTRY_NAME_SK[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Brussels', CountryEurope::COUNTRY_CODE_BE],
+            [++$number, 'getCountryName', null, 'Europe/Brussels', CountryEurope::COUNTRY_NAME_BE[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Copenhagen', CountryEurope::COUNTRY_CODE_DK],
+            [++$number, 'getCountryName', null, 'Europe/Copenhagen', CountryEurope::COUNTRY_NAME_DK[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Luxembourg', CountryEurope::COUNTRY_CODE_LU],
+            [++$number, 'getCountryName', null, 'Europe/Luxembourg', CountryEurope::COUNTRY_NAME_LU[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Madrid', CountryEurope::COUNTRY_CODE_ES],
+            [++$number, 'getCountryName', null, 'Europe/Madrid', CountryEurope::COUNTRY_NAME_ES[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Moscow', CountryAsia::COUNTRY_CODE_RU],
+            [++$number, 'getCountryName', null, 'Europe/Moscow', CountryAsia::COUNTRY_NAME_RU[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Paris', CountryEurope::COUNTRY_CODE_FR],
+            [++$number, 'getCountryName', null, 'Europe/Paris', CountryEurope::COUNTRY_NAME_FR[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Prague', CountryEurope::COUNTRY_CODE_CZ],
+            [++$number, 'getCountryName', null, 'Europe/Prague', CountryEurope::COUNTRY_NAME_CZ[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Rome', CountryEurope::COUNTRY_CODE_IT],
+            [++$number, 'getCountryName', null, 'Europe/Rome', CountryEurope::COUNTRY_NAME_IT[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Warsaw', CountryEurope::COUNTRY_CODE_PL],
+            [++$number, 'getCountryName', null, 'Europe/Warsaw', CountryEurope::COUNTRY_NAME_PL[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Zurich', CountryEurope::COUNTRY_CODE_CH],
+            [++$number, 'getCountryName', null, 'Europe/Zurich', CountryEurope::COUNTRY_NAME_CH[Language::EN_GB]],
 
             /**
              * getCountry/getCountryName: Pacific
              */
-            [++$number, 'getCountryCode', null, 'Pacific/Port_Moresby', Timezone::COUNTRY_CODE_PG],
-            [++$number, 'getCountryName', null, 'Pacific/Port_Moresby', Timezone::COUNTRY_NAME_PG[Timezone::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Pacific/Port_Moresby', CountryPacific::COUNTRY_CODE_PG],
+            [++$number, 'getCountryName', null, 'Pacific/Port_Moresby', CountryPacific::COUNTRY_NAME_PG[Language::EN_GB]],
 
             /**
              * getCountry/getCountryName: Unknown/Invalid
              */
-            [++$number, 'getCountryCode', null, '', Timezone::COUNTRY_CODE_IV],
-            [++$number, 'getCountryName', null, '', Timezone::COUNTRY_NAME_IV[Timezone::EN_GB]],
-            [++$number, 'getCountryCode', null, 'Europe/Dresden', Timezone::COUNTRY_CODE_IV],
-            [++$number, 'getCountryName', null, 'Europe/Dresden', Timezone::COUNTRY_NAME_IV[Timezone::EN_GB]],
-            [++$number, 'getCountryCode', null, 'Asia/Ashkhabad', Timezone::COUNTRY_CODE_UK],
-            [++$number, 'getCountryName', null, 'Asia/Ashkhabad', Timezone::COUNTRY_NAME_UK[Timezone::EN_GB]],
+            [++$number, 'getCountryCode', null, '', CountryUnknown::COUNTRY_CODE_IV],
+            [++$number, 'getCountryName', null, '', CountryUnknown::COUNTRY_NAME_IV[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Dresden', CountryUnknown::COUNTRY_CODE_IV],
+            [++$number, 'getCountryName', null, 'Europe/Dresden', CountryUnknown::COUNTRY_NAME_IV[Language::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Asia/Ashkhabad', CountryUnknown::COUNTRY_CODE_UK],
+            [++$number, 'getCountryName', null, 'Asia/Ashkhabad', CountryUnknown::COUNTRY_NAME_UK[Language::EN_GB]],
         ];
     }
 }
