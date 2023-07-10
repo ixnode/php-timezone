@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Releases
 
+### [0.1.8] - 2023-07-10
+
+* Add Europe/Kyiv and Europe/Kiev
+
 ### [0.1.7] - 2023-07-01
 
 * Add more pacific codes
