@@ -73,6 +73,7 @@ class CountryAll
         CountryEurope::COUNTRY_CODE_SE => CountryEurope::COUNTRY_NAME_SE,
         CountryEurope::COUNTRY_CODE_SI => CountryEurope::COUNTRY_NAME_SI,
         CountryEurope::COUNTRY_CODE_SK => CountryEurope::COUNTRY_NAME_SK,
+        CountryEurope::COUNTRY_CODE_UA => CountryEurope::COUNTRY_NAME_UA,
         CountryEurope::COUNTRY_CODE_VA => CountryEurope::COUNTRY_NAME_VA,
 
         /*

@@ -48,6 +48,7 @@ class CountryEurope
     public const COUNTRY_CODE_SE = 'SE';
     public const COUNTRY_CODE_SI = 'SI';
     public const COUNTRY_CODE_SK = 'SK';
+    public const COUNTRY_CODE_UA = 'UA';
     public const COUNTRY_CODE_VA = 'VA';
 
     /*
@@ -144,6 +145,10 @@ class CountryEurope
     public const COUNTRY_NAME_SK = [
         Language::DE_DE => 'Slowakei',
         Language::EN_GB => 'Slovakia',
+    ];
+    public const COUNTRY_NAME_UA = [
+        Language::DE_DE => 'Ukraine',
+        Language::EN_GB => 'Ukraine',
     ];
     public const COUNTRY_NAME_VA = [
         Language::DE_DE => 'Vatikanstadt',

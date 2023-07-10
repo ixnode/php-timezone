@@ -49,6 +49,10 @@ class Timezone
             return CountryUnknown::COUNTRY_CODE_IV;
         }
 
+        if ($this->timezone === 'Europe/Kyiv') {
+            $this->timezone = 'Europe/Kiev';
+        }
+
         try {
             $dateTimeZone = new DateTimeZone($this->timezone);
             $location = $dateTimeZone->getLocation();

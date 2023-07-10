@@ -137,6 +137,7 @@ final class CountryTest extends TestCase
             [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_SE, CountryEurope::COUNTRY_NAME_SE[Language::EN_GB]],
             [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_SI, CountryEurope::COUNTRY_NAME_SI[Language::EN_GB]],
             [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_SK, CountryEurope::COUNTRY_NAME_SK[Language::EN_GB]],
+            [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_UA, CountryEurope::COUNTRY_NAME_UA[Language::EN_GB]],
             [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_VA, CountryEurope::COUNTRY_NAME_VA[Language::EN_GB]],
 
             /**
