@@ -23,7 +23,20 @@ use Ixnode\PhpTimezone\Timezone;
 ```
 
 ```php
-$sizeHumanReadable = (new Timezone($timezone))->getCountryCode();
+$countryCode = (new Timezone('Europe/Berlin'))->getCountryCode();
+// DE
+```
+
+```php
+$countryCode = (new Timezone('Europe/Berlin'))->getCountryName();
+// Germany
+```
+
+```php
+use Ixnode\PhpTimezone\Constants\Language
+
+$countryCode = (new Timezone('Europe/Berlin'))->getCountryName(Language::DE_DE);
+// Deutschland
 ```
 
 ## Development
