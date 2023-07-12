@@ -28,14 +28,14 @@ $countryCode = (new Timezone('Europe/Berlin'))->getCountryCode();
 ```
 
 ```php
-$countryCode = (new Timezone('Europe/Berlin'))->getCountryName();
+$countryName = (new Timezone('Europe/Berlin'))->getCountryName();
 // Germany
 ```
 
 ```php
 use Ixnode\PhpTimezone\Constants\Language
 
-$countryCode = (new Timezone('Europe/Berlin'))->getCountryName(Language::DE_DE);
+$countryName = (new Timezone('Europe/Berlin'))->getCountryName(Language::DE_DE);
 // Deutschland
 ```
 
