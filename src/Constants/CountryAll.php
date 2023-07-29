@@ -33,6 +33,8 @@ class CountryAll
          * America
          */
         CountryAmerica::COUNTRY_CODE_AR => CountryAmerica::COUNTRY_NAME_AR,
+        CountryAmerica::COUNTRY_CODE_CA => CountryAmerica::COUNTRY_NAME_CA,
+        CountryAmerica::COUNTRY_CODE_US => CountryAmerica::COUNTRY_NAME_US,
 
         /*
          * Asia
