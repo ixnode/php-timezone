@@ -31,7 +31,7 @@ class CountryAustralia
      * Countries Australia
      */
     public const COUNTRY_NAME_AU = [
-        Language::DE_DE => 'Australien',
-        Language::EN_GB => 'Australia',
+        Locale::DE_DE => 'Australien',
+        Locale::EN_GB => 'Australia',
     ];
 }

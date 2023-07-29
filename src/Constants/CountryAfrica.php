@@ -32,11 +32,11 @@ class CountryAfrica
      * Countries Africa
      */
     public const COUNTRY_NAME_CI = [
-        Language::DE_DE => 'Elfenbeinküste',
-        Language::EN_GB => 'Ivory Coast',
+        Locale::DE_DE => 'Elfenbeinküste',
+        Locale::EN_GB => 'Ivory Coast',
     ];
     public const COUNTRY_NAME_GH = [
-        Language::DE_DE => 'Ghana',
-        Language::EN_GB => 'Ghana',
+        Locale::DE_DE => 'Ghana',
+        Locale::EN_GB => 'Ghana',
     ];
 }

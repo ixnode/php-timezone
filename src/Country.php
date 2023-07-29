@@ -16,7 +16,7 @@ namespace Ixnode\PhpTimezone;
 use Ixnode\PhpException\ArrayType\ArrayKeyNotFoundException;
 use Ixnode\PhpTimezone\Constants\CountryAll;
 use Ixnode\PhpTimezone\Constants\CountryUnknown;
-use Ixnode\PhpTimezone\Constants\Language;
+use Ixnode\PhpTimezone\Constants\Locale;
 use Ixnode\PhpTimezone\Tests\Unit\CountryTest;
 
 /**
@@ -84,7 +84,7 @@ class Country
      * @return string
      * @throws ArrayKeyNotFoundException
      */
-    public function getName(string $language = Language::EN_GB): string
+    public function getName(string $language = Locale::EN_GB): string
     {
         $countryCode = $this->getCode();
 

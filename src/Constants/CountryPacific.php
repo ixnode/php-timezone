@@ -32,11 +32,11 @@ class CountryPacific
      * Countries Pacific
      */
     public const COUNTRY_NAME_PF = [
-        Language::DE_DE => 'Französisch-Polynesien',
-        Language::EN_GB => 'French Polynesia',
+        Locale::DE_DE => 'Französisch-Polynesien',
+        Locale::EN_GB => 'French Polynesia',
     ];
     public const COUNTRY_NAME_PG = [
-        Language::DE_DE => 'Papua-Neuguinea',
-        Language::EN_GB => 'Papua New Guinea',
+        Locale::DE_DE => 'Papua-Neuguinea',
+        Locale::EN_GB => 'Papua New Guinea',
     ];
 }

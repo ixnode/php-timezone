@@ -32,11 +32,11 @@ class CountryUnknown
      * Countries Unknown/Invalid
      */
     public const COUNTRY_NAME_UK = [
-        Language::DE_DE => 'Unbekannt',
-        Language::EN_GB => 'Unknown',
+        Locale::DE_DE => 'Unbekannt',
+        Locale::EN_GB => 'Unknown',
     ];
     public const COUNTRY_NAME_IV = [
-        Language::DE_DE => 'Ungültig',
-        Language::EN_GB => 'Invalid',
+        Locale::DE_DE => 'Ungültig',
+        Locale::EN_GB => 'Invalid',
     ];
 }

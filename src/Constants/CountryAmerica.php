@@ -31,7 +31,7 @@ class CountryAmerica
      * Countries America
      */
     public const COUNTRY_NAME_AR = [
-        Language::DE_DE => 'Argentinien',
-        Language::EN_GB => 'Argentina',
+        Locale::DE_DE => 'Argentinien',
+        Locale::EN_GB => 'Argentina',
     ];
 }

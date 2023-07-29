@@ -36,23 +36,23 @@ class CountryAsia
      * Countries Asia
      */
     public const COUNTRY_NAME_AE = [
-        Language::DE_DE => 'Vereinigte Arabische Emirate',
-        Language::EN_GB => 'United Arab Emirates',
+        Locale::DE_DE => 'Vereinigte Arabische Emirate',
+        Locale::EN_GB => 'United Arab Emirates',
     ];
     public const COUNTRY_NAME_CY = [
-        Language::DE_DE => 'Republik Zypern',
-        Language::EN_GB => 'Cyprus',
+        Locale::DE_DE => 'Republik Zypern',
+        Locale::EN_GB => 'Cyprus',
     ];
     public const COUNTRY_NAME_IN = [
-        Language::DE_DE => 'Indien',
-        Language::EN_GB => 'India',
+        Locale::DE_DE => 'Indien',
+        Locale::EN_GB => 'India',
     ];
     public const COUNTRY_NAME_KZ = [
-        Language::DE_DE => 'Kasachstan',
-        Language::EN_GB => 'Kazakhstan',
+        Locale::DE_DE => 'Kasachstan',
+        Locale::EN_GB => 'Kazakhstan',
     ];
     public const COUNTRY_NAME_RU = [
-        Language::DE_DE => 'Russland',
-        Language::EN_GB => 'Russia',
+        Locale::DE_DE => 'Russland',
+        Locale::EN_GB => 'Russia',
     ];
 }

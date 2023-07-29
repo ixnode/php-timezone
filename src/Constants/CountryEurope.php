@@ -58,115 +58,115 @@ class CountryEurope
      * Countries Europe
      */
     public const COUNTRY_NAME_AD = [
-        Language::DE_DE => 'Andorra',
-        Language::EN_GB => 'Andorra',
+        Locale::DE_DE => 'Andorra',
+        Locale::EN_GB => 'Andorra',
     ];
     public const COUNTRY_NAME_AT = [
-        Language::DE_DE => 'Österreich',
-        Language::EN_GB => 'Austria',
+        Locale::DE_DE => 'Österreich',
+        Locale::EN_GB => 'Austria',
     ];
     public const COUNTRY_NAME_BE = [
-        Language::DE_DE => 'Belgien',
-        Language::EN_GB => 'Belgium',
+        Locale::DE_DE => 'Belgien',
+        Locale::EN_GB => 'Belgium',
     ];
     public const COUNTRY_NAME_CH = [
-        Language::DE_DE => 'Schweiz',
-        Language::EN_GB => 'Switzerland',
+        Locale::DE_DE => 'Schweiz',
+        Locale::EN_GB => 'Switzerland',
     ];
     public const COUNTRY_NAME_CZ = [
-        Language::DE_DE => 'Tschechien',
-        Language::EN_GB => 'Czech Republic',
+        Locale::DE_DE => 'Tschechien',
+        Locale::EN_GB => 'Czech Republic',
     ];
     public const COUNTRY_NAME_DE = [
-        Language::DE_DE => 'Deutschland',
-        Language::EN_GB => 'Germany',
+        Locale::DE_DE => 'Deutschland',
+        Locale::EN_GB => 'Germany',
     ];
     public const COUNTRY_NAME_DK = [
-        Language::DE_DE => 'Dänemark',
-        Language::EN_GB => 'Denmark',
+        Locale::DE_DE => 'Dänemark',
+        Locale::EN_GB => 'Denmark',
     ];
     public const COUNTRY_NAME_ES = [
-        Language::DE_DE => 'Spanien',
-        Language::EN_GB => 'Spain',
+        Locale::DE_DE => 'Spanien',
+        Locale::EN_GB => 'Spain',
     ];
     public const COUNTRY_NAME_FR = [
-        Language::DE_DE => 'Frankreich',
-        Language::EN_GB => 'France',
+        Locale::DE_DE => 'Frankreich',
+        Locale::EN_GB => 'France',
     ];
     public const COUNTRY_NAME_GB = [
-        Language::DE_DE => 'Vereinigtes Königreich',
-        Language::EN_GB => 'United Kingdom',
+        Locale::DE_DE => 'Vereinigtes Königreich',
+        Locale::EN_GB => 'United Kingdom',
     ];
     public const COUNTRY_NAME_GR = [
-        Language::DE_DE => 'Griechenland',
-        Language::EN_GB => 'Greece',
+        Locale::DE_DE => 'Griechenland',
+        Locale::EN_GB => 'Greece',
     ];
     public const COUNTRY_NAME_HR = [
-        Language::DE_DE => 'Kroatien',
-        Language::EN_GB => 'Croatia',
+        Locale::DE_DE => 'Kroatien',
+        Locale::EN_GB => 'Croatia',
     ];
     public const COUNTRY_NAME_HU = [
-        Language::DE_DE => 'Ungarn',
-        Language::EN_GB => 'Hungary',
+        Locale::DE_DE => 'Ungarn',
+        Locale::EN_GB => 'Hungary',
     ];
     public const COUNTRY_NAME_IE = [
-        Language::DE_DE => 'Irland',
-        Language::EN_GB => 'Republic of Ireland',
+        Locale::DE_DE => 'Irland',
+        Locale::EN_GB => 'Republic of Ireland',
     ];
     public const COUNTRY_NAME_IT = [
-        Language::DE_DE => 'Italien',
-        Language::EN_GB => 'Italy',
+        Locale::DE_DE => 'Italien',
+        Locale::EN_GB => 'Italy',
     ];
     public const COUNTRY_NAME_LI = [
-        Language::DE_DE => 'Liechtenstein',
-        Language::EN_GB => 'Liechtenstein',
+        Locale::DE_DE => 'Liechtenstein',
+        Locale::EN_GB => 'Liechtenstein',
     ];
     public const COUNTRY_NAME_LU = [
-        Language::DE_DE => 'Luxemburg',
-        Language::EN_GB => 'Luxembourg',
+        Locale::DE_DE => 'Luxemburg',
+        Locale::EN_GB => 'Luxembourg',
     ];
     public const COUNTRY_NAME_MC = [
-        Language::DE_DE => 'Monaco',
-        Language::EN_GB => 'Monaco',
+        Locale::DE_DE => 'Monaco',
+        Locale::EN_GB => 'Monaco',
     ];
     public const COUNTRY_NAME_NL = [
-        Language::DE_DE => 'Niederland',
-        Language::EN_GB => 'Netherlands',
+        Locale::DE_DE => 'Niederland',
+        Locale::EN_GB => 'Netherlands',
     ];
     public const COUNTRY_NAME_NO = [
-        Language::DE_DE => 'Norwegen',
-        Language::EN_GB => 'Norway',
+        Locale::DE_DE => 'Norwegen',
+        Locale::EN_GB => 'Norway',
     ];
     public const COUNTRY_NAME_PL = [
-        Language::DE_DE => 'Polen',
-        Language::EN_GB => 'Poland',
+        Locale::DE_DE => 'Polen',
+        Locale::EN_GB => 'Poland',
     ];
     public const COUNTRY_NAME_PT = [
-        Language::DE_DE => 'Portugal',
-        Language::EN_GB => 'Portugal',
+        Locale::DE_DE => 'Portugal',
+        Locale::EN_GB => 'Portugal',
     ];
     public const COUNTRY_NAME_RS = [
-        Language::DE_DE => 'Serbien',
-        Language::EN_GB => 'Serbia',
+        Locale::DE_DE => 'Serbien',
+        Locale::EN_GB => 'Serbia',
     ];
     public const COUNTRY_NAME_SE = [
-        Language::DE_DE => 'Schweden',
-        Language::EN_GB => 'Sweden',
+        Locale::DE_DE => 'Schweden',
+        Locale::EN_GB => 'Sweden',
     ];
     public const COUNTRY_NAME_SI = [
-        Language::DE_DE => 'Slovenien',
-        Language::EN_GB => 'Slovenia',
+        Locale::DE_DE => 'Slovenien',
+        Locale::EN_GB => 'Slovenia',
     ];
     public const COUNTRY_NAME_SK = [
-        Language::DE_DE => 'Slowakei',
-        Language::EN_GB => 'Slovakia',
+        Locale::DE_DE => 'Slowakei',
+        Locale::EN_GB => 'Slovakia',
     ];
     public const COUNTRY_NAME_UA = [
-        Language::DE_DE => 'Ukraine',
-        Language::EN_GB => 'Ukraine',
+        Locale::DE_DE => 'Ukraine',
+        Locale::EN_GB => 'Ukraine',
     ];
     public const COUNTRY_NAME_VA = [
-        Language::DE_DE => 'Vatikanstadt',
-        Language::EN_GB => 'Vatican City',
+        Locale::DE_DE => 'Vatikanstadt',
+        Locale::EN_GB => 'Vatican City',
     ];
 }

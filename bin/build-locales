@@ -1,0 +1,140 @@
+#!/usr/bin/env php
+<?php
+
+class BuildLocales
+{
+    private const CLASS_TEMPLATE = <<<EOT
+<?php
+
+/*
+ * This file is part of the ixnode/php-timezone project.
+ *
+ * (c) Björn Hempel <https://www.hempel.li/>
+ *
+ * For the full copyright and license information, please view the LICENSE.md
+ * file that was distributed with this source code.
+ */
+
+declare(strict_types=1);
+
+namespace Ixnode\PhpTimezone\Constants;
+
+/**
+ * Class Locale (auto-generated with bin/build-locales from "%s")
+ *
+ * @author Björn Hempel <bjoern@hempel.li>
+ * @version 0.1.0 (%s)
+ * @since 0.1.0 (%s) Generated version.
+ */
+class Locale
+{
+%s}
+
+EOT;
+
+    /**
+     * @param string $csvFile
+     */
+    public function __construct(protected string $csvFile)
+    {
+    }
+
+    public function getLocales(): array
+    {
+        /* Check if the file exists. */
+        if (!file_exists($this->csvFile)) {
+            print sprintf('The given file does not exist ("%s").%s', $this->csvFile, PHP_EOL);
+            exit(1);
+        }
+
+        /* Load the content of the file. */
+        $csvContent = file_get_contents($this->csvFile);
+
+        /* Convert the content of the CSV into an array. */
+        $data = array();
+        $lines = explode(PHP_EOL, $csvContent);
+
+        /* The first line contains the languages, we use these as keys for the array. */
+        $languages = str_getcsv(array_shift($lines), ';');
+
+        /* Remove the first column, because it does contain the locale header. */
+        array_shift($languages);
+
+        foreach ($lines as $line) {
+
+            /* Ignore empty lines. */
+            if (empty($line)) {
+                continue;
+            }
+
+            $values = str_getcsv($line, ';');
+
+            /* Use the first column as key. */
+            $key = array_shift($values);
+
+            $data[$key] = array_combine($languages, $values);
+        }
+
+        return $data;
+    }
+
+    /**
+     * Returns the constants as string representation.
+     *
+     * @return string
+     */
+    public function getConstantsAsString(): string
+    {
+        $constants = '';
+
+        foreach ($this->getLocales() as $locale => $languages) {
+            $constants .= sprintf(
+                '    public const %s = \'%s\';',
+                strtoupper($locale),
+                $locale
+            ).PHP_EOL;
+        }
+
+        return $constants;
+    }
+
+    /**
+     * Returns the full class string.
+     *
+     * @return string
+     */
+    public function getClass(): string
+    {
+        return sprintf(
+                self::CLASS_TEMPLATE,
+                $this->csvFile,
+                date('Y-m-d H:i:s'),
+                date('Y-m-d H:i:s'),
+                $this->getConstantsAsString()
+        );
+    }
+
+    /**
+     * Writes class to given php file.
+     *
+     * @param string $phpFile
+     * @return bool
+     */
+    public function writeClass(string $phpFile): bool
+    {
+        file_put_contents($phpFile, $this->getClass());
+
+        return true;
+    }
+}
+
+
+$csvFile = 'data/locales.csv';
+$phpFile = 'src/Constants/Locale.php';
+
+$buildLocales = new BuildLocales($csvFile);
+
+match ($buildLocales->writeClass($phpFile)) {
+    true => print sprintf('"%s" transformed and written to "%s".', $csvFile, $phpFile),
+    false => print sprintf('Unable to transform the given file "%s"', $csvFile),
+};
