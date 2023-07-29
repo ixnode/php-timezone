@@ -38,6 +38,7 @@ class CountryAll
          * Asia
          */
         CountryAsia::COUNTRY_CODE_AE => CountryAsia::COUNTRY_NAME_AE,
+        CountryAsia::COUNTRY_CODE_CY => CountryAsia::COUNTRY_NAME_CY,
         CountryAsia::COUNTRY_CODE_IN => CountryAsia::COUNTRY_NAME_IN,
         CountryAsia::COUNTRY_CODE_KZ => CountryAsia::COUNTRY_NAME_KZ,
         CountryAsia::COUNTRY_CODE_RU => CountryAsia::COUNTRY_NAME_RU,
@@ -60,8 +61,10 @@ class CountryAll
         CountryEurope::COUNTRY_CODE_ES => CountryEurope::COUNTRY_NAME_ES,
         CountryEurope::COUNTRY_CODE_FR => CountryEurope::COUNTRY_NAME_FR,
         CountryEurope::COUNTRY_CODE_GB => CountryEurope::COUNTRY_NAME_GB,
+        CountryEurope::COUNTRY_CODE_GR => CountryEurope::COUNTRY_NAME_GR,
         CountryEurope::COUNTRY_CODE_HR => CountryEurope::COUNTRY_NAME_HR,
         CountryEurope::COUNTRY_CODE_HU => CountryEurope::COUNTRY_NAME_HU,
+        CountryEurope::COUNTRY_CODE_IE => CountryEurope::COUNTRY_NAME_IE,
         CountryEurope::COUNTRY_CODE_IT => CountryEurope::COUNTRY_NAME_IT,
         CountryEurope::COUNTRY_CODE_LI => CountryEurope::COUNTRY_NAME_LI,
         CountryEurope::COUNTRY_CODE_MC => CountryEurope::COUNTRY_NAME_MC,
@@ -69,6 +72,7 @@ class CountryAll
         CountryEurope::COUNTRY_CODE_NO => CountryEurope::COUNTRY_NAME_NO,
         CountryEurope::COUNTRY_CODE_LU => CountryEurope::COUNTRY_NAME_LU,
         CountryEurope::COUNTRY_CODE_PL => CountryEurope::COUNTRY_NAME_PL,
+        CountryEurope::COUNTRY_CODE_PT => CountryEurope::COUNTRY_NAME_PT,
         CountryEurope::COUNTRY_CODE_RS => CountryEurope::COUNTRY_NAME_RS,
         CountryEurope::COUNTRY_CODE_SE => CountryEurope::COUNTRY_NAME_SE,
         CountryEurope::COUNTRY_CODE_SI => CountryEurope::COUNTRY_NAME_SI,

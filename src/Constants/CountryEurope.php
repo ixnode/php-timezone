@@ -35,8 +35,10 @@ class CountryEurope
     public const COUNTRY_CODE_ES = 'ES';
     public const COUNTRY_CODE_FR = 'FR';
     public const COUNTRY_CODE_GB = 'GB';
+    public const COUNTRY_CODE_GR = 'GR';
     public const COUNTRY_CODE_HR = 'HR';
     public const COUNTRY_CODE_HU = 'HU';
+    public const COUNTRY_CODE_IE = 'IE';
     public const COUNTRY_CODE_IT = 'IT';
     public const COUNTRY_CODE_LI = 'LI';
     public const COUNTRY_CODE_LU = 'LU';
@@ -44,6 +46,7 @@ class CountryEurope
     public const COUNTRY_CODE_NL = 'NL';
     public const COUNTRY_CODE_NO = 'NO';
     public const COUNTRY_CODE_PL = 'PL';
+    public const COUNTRY_CODE_PT = 'PT';
     public const COUNTRY_CODE_RS = 'RS';
     public const COUNTRY_CODE_SE = 'SE';
     public const COUNTRY_CODE_SI = 'SI';
@@ -94,6 +97,10 @@ class CountryEurope
         Language::DE_DE => 'Vereinigtes Königreich',
         Language::EN_GB => 'United Kingdom',
     ];
+    public const COUNTRY_NAME_GR = [
+        Language::DE_DE => 'Griechenland',
+        Language::EN_GB => 'Greece',
+    ];
     public const COUNTRY_NAME_HR = [
         Language::DE_DE => 'Kroatien',
         Language::EN_GB => 'Croatia',
@@ -101,6 +108,10 @@ class CountryEurope
     public const COUNTRY_NAME_HU = [
         Language::DE_DE => 'Ungarn',
         Language::EN_GB => 'Hungary',
+    ];
+    public const COUNTRY_NAME_IE = [
+        Language::DE_DE => 'Irland',
+        Language::EN_GB => 'Republic of Ireland',
     ];
     public const COUNTRY_NAME_IT = [
         Language::DE_DE => 'Italien',
@@ -129,6 +140,10 @@ class CountryEurope
     public const COUNTRY_NAME_PL = [
         Language::DE_DE => 'Polen',
         Language::EN_GB => 'Poland',
+    ];
+    public const COUNTRY_NAME_PT = [
+        Language::DE_DE => 'Portugal',
+        Language::EN_GB => 'Portugal',
     ];
     public const COUNTRY_NAME_RS = [
         Language::DE_DE => 'Serbien',

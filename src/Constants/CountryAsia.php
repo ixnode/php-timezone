@@ -26,6 +26,8 @@ class CountryAsia
      * Codes Asia
      */
     public const COUNTRY_CODE_AE = 'AE';
+
+    public const COUNTRY_CODE_CY = 'CY';
     public const COUNTRY_CODE_IN = 'IN';
     public const COUNTRY_CODE_KZ = 'KZ';
     public const COUNTRY_CODE_RU = 'RU';
@@ -36,6 +38,10 @@ class CountryAsia
     public const COUNTRY_NAME_AE = [
         Language::DE_DE => 'Vereinigte Arabische Emirate',
         Language::EN_GB => 'United Arab Emirates',
+    ];
+    public const COUNTRY_NAME_CY = [
+        Language::DE_DE => 'Republik Zypern',
+        Language::EN_GB => 'Cyprus',
     ];
     public const COUNTRY_NAME_IN = [
         Language::DE_DE => 'Indien',
