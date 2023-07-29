@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Releases
 
+### [0.1.12] - 2023-07-29
+
+* Add Language constants
+* Add locale and language builder
+
 ### [0.1.11] - 2023-07-29
 
 * Add more timezones
