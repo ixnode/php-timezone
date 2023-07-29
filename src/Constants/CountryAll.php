@@ -33,8 +33,14 @@ class CountryAll
          * America
          */
         CountryAmerica::COUNTRY_CODE_AR => CountryAmerica::COUNTRY_NAME_AR,
+        CountryAmerica::COUNTRY_CODE_BS => CountryAmerica::COUNTRY_NAME_BS,
         CountryAmerica::COUNTRY_CODE_CA => CountryAmerica::COUNTRY_NAME_CA,
+        CountryAmerica::COUNTRY_CODE_CL => CountryAmerica::COUNTRY_NAME_CL,
+        CountryAmerica::COUNTRY_CODE_CO => CountryAmerica::COUNTRY_NAME_CO,
+        CountryAmerica::COUNTRY_CODE_MX => CountryAmerica::COUNTRY_NAME_MX,
+        CountryAmerica::COUNTRY_CODE_PR => CountryAmerica::COUNTRY_NAME_PR,
         CountryAmerica::COUNTRY_CODE_US => CountryAmerica::COUNTRY_NAME_US,
+        CountryAmerica::COUNTRY_CODE_VI => CountryAmerica::COUNTRY_NAME_VI,
 
         /*
          * Asia
@@ -42,6 +48,9 @@ class CountryAll
         CountryAsia::COUNTRY_CODE_AE => CountryAsia::COUNTRY_NAME_AE,
         CountryAsia::COUNTRY_CODE_CY => CountryAsia::COUNTRY_NAME_CY,
         CountryAsia::COUNTRY_CODE_IN => CountryAsia::COUNTRY_NAME_IN,
+        CountryAsia::COUNTRY_CODE_IL => CountryAsia::COUNTRY_NAME_IL,
+        CountryAsia::COUNTRY_CODE_KG => CountryAsia::COUNTRY_NAME_KG,
+        CountryAsia::COUNTRY_CODE_NP => CountryAsia::COUNTRY_NAME_NP,
         CountryAsia::COUNTRY_CODE_KZ => CountryAsia::COUNTRY_NAME_KZ,
         CountryAsia::COUNTRY_CODE_RU => CountryAsia::COUNTRY_NAME_RU,
 
