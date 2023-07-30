@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class CountryEurope (auto-generated with bin/build-countries from "data/europe.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2023-07-30 08:01:15)
- * @since 0.1.0 (2023-07-30 08:01:15) Generated version.
+ * @version 0.1.0 (2023-07-30 11:20:50)
+ * @since 0.1.0 (2023-07-30 11:20:50) Generated version.
  */
 class CountryEurope
 {
@@ -600,5 +600,57 @@ class CountryEurope
         Locale::IT_IT => 'Montenegro',
         Locale::PL_PL => 'Czarnogóra',
         Locale::SE_SE => 'Montenegro',
+    ];
+
+    /* Countries */
+    public const COUNTRIES = [
+        self::COUNTRY_CODE_AL => ['name' => self::COUNTRY_NAME_AL, 'iso2' => 'AL', 'iso3' => 'ALB', 'tld' => 'al', ],
+        self::COUNTRY_CODE_AD => ['name' => self::COUNTRY_NAME_AD, 'iso2' => 'AD', 'iso3' => 'AND', 'tld' => 'ad', ],
+        self::COUNTRY_CODE_AT => ['name' => self::COUNTRY_NAME_AT, 'iso2' => 'AT', 'iso3' => 'AUT', 'tld' => 'at', ],
+        self::COUNTRY_CODE_BY => ['name' => self::COUNTRY_NAME_BY, 'iso2' => 'BY', 'iso3' => 'BLR', 'tld' => 'by', ],
+        self::COUNTRY_CODE_BE => ['name' => self::COUNTRY_NAME_BE, 'iso2' => 'BE', 'iso3' => 'BEL', 'tld' => 'be', ],
+        self::COUNTRY_CODE_BA => ['name' => self::COUNTRY_NAME_BA, 'iso2' => 'BA', 'iso3' => 'BIH', 'tld' => 'ba', ],
+        self::COUNTRY_CODE_BG => ['name' => self::COUNTRY_NAME_BG, 'iso2' => 'BG', 'iso3' => 'BGR', 'tld' => 'bg', ],
+        self::COUNTRY_CODE_HR => ['name' => self::COUNTRY_NAME_HR, 'iso2' => 'HR', 'iso3' => 'HRV', 'tld' => 'hr', ],
+        self::COUNTRY_CODE_CY => ['name' => self::COUNTRY_NAME_CY, 'iso2' => 'CY', 'iso3' => 'CYP', 'tld' => 'cy', ],
+        self::COUNTRY_CODE_CZ => ['name' => self::COUNTRY_NAME_CZ, 'iso2' => 'CZ', 'iso3' => 'CZE', 'tld' => 'cz', ],
+        self::COUNTRY_CODE_DK => ['name' => self::COUNTRY_NAME_DK, 'iso2' => 'DK', 'iso3' => 'DNK', 'tld' => 'dk', ],
+        self::COUNTRY_CODE_EE => ['name' => self::COUNTRY_NAME_EE, 'iso2' => 'EE', 'iso3' => 'EST', 'tld' => 'ee', ],
+        self::COUNTRY_CODE_FO => ['name' => self::COUNTRY_NAME_FO, 'iso2' => 'FO', 'iso3' => 'FRO', 'tld' => 'fo', ],
+        self::COUNTRY_CODE_FI => ['name' => self::COUNTRY_NAME_FI, 'iso2' => 'FI', 'iso3' => 'FIN', 'tld' => 'fi', ],
+        self::COUNTRY_CODE_FR => ['name' => self::COUNTRY_NAME_FR, 'iso2' => 'FR', 'iso3' => 'FRA', 'tld' => 'fr', ],
+        self::COUNTRY_CODE_DE => ['name' => self::COUNTRY_NAME_DE, 'iso2' => 'DE', 'iso3' => 'DEU', 'tld' => 'de', ],
+        self::COUNTRY_CODE_GI => ['name' => self::COUNTRY_NAME_GI, 'iso2' => 'GI', 'iso3' => 'GIB', 'tld' => 'gi', ],
+        self::COUNTRY_CODE_GR => ['name' => self::COUNTRY_NAME_GR, 'iso2' => 'GR', 'iso3' => 'GRC', 'tld' => 'gr', ],
+        self::COUNTRY_CODE_HU => ['name' => self::COUNTRY_NAME_HU, 'iso2' => 'HU', 'iso3' => 'HUN', 'tld' => 'hu', ],
+        self::COUNTRY_CODE_IS => ['name' => self::COUNTRY_NAME_IS, 'iso2' => 'IS', 'iso3' => 'ISL', 'tld' => 'is', ],
+        self::COUNTRY_CODE_IE => ['name' => self::COUNTRY_NAME_IE, 'iso2' => 'IE', 'iso3' => 'IRL', 'tld' => 'ie', ],
+        self::COUNTRY_CODE_IT => ['name' => self::COUNTRY_NAME_IT, 'iso2' => 'IT', 'iso3' => 'ITA', 'tld' => 'it', ],
+        self::COUNTRY_CODE_LV => ['name' => self::COUNTRY_NAME_LV, 'iso2' => 'LV', 'iso3' => 'LVA', 'tld' => 'lv', ],
+        self::COUNTRY_CODE_LI => ['name' => self::COUNTRY_NAME_LI, 'iso2' => 'LI', 'iso3' => 'LIE', 'tld' => 'li', ],
+        self::COUNTRY_CODE_LT => ['name' => self::COUNTRY_NAME_LT, 'iso2' => 'LT', 'iso3' => 'LTU', 'tld' => 'lt', ],
+        self::COUNTRY_CODE_LU => ['name' => self::COUNTRY_NAME_LU, 'iso2' => 'LU', 'iso3' => 'LUX', 'tld' => 'lu', ],
+        self::COUNTRY_CODE_MK => ['name' => self::COUNTRY_NAME_MK, 'iso2' => 'MK', 'iso3' => 'MKD', 'tld' => 'mk', ],
+        self::COUNTRY_CODE_MT => ['name' => self::COUNTRY_NAME_MT, 'iso2' => 'MT', 'iso3' => 'MLT', 'tld' => 'mt', ],
+        self::COUNTRY_CODE_MD => ['name' => self::COUNTRY_NAME_MD, 'iso2' => 'MD', 'iso3' => 'MDA', 'tld' => 'md', ],
+        self::COUNTRY_CODE_MC => ['name' => self::COUNTRY_NAME_MC, 'iso2' => 'MC', 'iso3' => 'MCO', 'tld' => 'mc', ],
+        self::COUNTRY_CODE_NL => ['name' => self::COUNTRY_NAME_NL, 'iso2' => 'NL', 'iso3' => 'NLD', 'tld' => 'nl', ],
+        self::COUNTRY_CODE_NO => ['name' => self::COUNTRY_NAME_NO, 'iso2' => 'NO', 'iso3' => 'NOR', 'tld' => 'no', ],
+        self::COUNTRY_CODE_PL => ['name' => self::COUNTRY_NAME_PL, 'iso2' => 'PL', 'iso3' => 'POL', 'tld' => 'pl', ],
+        self::COUNTRY_CODE_PT => ['name' => self::COUNTRY_NAME_PT, 'iso2' => 'PT', 'iso3' => 'PRT', 'tld' => 'pt', ],
+        self::COUNTRY_CODE_RO => ['name' => self::COUNTRY_NAME_RO, 'iso2' => 'RO', 'iso3' => 'ROU', 'tld' => 'ro', ],
+        self::COUNTRY_CODE_RU => ['name' => self::COUNTRY_NAME_RU, 'iso2' => 'RU', 'iso3' => 'RUS', 'tld' => 'ru', ],
+        self::COUNTRY_CODE_SM => ['name' => self::COUNTRY_NAME_SM, 'iso2' => 'SM', 'iso3' => 'SMR', 'tld' => 'sm', ],
+        self::COUNTRY_CODE_RS => ['name' => self::COUNTRY_NAME_RS, 'iso2' => 'RS', 'iso3' => 'XKX', 'tld' => null, ],
+        self::COUNTRY_CODE_SK => ['name' => self::COUNTRY_NAME_SK, 'iso2' => 'SK', 'iso3' => 'SVK', 'tld' => 'sk', ],
+        self::COUNTRY_CODE_SI => ['name' => self::COUNTRY_NAME_SI, 'iso2' => 'SI', 'iso3' => 'SVN', 'tld' => 'si', ],
+        self::COUNTRY_CODE_ES => ['name' => self::COUNTRY_NAME_ES, 'iso2' => 'ES', 'iso3' => 'ESP', 'tld' => 'es', ],
+        self::COUNTRY_CODE_SE => ['name' => self::COUNTRY_NAME_SE, 'iso2' => 'SE', 'iso3' => 'SWE', 'tld' => 'se', ],
+        self::COUNTRY_CODE_CH => ['name' => self::COUNTRY_NAME_CH, 'iso2' => 'CH', 'iso3' => 'CHE', 'tld' => 'ch', ],
+        self::COUNTRY_CODE_UA => ['name' => self::COUNTRY_NAME_UA, 'iso2' => 'UA', 'iso3' => 'UKR', 'tld' => 'ua', ],
+        self::COUNTRY_CODE_GB => ['name' => self::COUNTRY_NAME_GB, 'iso2' => 'GB', 'iso3' => 'GBR', 'tld' => 'uk', ],
+        self::COUNTRY_CODE_VA => ['name' => self::COUNTRY_NAME_VA, 'iso2' => 'VA', 'iso3' => 'VAT', 'tld' => 'va', ],
+        self::COUNTRY_CODE_IM => ['name' => self::COUNTRY_NAME_IM, 'iso2' => 'IM', 'iso3' => 'IMN', 'tld' => 'im', ],
+        self::COUNTRY_CODE_ME => ['name' => self::COUNTRY_NAME_ME, 'iso2' => 'ME', 'iso3' => 'MNE', 'tld' => 'me', ],
     ];
 }

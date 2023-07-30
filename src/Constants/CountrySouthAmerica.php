@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class CountrySouthAmerica (auto-generated with bin/build-countries from "data/south-america.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2023-07-30 08:01:15)
- * @since 0.1.0 (2023-07-30 08:01:15) Generated version.
+ * @version 0.1.0 (2023-07-30 11:20:50)
+ * @since 0.1.0 (2023-07-30 11:20:50) Generated version.
  */
 class CountrySouthAmerica
 {
@@ -192,5 +192,23 @@ class CountrySouthAmerica
         Locale::IT_IT => 'Venezuela',
         Locale::PL_PL => 'Wenezuela',
         Locale::SE_SE => 'Venezuela',
+    ];
+
+    /* Countries */
+    public const COUNTRIES = [
+        self::COUNTRY_CODE_AR => ['name' => self::COUNTRY_NAME_AR, 'iso2' => 'AR', 'iso3' => 'ARG', 'tld' => 'ar', ],
+        self::COUNTRY_CODE_BO => ['name' => self::COUNTRY_NAME_BO, 'iso2' => 'BO', 'iso3' => 'BOL', 'tld' => 'bo', ],
+        self::COUNTRY_CODE_BR => ['name' => self::COUNTRY_NAME_BR, 'iso2' => 'BR', 'iso3' => 'BRA', 'tld' => 'br', ],
+        self::COUNTRY_CODE_CL => ['name' => self::COUNTRY_NAME_CL, 'iso2' => 'CL', 'iso3' => 'CHL', 'tld' => 'cl', ],
+        self::COUNTRY_CODE_CO => ['name' => self::COUNTRY_NAME_CO, 'iso2' => 'CO', 'iso3' => 'COL', 'tld' => 'co', ],
+        self::COUNTRY_CODE_EC => ['name' => self::COUNTRY_NAME_EC, 'iso2' => 'EC', 'iso3' => 'ECU', 'tld' => 'ec', ],
+        self::COUNTRY_CODE_FK => ['name' => self::COUNTRY_NAME_FK, 'iso2' => 'FK', 'iso3' => 'FLK', 'tld' => 'fk', ],
+        self::COUNTRY_CODE_GF => ['name' => self::COUNTRY_NAME_GF, 'iso2' => 'GF', 'iso3' => 'GUF', 'tld' => 'gf', ],
+        self::COUNTRY_CODE_GY => ['name' => self::COUNTRY_NAME_GY, 'iso2' => 'GY', 'iso3' => 'GUY', 'tld' => 'gy', ],
+        self::COUNTRY_CODE_PY => ['name' => self::COUNTRY_NAME_PY, 'iso2' => 'PY', 'iso3' => 'PRY', 'tld' => 'py', ],
+        self::COUNTRY_CODE_PE => ['name' => self::COUNTRY_NAME_PE, 'iso2' => 'PE', 'iso3' => 'PER', 'tld' => 'pe', ],
+        self::COUNTRY_CODE_SR => ['name' => self::COUNTRY_NAME_SR, 'iso2' => 'SR', 'iso3' => 'SUR', 'tld' => 'sr', ],
+        self::COUNTRY_CODE_UY => ['name' => self::COUNTRY_NAME_UY, 'iso2' => 'UY', 'iso3' => 'URY', 'tld' => 'uy', ],
+        self::COUNTRY_CODE_VE => ['name' => self::COUNTRY_NAME_VE, 'iso2' => 'VE', 'iso3' => 'VEN', 'tld' => 've', ],
     ];
 }

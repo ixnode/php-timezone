@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class CountryAustralia (auto-generated with bin/build-countries from "data/australia.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2023-07-30 08:01:15)
- * @since 0.1.0 (2023-07-30 08:01:15) Generated version.
+ * @version 0.1.0 (2023-07-30 11:20:50)
+ * @since 0.1.0 (2023-07-30 11:20:50) Generated version.
  */
 class CountryAustralia
 {
@@ -336,5 +336,35 @@ class CountryAustralia
         Locale::IT_IT => 'Timor Est',
         Locale::PL_PL => 'Timor Wschodni',
         Locale::SE_SE => 'Östtimor',
+    ];
+
+    /* Countries */
+    public const COUNTRIES = [
+        self::COUNTRY_CODE_AS => ['name' => self::COUNTRY_NAME_AS, 'iso2' => 'AS', 'iso3' => 'ASM', 'tld' => 'as', ],
+        self::COUNTRY_CODE_AU => ['name' => self::COUNTRY_NAME_AU, 'iso2' => 'AU', 'iso3' => 'AUS', 'tld' => 'au', ],
+        self::COUNTRY_CODE_NZ => ['name' => self::COUNTRY_NAME_NZ, 'iso2' => 'NZ', 'iso3' => 'NZL', 'tld' => 'nz', ],
+        self::COUNTRY_CODE_CK => ['name' => self::COUNTRY_NAME_CK, 'iso2' => 'CK', 'iso3' => 'COK', 'tld' => 'ck', ],
+        self::COUNTRY_CODE_FJ => ['name' => self::COUNTRY_NAME_FJ, 'iso2' => 'FJ', 'iso3' => 'FJI', 'tld' => 'fj', ],
+        self::COUNTRY_CODE_PF => ['name' => self::COUNTRY_NAME_PF, 'iso2' => 'PF', 'iso3' => 'PYF', 'tld' => 'pf', ],
+        self::COUNTRY_CODE_GU => ['name' => self::COUNTRY_NAME_GU, 'iso2' => 'GU', 'iso3' => 'GUM', 'tld' => 'gu', ],
+        self::COUNTRY_CODE_KI => ['name' => self::COUNTRY_NAME_KI, 'iso2' => 'KI', 'iso3' => 'KIR', 'tld' => 'ki', ],
+        self::COUNTRY_CODE_MP => ['name' => self::COUNTRY_NAME_MP, 'iso2' => 'MP', 'iso3' => 'MNP', 'tld' => 'mp', ],
+        self::COUNTRY_CODE_MH => ['name' => self::COUNTRY_NAME_MH, 'iso2' => 'MH', 'iso3' => 'MHL', 'tld' => 'mh', ],
+        self::COUNTRY_CODE_FM => ['name' => self::COUNTRY_NAME_FM, 'iso2' => 'FM', 'iso3' => 'FSM', 'tld' => 'fm', ],
+        self::COUNTRY_CODE_UM => ['name' => self::COUNTRY_NAME_UM, 'iso2' => 'UM', 'iso3' => 'UMI', 'tld' => 'um', ],
+        self::COUNTRY_CODE_NR => ['name' => self::COUNTRY_NAME_NR, 'iso2' => 'NR', 'iso3' => 'NRU', 'tld' => 'nr', ],
+        self::COUNTRY_CODE_NC => ['name' => self::COUNTRY_NAME_NC, 'iso2' => 'NC', 'iso3' => 'NCL', 'tld' => 'nc', ],
+        self::COUNTRY_CODE_NU => ['name' => self::COUNTRY_NAME_NU, 'iso2' => 'NU', 'iso3' => 'NIU', 'tld' => 'nu', ],
+        self::COUNTRY_CODE_NF => ['name' => self::COUNTRY_NAME_NF, 'iso2' => 'NF', 'iso3' => 'NFK', 'tld' => 'nf', ],
+        self::COUNTRY_CODE_PW => ['name' => self::COUNTRY_NAME_PW, 'iso2' => 'PW', 'iso3' => 'PLW', 'tld' => 'pw', ],
+        self::COUNTRY_CODE_PG => ['name' => self::COUNTRY_NAME_PG, 'iso2' => 'PG', 'iso3' => 'PNG', 'tld' => 'pg', ],
+        self::COUNTRY_CODE_SB => ['name' => self::COUNTRY_NAME_SB, 'iso2' => 'SB', 'iso3' => 'SLB', 'tld' => 'sb', ],
+        self::COUNTRY_CODE_TK => ['name' => self::COUNTRY_NAME_TK, 'iso2' => 'TK', 'iso3' => 'TKL', 'tld' => 'tk', ],
+        self::COUNTRY_CODE_TO => ['name' => self::COUNTRY_NAME_TO, 'iso2' => 'TO', 'iso3' => 'TON', 'tld' => 'to', ],
+        self::COUNTRY_CODE_TV => ['name' => self::COUNTRY_NAME_TV, 'iso2' => 'TV', 'iso3' => 'TUV', 'tld' => 'tv', ],
+        self::COUNTRY_CODE_VU => ['name' => self::COUNTRY_NAME_VU, 'iso2' => 'VU', 'iso3' => 'VUT', 'tld' => 'vu', ],
+        self::COUNTRY_CODE_WF => ['name' => self::COUNTRY_NAME_WF, 'iso2' => 'WF', 'iso3' => 'WLF', 'tld' => 'wf', ],
+        self::COUNTRY_CODE_WS => ['name' => self::COUNTRY_NAME_WS, 'iso2' => 'WS', 'iso3' => 'WSM', 'tld' => 'ws', ],
+        self::COUNTRY_CODE_TL => ['name' => self::COUNTRY_NAME_TL, 'iso2' => 'TL', 'iso3' => 'TLS', 'tld' => 'tl', ],
     ];
 }

@@ -49,8 +49,8 @@
 
     "phpunit": "bin/header/phpunit 'phpunit --stop-on-failure tests' 'Unit'",
 
-    "phpstan:default": "bin/header/phpstan 'phpstan analyse --level max --memory-limit 512M --xdebug src tests' 'run'",
-    "phpstan:xdebug": "bin/header/phpstan 'phpstan analyse --level max --memory-limit 512M --xdebug src tests' 'run'",
+    "phpstan:default": "bin/header/phpstan 'phpstan analyse --level max --memory-limit 512M src tests' 'run'",
+    "phpstan:xdebug": "bin/header/phpstan 'phpstan analyse --level max --memory-limit 512M src tests' 'run'",
     "phpstan": "@phpstan:default",
 
     "phpcs:check": "bin/header/phpcs 'php-cs-fixer --dry-run --using-cache=no --rules=@PSR12 --rules=no_unused_imports --verbose fix src 2>/dev/null && php-cs-fixer --dry-run --using-cache=no --rules=@PSR12 --rules=no_unused_imports --verbose fix tests 2>/dev/null' 'all'",

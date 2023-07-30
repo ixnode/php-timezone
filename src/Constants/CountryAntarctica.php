@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class CountryAntarctica (auto-generated with bin/build-countries from "data/antarctica.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2023-07-30 08:01:15)
- * @since 0.1.0 (2023-07-30 08:01:15) Generated version.
+ * @version 0.1.0 (2023-07-30 11:20:50)
+ * @since 0.1.0 (2023-07-30 11:20:50) Generated version.
  */
 class CountryAntarctica
 {
@@ -36,5 +36,10 @@ class CountryAntarctica
         Locale::IT_IT => 'Antartide',
         Locale::PL_PL => 'Antarktyka',
         Locale::SE_SE => 'Antarktis',
+    ];
+
+    /* Countries */
+    public const COUNTRIES = [
+        self::COUNTRY_CODE_AQ => ['name' => self::COUNTRY_NAME_AQ, 'iso2' => 'AQ', 'iso3' => 'ATA', 'tld' => 'aq', ],
     ];
 }

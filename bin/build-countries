@@ -1,6 +1,5 @@
+#!/usr/bin/env php
 <?php
-
-// #!/usr/bin/env php
 
 require_once 'vendor/autoload.php';
 
@@ -34,7 +33,10 @@ namespace Ixnode\PhpTimezone\Constants;
  */
 class Country%s
 {
-%s}
+%s
+    /* Countries */
+    public const COUNTRIES = [%s];
+}
 
 EOT;
 
@@ -74,26 +76,35 @@ class CountryAll
 
 EOT;
 
+    private const PATH_COUNTRY_ALL = 'src/Constants/CountryAll.php';
+
+    /** @var array<string, array<string, string>> $countries */
     private array $countries;
 
-    /** @var array $collectedCodes */
+    /** @var array<string, array{name: string, data: array<int, string>}> $collectedCodes */
     private array $collectedCodes = [];
+
+    /** @var array $collectedCountries */
+    private array $collectedCountries = [];
+
+    private string $date;
 
     /**
      * @param string $csvFileCountries
-     * @param array $csvFilesContinents
+     * @param array<string, string> $csvFilesContinents
      */
     public function __construct(protected string $csvFileCountries, protected array $csvFilesContinents)
     {
-        $this->countries = $this->getCountries();
+        $this->countries = $this->getCountriesFromCsv();
+        $this->date = date('Y-m-d H:i:s');
     }
 
     /**
      * Returns the countries from given CSV file.
      *
-     * @return array
+     * @return array<string, array<string, string>>
      */
-    private function getCountries(): array
+    private function getCountriesFromCsv(): array
     {
         /* Check if the file exists. */
         if (!file_exists($this->csvFileCountries)) {
@@ -105,7 +116,7 @@ EOT;
         $csvContent = file_get_contents($this->csvFileCountries);
 
         /* Convert the content of the CSV into an array. */
-        $data = array();
+        $data = [];
         $lines = explode(PHP_EOL, $csvContent);
 
         /* The first line contains the languages, we use these as keys for the array. */
@@ -133,12 +144,12 @@ EOT;
     }
 
     /**
-     * Combines the given country CSV file with the continent file.
+     * Combines the given countries CSV file with the continent file.
      *
      * @param string $csvContinent
-     * @return array
+     * @return array<string, array{iso2: string, iso3: string, name: array<string, string>, tld: string}
      */
-    private function getContinentValue(string $csvContinent): array
+    private function getContinentFromCsv(string $csvContinent): array
     {
         /* Check if the file exists. */
         if (!file_exists($csvContinent)) {
@@ -165,9 +176,9 @@ EOT;
 
             $values = str_getcsv($line, ';');
 
-            $iso2 = $values[0];
-            $iso3 = $values[1];
-            $tld = str_replace('.', '', $values[2]);
+            $iso2 = (string) $values[0];
+            $iso3 = (string) $values[1];
+            $tld = str_replace('.', '', (string) $values[2]);
 
             $values = [
                 'iso2' => $iso2,
@@ -183,10 +194,23 @@ EOT;
     }
 
     /**
-     * @return array
+     * Combines the given countries CSV file with all continent files.
+     *
+     * @return array<string, array{
+     *     file: string,
+     *     name: string,
+     *     class-name: string,
+     *     class-file: string,
+     *     data: array<string, array{
+     *         iso2: string,
+     *         iso3: string,
+     *         name: array<string, string>,
+     *         tld: string
+     *     }>
+     * }>
      * @throws FunctionReplaceException
      */
-    public function getContinentValues(): array
+    private function getAllContinentsFromCsv(): array
     {
         $data = [];
 
@@ -199,7 +223,7 @@ EOT;
                 'name' => $name,
                 'class-name' => $className,
                 'class-file' => sprintf('src/Constants/Country%s.php', $className),
-                'data' => $this->getContinentValue($csvFileContinent)
+                'data' => $this->getContinentFromCsv($csvFileContinent)
             ];
         }
 
@@ -207,119 +231,287 @@ EOT;
     }
 
     /**
+     * Collects codes for CountryAll class.
+     *
+     * @param string $continent
+     * @param array $countries
+     * @return void
+     */
+    private function collectCodes(string $continent, array $countries): void
+    {
+        $name = $countries['name'];
+        $className = $countries['class-name'];
+        $data = $countries['data'];
+
+        if (!array_key_exists($continent, $this->collectedCodes)) {
+            $this->collectedCodes[$continent] = [
+                'name' => $name,
+                'data' => [],
+            ];
+        }
+
+        foreach ($data as $iso2 => $country) {
+            $this->collectedCodes[$continent]['data'][] = sprintf(
+                'Country%s::COUNTRY_CODE_%s => Country%s::COUNTRY_NAME_%s,',
+                $className,
+                strtoupper($iso2),
+                $className,
+                strtoupper($iso2)
+            );
+        }
+    }
+
+    /**
+     * Collects codes for CountryAll class.
+     *
+     * @param string $continent
+     * @param array $countries
+     * @return void
+     */
+    private function collectCountries(string $continent, array $countries): void
+    {
+        $data = $countries['data'];
+
+        if (!array_key_exists($continent, $this->collectedCodes)) {
+            $this->collectedCountries[$continent] = [];
+        }
+
+        foreach ($data as $country) {
+            $iso2 = $country['iso2'];
+            $iso3 = $country['iso3'];
+            $tld = $country['tld'];
+
+            $this->collectedCountries[$continent][] = sprintf(
+                '        self::COUNTRY_CODE_%s => [\'name\' => self::COUNTRY_NAME_%s, \'iso2\' => %s, \'iso3\' => %s, \'tld\' => %s, ],',
+                strtoupper($iso2),
+                strtoupper($iso2),
+                empty($iso2) ? 'null' : sprintf('\'%s\'', $iso2),
+                empty($iso3) ? 'null' : sprintf('\'%s\'', $iso3),
+                empty($tld) ? 'null' : sprintf('\'%s\'', $tld)
+            );
+        }
+    }
+
+    /**
+     * Returns the COUNTRY_CODE_XX constants for CountryXX class.
+     *
+     * @param array<string, array{
+     *     iso2: string,
+     *     iso3: string,
+     *     name: array<string, string>,
+     *     tld: string
+     * }> $data
+     * @return array<int, string>
+     */
+    private function getCodeConstants(array $data): array
+    {
+        $codeConstants = [];
+
+        foreach ($data as $iso2 => $country) {
+            $codeConstants[] = sprintf(
+                '    public const COUNTRY_CODE_%s = \'%s\';',
+                strtoupper($iso2),
+                strtoupper($iso2)
+            );
+        }
+
+        return $codeConstants;
+    }
+
+    /**
+     * Returns the COUNTRY_CODE_XX constants for CountryXX class.
+     *
+     * @param array<string, array{
+     *     iso2: string,
+     *     iso3: string,
+     *     name: array<string, string>,
+     *     tld: string
+     * }> $data
+     * @return array<int, string>
+     */
+    private function getNameConstants(array $data): array
+    {
+        $nameConstants = [];
+
+        foreach ($data as $iso2 => $country) {
+            $languages = [];
+
+            $names = $country['name'];
+
+            foreach ($names as $language => $name) {
+                $languages[] = sprintf(
+                    '        Locale::%s => \'%s\',',
+                    strtoupper($language),
+                    str_replace('\'', '\\\'', $name)
+                );
+            }
+
+            $nameConstants[] = sprintf(
+                '    public const COUNTRY_NAME_%s = [%s%s%s];',
+                strtoupper($iso2),
+                PHP_EOL,
+                implode(PHP_EOL, $languages),
+                PHP_EOL.'    '
+            );
+        }
+
+        return $nameConstants;
+    }
+
+    /**
      * Returns the constants as string representation (encapsulated within an array).
      *
-     * @return array
+     * @param string $continent
+     * @param array{
+     *     file: string,
+     *     name: string,
+     *     class-name: string,
+     *     class-file: string,
+     *     data: array<string, array{
+     *         iso2: string,
+     *         iso3: string,
+     *         name: array<string, string>,
+     *         tld: string
+     *     }>
+     * } $countries
+     * @return array{data: string, file: string, class-name: string, class-file: string}
      */
-    public function getConstantsAsString(): array
+    private function getConstantsCountryFromGivenContinent(string $continent, array $countries): array
+    {
+        $file = $countries['file'];
+        $className = $countries['class-name'];
+        $classFile = $countries['class-file'];
+        $data = $countries['data'];
+
+        $this->collectCodes($continent, $countries);
+        $this->collectCountries($continent, $countries);
+
+        $codeConstants = $this->getCodeConstants($data);
+        $nameConstants = $this->getNameConstants($data);
+
+        return [
+            'data' => sprintf(
+                '%s%s%s%s%s',
+
+                '    /* Country codes */'.PHP_EOL,
+                implode(PHP_EOL, $codeConstants).PHP_EOL,
+                PHP_EOL,
+
+                '    /* Country language names */'.PHP_EOL,
+                implode(PHP_EOL, $nameConstants).PHP_EOL
+            ),
+            'file' => $file,
+            'class-name' => $className,
+            'class-file' => $classFile,
+        ];
+    }
+
+    /**
+     * Returns the constants as string representation (encapsulated within an array).
+     *
+     * @return array<string, array{data: string, file: string, class-name: string, class-file: string}>
+     * @throws FunctionReplaceException
+     */
+    private function getConstantsCountryFromAllContinents(): array
     {
         $constantsData = [];
 
-        foreach ($this->getContinentValues() as $continent => $countries) {
-            $file = $countries['file'];
-            $name = $countries['name'];
-            $className = $countries['class-name'];
-            $classFile = $countries['class-file'];
-            $data = $countries['data'];
-
-            $codeConstants = [];
-
-            if (!array_key_exists($continent, $this->collectedCodes)) {
-                $this->collectedCodes[$continent] = [
-                    'name' => $name,
-                    'data' => [],
-                ];
-            }
-
-            foreach ($data as $iso2 => $country) {
-                $this->collectedCodes[$continent]['data'][] = sprintf(
-                    'Country%s::COUNTRY_CODE_%s => Country%s::COUNTRY_NAME_%s,',
-                    $className,
-                    strtoupper($iso2),
-                    $className,
-                    strtoupper($iso2)
-                );
-            }
-
-            foreach ($data as $iso2 => $country) {
-                $codeConstants[] = sprintf(
-                    '    public const COUNTRY_CODE_%s = \'%s\';',
-                    strtoupper($iso2),
-                    strtoupper($iso2)
-                );
-            }
-
-            $nameConstants = [];
-
-            foreach ($data as $iso2 => $country) {
-                $languages = [];
-
-                $names = $country['name'];
-
-                foreach ($names as $language => $name) {
-                    $languages[] = sprintf(
-                        '        Locale::%s => \'%s\',',
-                        strtoupper($language),
-                        str_replace('\'', '\\\'', $name)
-                    );
-                }
-
-                $nameConstants[] = sprintf(
-                    '    public const COUNTRY_NAME_%s = [%s%s%s];',
-                    strtoupper($iso2),
-                    PHP_EOL,
-                    implode(PHP_EOL, $languages),
-                    PHP_EOL.'    '
-                );
-            }
-
-            $constantsData[$continent] = [
-                'data' => sprintf(
-                    '%s%s%s%s%s',
-                    '    /* Country codes */'.PHP_EOL,
-                    implode(PHP_EOL, $codeConstants).PHP_EOL,
-                    PHP_EOL,
-                    '    /* Country language names */'.PHP_EOL,
-                    implode(PHP_EOL, $nameConstants).PHP_EOL
-                ),
-                'file' => $file,
-                'class-name' => $className,
-                'class-file' => $classFile,
-            ];
+        foreach ($this->getAllContinentsFromCsv() as $continent => $countries) {
+            $constantsData[$continent] = $this->getConstantsCountryFromGivenContinent($continent, $countries);
         }
 
         return $constantsData;
     }
 
     /**
-     * Returns the full class string.
+     * Returns the constants for CountryAll class.
      *
-     * @return array
+     * @return array<int, string>
      */
-    public function getClasses(): array
+    private function getConstantsCountryAll(): array
+    {
+        $constantsCountryAll = [];
+
+        foreach ($this->collectedCodes as $continent) {
+            $name = $continent['name'];
+            $data = $continent['data'];
+
+            $constantsCountryAll[] = sprintf('        /* %s */', $name);
+
+            foreach ($data as $collected) {
+                $constantsCountryAll[] = sprintf('        %s', $collected);
+            }
+
+            $constantsCountryAll[] = '';
+        }
+
+        return $constantsCountryAll;
+    }
+
+    /**
+     * Returns the ready build CountryAll class.
+     *
+     * @return string
+     */
+    private function getCountryAllClass(): string
+    {
+        $allContent = $this->getConstantsCountryAll();
+
+        /* Register all variables to all class. */
+        return sprintf(
+            self::CLASS_TEMPLATE_ALL,
+            implode(', ', $this->csvFilesContinents),
+            $this->date,
+            $this->date,
+            implode(PHP_EOL, $allContent),
+        );
+    }
+
+    /**
+     * Returns the class data.
+     *
+     * @param string $continent
+     * @param array{data: string, file: string, class-name: string, class-file: string} $constantsData
+     * @return array{data: string, file: string, class-name: string, class-file: string}
+     */
+    private function getCountryClass(string $continent, array $constantsData): array
+    {
+        $data = $constantsData['data'];
+        $file = $constantsData['file'];
+        $className = $constantsData['class-name'];
+        $classFile = $constantsData['class-file'];
+
+        return [
+            'data' => sprintf(
+                self::CLASS_TEMPLATE,
+                $className,
+                $file,
+                $this->date,
+                $this->date,
+                $className,
+                $data,
+                PHP_EOL.implode(PHP_EOL, $this->collectedCountries[$continent]).PHP_EOL.'    '
+            ),
+            'file' => $file,
+            'class-name' => $className,
+            'class-file' => $classFile,
+        ];
+    }
+
+    /**
+     * Returns the class data from all continents.
+     *
+     * @return array<string, array{data: string, file: string, class-name: string, class-file: string}>
+     * @throws FunctionReplaceException
+     */
+    private function getCountryClasses(): array
     {
         $classes = [];
 
-        foreach ($this->getConstantsAsString() as $continent => $constantsData) {
-            $data = $constantsData['data'];
-            $file = $constantsData['file'];
-            $className = $constantsData['class-name'];
-            $classFile = $constantsData['class-file'];
+        $constantsAll = $this->getConstantsCountryFromAllContinents();
 
-            $classes[$continent] = [
-                'data' => sprintf(
-                    self::CLASS_TEMPLATE,
-                    $className,
-                    $file,
-                    date('Y-m-d H:i:s'),
-                    date('Y-m-d H:i:s'),
-                    $className,
-                    $data
-                ),
-                'file' => $file,
-                'class-name' => $className,
-                'class-file' => $classFile,
-            ];
+        foreach ($constantsAll as $continent => $constantsData) {
+            $classes[$continent] = $this->getCountryClass($continent, $constantsData);
         }
 
         return $classes;
@@ -329,43 +521,24 @@ EOT;
      * Writes classes to given php file.
      *
      * @return bool
+     * @throws FunctionReplaceException
      */
     public function writeClasses(): bool
     {
-        foreach ($this->getClasses() as $continent => $classesData) {
+        $classes = $this->getCountryClasses();
+
+        foreach ($classes as $continent => $classesData) {
             $data = $classesData['data'];
-            $file = $classesData['file'];
-            $className = $classesData['class-name'];
             $classFile = $classesData['class-file'];
 
             file_put_contents($classFile, $data);
             print sprintf('Class %s written.'.PHP_EOL, $classFile);
         }
 
-        $allContent = [];
-        foreach ($this->collectedCodes as $continent) {
-            $name = $continent['name'];
-            $data = $continent['data'];
-
-            $allContent[] = sprintf('        /* %s */', $name);
-
-            foreach ($data as $collected) {
-                $allContent[] = sprintf('        %s', $collected);
-            }
-
-            $allContent[] = '';
-        }
-
         /* Register all variables to all class. */
-        $classFile = 'src/Constants/CountryAll.php';
-        $data = sprintf(
-            self::CLASS_TEMPLATE_ALL,
-            implode(', ', $this->csvFilesContinents),
-            date('Y-m-d H:i:s'),
-            date('Y-m-d H:i:s'),
-            implode(PHP_EOL, $allContent),
-        );
-        file_put_contents($classFile, $data);
+        $classFile = self::PATH_COUNTRY_ALL;
+        $countryAllClass = $this->getCountryAllClass();
+        file_put_contents($classFile, $countryAllClass);
         print sprintf('Class %s written.'.PHP_EOL, $classFile);
 
         return true;
