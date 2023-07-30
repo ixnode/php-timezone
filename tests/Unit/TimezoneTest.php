@@ -14,11 +14,11 @@ declare(strict_types=1);
 namespace Ixnode\PhpTimezone\Tests\Unit;
 
 use Ixnode\PhpTimezone\Constants\CountryAfrica;
-use Ixnode\PhpTimezone\Constants\CountryAmerica;
 use Ixnode\PhpTimezone\Constants\CountryAsia;
 use Ixnode\PhpTimezone\Constants\CountryAustralia;
 use Ixnode\PhpTimezone\Constants\CountryEurope;
-use Ixnode\PhpTimezone\Constants\CountryPacific;
+use Ixnode\PhpTimezone\Constants\CountryNorthAmerica;
+use Ixnode\PhpTimezone\Constants\CountrySouthAmerica;
 use Ixnode\PhpTimezone\Constants\CountryUnknown;
 use Ixnode\PhpTimezone\Constants\Locale;
 use Ixnode\PhpTimezone\Timezone;
@@ -89,32 +89,6 @@ final class TimezoneTest extends TestCase
             [++$number, 'getCountryName', null, 'Africa/Accra', CountryAfrica::COUNTRY_NAME_GH[Locale::EN_GB]],
 
             /**
-             * getCountry/getCountryName: America
-             */
-            [++$number, 'getCountryCode', null, 'America/Argentina/Tucuman', CountryAmerica::COUNTRY_CODE_AR],
-            [++$number, 'getCountryName', null, 'America/Argentina/Tucuman', CountryAmerica::COUNTRY_NAME_AR[Locale::EN_GB]],
-            [++$number, 'getCountryCode', null, 'America/Bogota', CountryAmerica::COUNTRY_CODE_CO],
-            [++$number, 'getCountryName', null, 'America/Bogota', CountryAmerica::COUNTRY_NAME_CO[Locale::EN_GB]],
-            [++$number, 'getCountryCode', null, 'America/Chihuahua', CountryAmerica::COUNTRY_CODE_MX],
-            [++$number, 'getCountryName', null, 'America/Chihuahua', CountryAmerica::COUNTRY_NAME_MX[Locale::EN_GB]],
-            [++$number, 'getCountryCode', null, 'America/Hermosillo', CountryAmerica::COUNTRY_CODE_MX],
-            [++$number, 'getCountryName', null, 'America/Hermosillo', CountryAmerica::COUNTRY_NAME_MX[Locale::EN_GB]],
-            [++$number, 'getCountryCode', null, 'America/Matamoros', CountryAmerica::COUNTRY_CODE_MX],
-            [++$number, 'getCountryName', null, 'America/Matamoros', CountryAmerica::COUNTRY_NAME_MX[Locale::EN_GB]],
-            [++$number, 'getCountryCode', null, 'America/Monterrey', CountryAmerica::COUNTRY_CODE_MX],
-            [++$number, 'getCountryName', null, 'America/Monterrey', CountryAmerica::COUNTRY_NAME_MX[Locale::EN_GB]],
-            [++$number, 'getCountryCode', null, 'America/Nassau', CountryAmerica::COUNTRY_CODE_BS],
-            [++$number, 'getCountryName', null, 'America/Nassau', CountryAmerica::COUNTRY_NAME_BS[Locale::EN_GB]],
-            [++$number, 'getCountryCode', null, 'America/Ojinaga', CountryAmerica::COUNTRY_CODE_MX],
-            [++$number, 'getCountryName', null, 'America/Ojinaga', CountryAmerica::COUNTRY_NAME_MX[Locale::EN_GB]],
-            [++$number, 'getCountryCode', null, 'America/Puerto_Rico', CountryAmerica::COUNTRY_CODE_PR],
-            [++$number, 'getCountryName', null, 'America/Puerto_Rico', CountryAmerica::COUNTRY_NAME_PR[Locale::EN_GB]],
-            [++$number, 'getCountryCode', null, 'America/St_Thomas', CountryAmerica::COUNTRY_CODE_VI],
-            [++$number, 'getCountryName', null, 'America/St_Thomas', CountryAmerica::COUNTRY_NAME_VI[Locale::EN_GB]],
-            [++$number, 'getCountryCode', null, 'America/Tijuana', CountryAmerica::COUNTRY_CODE_MX],
-            [++$number, 'getCountryName', null, 'America/Tijuana', CountryAmerica::COUNTRY_NAME_MX[Locale::EN_GB]],
-
-            /**
              * getCountry/getCountryName: Asia
              */
             [++$number, 'getCountryCode', null, 'Asia/Almaty', CountryAsia::COUNTRY_CODE_KZ],
@@ -127,18 +101,22 @@ final class TimezoneTest extends TestCase
             [++$number, 'getCountryName', null, 'Asia/Jerusalem', CountryAsia::COUNTRY_NAME_IL[Locale::EN_GB]],
             [++$number, 'getCountryCode', null, 'Asia/Kathmandu', CountryAsia::COUNTRY_CODE_NP],
             [++$number, 'getCountryName', null, 'Asia/Kathmandu', CountryAsia::COUNTRY_NAME_NP[Locale::EN_GB]],
-            [++$number, 'getCountryCode', null, 'Asia/Nicosia', CountryAsia::COUNTRY_CODE_CY],
-            [++$number, 'getCountryName', null, 'Asia/Nicosia', CountryAsia::COUNTRY_NAME_CY[Locale::EN_GB]],
 
             /**
              * getCountry/getCountryName: Australia
              */
             [++$number, 'getCountryCode', null, 'Australia/Sydney', CountryAustralia::COUNTRY_CODE_AU],
             [++$number, 'getCountryName', null, 'Australia/Sydney', CountryAustralia::COUNTRY_NAME_AU[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Pacific/Marquesas', CountryAustralia::COUNTRY_CODE_PF],
+            [++$number, 'getCountryName', null, 'Pacific/Marquesas', CountryAustralia::COUNTRY_NAME_PF[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Pacific/Port_Moresby', CountryAustralia::COUNTRY_CODE_PG],
+            [++$number, 'getCountryName', null, 'Pacific/Port_Moresby', CountryAustralia::COUNTRY_NAME_PG[Locale::EN_GB]],
 
             /**
              * getCountry/getCountryName: Europe
              */
+            [++$number, 'getCountryCode', null, 'Asia/Nicosia', CountryEurope::COUNTRY_CODE_CY],
+            [++$number, 'getCountryName', null, 'Asia/Nicosia', CountryEurope::COUNTRY_NAME_CY[Locale::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Andorra', CountryEurope::COUNTRY_CODE_AD],
             [++$number, 'getCountryName', null, 'Europe/Andorra', CountryEurope::COUNTRY_NAME_AD[Locale::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Amsterdam', CountryEurope::COUNTRY_CODE_NL],
@@ -175,8 +153,8 @@ final class TimezoneTest extends TestCase
             [++$number, 'getCountryName', null, 'Europe/Madrid', CountryEurope::COUNTRY_NAME_ES[Locale::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Monaco', CountryEurope::COUNTRY_CODE_MC],
             [++$number, 'getCountryName', null, 'Europe/Monaco', CountryEurope::COUNTRY_NAME_MC[Locale::EN_GB]],
-            [++$number, 'getCountryCode', null, 'Europe/Moscow', CountryAsia::COUNTRY_CODE_RU],
-            [++$number, 'getCountryName', null, 'Europe/Moscow', CountryAsia::COUNTRY_NAME_RU[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Moscow', CountryEurope::COUNTRY_CODE_RU],
+            [++$number, 'getCountryName', null, 'Europe/Moscow', CountryEurope::COUNTRY_NAME_RU[Locale::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Oslo', CountryEurope::COUNTRY_CODE_NO],
             [++$number, 'getCountryName', null, 'Europe/Oslo', CountryEurope::COUNTRY_NAME_NO[Locale::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Paris', CountryEurope::COUNTRY_CODE_FR],
@@ -199,14 +177,36 @@ final class TimezoneTest extends TestCase
             [++$number, 'getCountryName', null, 'Europe/Zurich', CountryEurope::COUNTRY_NAME_CH[Locale::EN_GB]],
 
             /**
-             * getCountry/getCountryName: Pacific
+             * getCountry/getCountryName: North America
              */
-            [++$number, 'getCountryCode', null, 'Pacific/Easter', CountryAmerica::COUNTRY_CODE_CL],
-            [++$number, 'getCountryName', null, 'Pacific/Easter', CountryAmerica::COUNTRY_NAME_CL[Locale::EN_GB]],
-            [++$number, 'getCountryCode', null, 'Pacific/Marquesas', CountryPacific::COUNTRY_CODE_PF],
-            [++$number, 'getCountryName', null, 'Pacific/Marquesas', CountryPacific::COUNTRY_NAME_PF[Locale::EN_GB]],
-            [++$number, 'getCountryCode', null, 'Pacific/Port_Moresby', CountryPacific::COUNTRY_CODE_PG],
-            [++$number, 'getCountryName', null, 'Pacific/Port_Moresby', CountryPacific::COUNTRY_NAME_PG[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'America/Bogota', CountrySouthAmerica::COUNTRY_CODE_CO],
+            [++$number, 'getCountryName', null, 'America/Bogota', CountrySouthAmerica::COUNTRY_NAME_CO[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'America/Chihuahua', CountryNorthAmerica::COUNTRY_CODE_MX],
+            [++$number, 'getCountryName', null, 'America/Chihuahua', CountryNorthAmerica::COUNTRY_NAME_MX[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'America/Hermosillo', CountryNorthAmerica::COUNTRY_CODE_MX],
+            [++$number, 'getCountryName', null, 'America/Hermosillo', CountryNorthAmerica::COUNTRY_NAME_MX[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'America/Matamoros', CountryNorthAmerica::COUNTRY_CODE_MX],
+            [++$number, 'getCountryName', null, 'America/Matamoros', CountryNorthAmerica::COUNTRY_NAME_MX[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'America/Monterrey', CountryNorthAmerica::COUNTRY_CODE_MX],
+            [++$number, 'getCountryName', null, 'America/Monterrey', CountryNorthAmerica::COUNTRY_NAME_MX[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'America/Nassau', CountryNorthAmerica::COUNTRY_CODE_BS],
+            [++$number, 'getCountryName', null, 'America/Nassau', CountryNorthAmerica::COUNTRY_NAME_BS[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'America/Ojinaga', CountryNorthAmerica::COUNTRY_CODE_MX],
+            [++$number, 'getCountryName', null, 'America/Ojinaga', CountryNorthAmerica::COUNTRY_NAME_MX[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'America/Puerto_Rico', CountryNorthAmerica::COUNTRY_CODE_PR],
+            [++$number, 'getCountryName', null, 'America/Puerto_Rico', CountryNorthAmerica::COUNTRY_NAME_PR[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'America/St_Thomas', CountryNorthAmerica::COUNTRY_CODE_VI],
+            [++$number, 'getCountryName', null, 'America/St_Thomas', CountryNorthAmerica::COUNTRY_NAME_VI[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'America/Tijuana', CountryNorthAmerica::COUNTRY_CODE_MX],
+            [++$number, 'getCountryName', null, 'America/Tijuana', CountryNorthAmerica::COUNTRY_NAME_MX[Locale::EN_GB]],
+
+            /**
+             * getCountry/getCountryName: South America
+             */
+            [++$number, 'getCountryCode', null, 'America/Argentina/Tucuman', CountrySouthAmerica::COUNTRY_CODE_AR],
+            [++$number, 'getCountryName', null, 'America/Argentina/Tucuman', CountrySouthAmerica::COUNTRY_NAME_AR[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Pacific/Easter', CountrySouthAmerica::COUNTRY_CODE_CL],
+            [++$number, 'getCountryName', null, 'Pacific/Easter', CountrySouthAmerica::COUNTRY_NAME_CL[Locale::EN_GB]],
 
             /**
              * getCountry/getCountryName: Unknown/Invalid

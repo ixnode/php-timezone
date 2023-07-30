@@ -14,11 +14,10 @@ declare(strict_types=1);
 namespace Ixnode\PhpTimezone\Tests\Unit;
 
 use Ixnode\PhpTimezone\Constants\CountryAfrica;
-use Ixnode\PhpTimezone\Constants\CountryAmerica;
 use Ixnode\PhpTimezone\Constants\CountryAsia;
 use Ixnode\PhpTimezone\Constants\CountryAustralia;
 use Ixnode\PhpTimezone\Constants\CountryEurope;
-use Ixnode\PhpTimezone\Constants\CountryPacific;
+use Ixnode\PhpTimezone\Constants\CountrySouthAmerica;
 use Ixnode\PhpTimezone\Constants\CountryUnknown;
 use Ixnode\PhpTimezone\Constants\Locale;
 use Ixnode\PhpTimezone\Country;
@@ -90,8 +89,8 @@ final class CountryTest extends TestCase
             /**
              * getName: Africa
              */
-            [++$number, 'getCode', null, CountryAmerica::COUNTRY_CODE_AR, CountryAmerica::COUNTRY_CODE_AR],
-            [++$number, 'getName', null, CountryAmerica::COUNTRY_CODE_AR, CountryAmerica::COUNTRY_NAME_AR[Locale::EN_GB]],
+            [++$number, 'getCode', null, CountrySouthAmerica::COUNTRY_CODE_AR, CountrySouthAmerica::COUNTRY_CODE_AR],
+            [++$number, 'getName', null, CountrySouthAmerica::COUNTRY_CODE_AR, CountrySouthAmerica::COUNTRY_NAME_AR[Locale::EN_GB]],
 
             /**
              * getName: Asia
@@ -102,13 +101,15 @@ final class CountryTest extends TestCase
             [++$number, 'getName', null, CountryAsia::COUNTRY_CODE_IN, CountryAsia::COUNTRY_NAME_IN[Locale::EN_GB]],
             [++$number, 'getCode', null, CountryAsia::COUNTRY_CODE_KZ, CountryAsia::COUNTRY_CODE_KZ],
             [++$number, 'getName', null, CountryAsia::COUNTRY_CODE_KZ, CountryAsia::COUNTRY_NAME_KZ[Locale::EN_GB]],
-            [++$number, 'getCode', null, CountryAsia::COUNTRY_CODE_RU, CountryAsia::COUNTRY_CODE_RU],
-            [++$number, 'getName', null, CountryAsia::COUNTRY_CODE_RU, CountryAsia::COUNTRY_NAME_RU[Locale::EN_GB]],
+            [++$number, 'getCode', null, CountryEurope::COUNTRY_CODE_RU, CountryEurope::COUNTRY_CODE_RU],
+            [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_RU, CountryEurope::COUNTRY_NAME_RU[Locale::EN_GB]],
 
             /**
              * getName: Australia
              */
             [++$number, 'getName', null, CountryAustralia::COUNTRY_CODE_AU, CountryAustralia::COUNTRY_NAME_AU[Locale::EN_GB]],
+            [++$number, 'getName', null, CountryAustralia::COUNTRY_CODE_PF, CountryAustralia::COUNTRY_NAME_PF[Locale::EN_GB]],
+            [++$number, 'getName', null, CountryAustralia::COUNTRY_CODE_PG, CountryAustralia::COUNTRY_NAME_PG[Locale::EN_GB]],
 
             /**
              * getName: Europe
@@ -139,12 +140,6 @@ final class CountryTest extends TestCase
             [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_SK, CountryEurope::COUNTRY_NAME_SK[Locale::EN_GB]],
             [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_UA, CountryEurope::COUNTRY_NAME_UA[Locale::EN_GB]],
             [++$number, 'getName', null, CountryEurope::COUNTRY_CODE_VA, CountryEurope::COUNTRY_NAME_VA[Locale::EN_GB]],
-
-            /**
-             * getName: Pacific
-             */
-            [++$number, 'getName', null, CountryPacific::COUNTRY_CODE_PF, CountryPacific::COUNTRY_NAME_PF[Locale::EN_GB]],
-            [++$number, 'getName', null, CountryPacific::COUNTRY_CODE_PG, CountryPacific::COUNTRY_NAME_PG[Locale::EN_GB]],
 
             /**
              * getName: Unknown/Invalid
