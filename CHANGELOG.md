@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Releases
 
+### [0.1.15] - 2023-07-30
+
+* Add country builder
+* Add all timezones and countries
+* Add languages cz, de, en, es, fr, hr, it, pl, se
+* Add iso3 and tld
+* Refactoring
+
 ### [0.1.14] - 2023-07-29
 
 * Add some american and asian timezones
