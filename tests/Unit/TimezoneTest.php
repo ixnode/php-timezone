@@ -151,6 +151,8 @@ final class TimezoneTest extends TestCase
             [++$number, 'getCountryName', null, 'Europe/Luxembourg', CountryEurope::COUNTRY_NAME_LU[Locale::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Madrid', CountryEurope::COUNTRY_CODE_ES],
             [++$number, 'getCountryName', null, 'Europe/Madrid', CountryEurope::COUNTRY_NAME_ES[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Europe/Mariehamn', CountryEurope::COUNTRY_CODE_AX],
+            [++$number, 'getCountryName', null, 'Europe/Mariehamn', CountryEurope::COUNTRY_NAME_AX[Locale::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Monaco', CountryEurope::COUNTRY_CODE_MC],
             [++$number, 'getCountryName', null, 'Europe/Monaco', CountryEurope::COUNTRY_NAME_MC[Locale::EN_GB]],
             [++$number, 'getCountryCode', null, 'Europe/Moscow', CountryEurope::COUNTRY_CODE_RU],

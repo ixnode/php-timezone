@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class CountryEurope (auto-generated with bin/build-countries from "data/europe.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2023-07-30 11:20:50)
- * @since 0.1.0 (2023-07-30 11:20:50) Generated version.
+ * @version 0.1.0 (2023-08-01 11:27:24)
+ * @since 0.1.0 (2023-08-01 11:27:24) Generated version.
  */
 class CountryEurope
 {
@@ -26,6 +26,7 @@ class CountryEurope
     public const COUNTRY_CODE_AL = 'AL';
     public const COUNTRY_CODE_AD = 'AD';
     public const COUNTRY_CODE_AT = 'AT';
+    public const COUNTRY_CODE_AX = 'AX';
     public const COUNTRY_CODE_BY = 'BY';
     public const COUNTRY_CODE_BE = 'BE';
     public const COUNTRY_CODE_BA = 'BA';
@@ -105,6 +106,17 @@ class CountryEurope
         Locale::IT_IT => 'Austria',
         Locale::PL_PL => 'Austria',
         Locale::SE_SE => 'Österrike',
+    ];
+    public const COUNTRY_NAME_AX = [
+        Locale::CS_CZ => 'Alandy',
+        Locale::DE_DE => 'Åland',
+        Locale::EN_GB => 'Åland Islands',
+        Locale::ES_ES => 'Åland',
+        Locale::FR_FR => 'Åland',
+        Locale::HR_HR => 'Ålandski otoci',
+        Locale::IT_IT => 'Åland',
+        Locale::PL_PL => 'Wyspy Alandzkie',
+        Locale::SE_SE => 'Åland',
     ];
     public const COUNTRY_NAME_BY = [
         Locale::CS_CZ => 'Bělorusko',
@@ -607,6 +619,7 @@ class CountryEurope
         self::COUNTRY_CODE_AL => ['name' => self::COUNTRY_NAME_AL, 'iso2' => 'AL', 'iso3' => 'ALB', 'tld' => 'al', ],
         self::COUNTRY_CODE_AD => ['name' => self::COUNTRY_NAME_AD, 'iso2' => 'AD', 'iso3' => 'AND', 'tld' => 'ad', ],
         self::COUNTRY_CODE_AT => ['name' => self::COUNTRY_NAME_AT, 'iso2' => 'AT', 'iso3' => 'AUT', 'tld' => 'at', ],
+        self::COUNTRY_CODE_AX => ['name' => self::COUNTRY_NAME_AX, 'iso2' => 'AX', 'iso3' => 'ALA', 'tld' => 'ax', ],
         self::COUNTRY_CODE_BY => ['name' => self::COUNTRY_NAME_BY, 'iso2' => 'BY', 'iso3' => 'BLR', 'tld' => 'by', ],
         self::COUNTRY_CODE_BE => ['name' => self::COUNTRY_NAME_BE, 'iso2' => 'BE', 'iso3' => 'BEL', 'tld' => 'be', ],
         self::COUNTRY_CODE_BA => ['name' => self::COUNTRY_NAME_BA, 'iso2' => 'BA', 'iso3' => 'BIH', 'tld' => 'ba', ],
