@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Releases
 
+### [0.1.16] - 2023-08-01
+
+* Add Åland Islands country
+* Add Europe/Mariehamn timezone
+
 ### [0.1.15] - 2023-07-30
 
 * Add country builder
