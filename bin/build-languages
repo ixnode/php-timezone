@@ -20,7 +20,7 @@ declare(strict_types=1);
 namespace Ixnode\PhpTimezone\Constants;
 
 /**
- * Class Language (auto-generated with bin/build-languages from "%s")
+ * Class Language (auto-generated with bin/build-locales from "%s")
  *
  * @author Björn Hempel <bjoern@hempel.li>
  * @version 0.1.0 (%s)
@@ -29,7 +29,7 @@ namespace Ixnode\PhpTimezone\Constants;
  */
 class Language
 {
-%s}
+%s%s%s}
 
 EOT;
 
@@ -40,7 +40,21 @@ EOT;
     {
     }
 
-    public function getLocales(): array
+    /**
+     * Remove the bom flag from given string.
+     *
+     * @param string $text
+     * @return string
+     */
+    function removeUtf8Bom(string $text): string
+    {
+        $bom = pack('H*','EFBBBF');
+        $text = preg_replace("/^$bom/", '', $text);
+
+        return $text;
+    }
+
+    public function getLanguages(): array
     {
         /* Check if the file exists. */
         if (!file_exists($this->csvFile)) {
@@ -56,10 +70,11 @@ EOT;
         $lines = explode(PHP_EOL, $csvContent);
 
         /* The first line contains the languages, we use these as keys for the array. */
-        $languages = str_getcsv(array_shift($lines), ';');
+        $line = array_shift($lines);
+        $languages = str_getcsv($this->removeUtf8Bom($line), ';');
 
         /* Remove the first column, because it does contain the locale header. */
-        array_shift($languages);
+        //array_shift($languages);
 
         foreach ($lines as $line) {
 
@@ -71,12 +86,44 @@ EOT;
             $values = str_getcsv($line, ';');
 
             /* Use the first column as key. */
-            $key = array_shift($values);
+            $key = $values[0];
 
             $data[$key] = array_combine($languages, $values);
         }
 
         return $data;
+    }
+
+    /**
+     * Returns the language constant values.
+     *
+     * @param array<string, string> $languages
+     * @return array<string, string>
+     */
+    private function getLanguagesConstantValues(array $languages): array
+    {
+        $languageCodes = [
+            'en - english' => 'en',
+            'de - german' => 'de',
+            'es - spanish' => 'es',
+            'fr - french' => 'fr',
+            'pt - portuguese' => 'pt',
+            'sv - swedish' => 'sv',
+            'da - danish' => 'da',
+            'cs - czech' => 'cs',
+            'pl - polish' => 'pl',
+            'ru - russian' => 'ru',
+        ];
+
+        $translations = [];
+
+        foreach ($languageCodes as $string => $languageCode) {
+            $translations[$languageCode] = $languages[$string];
+        }
+
+        return array_map(function ($key, $value) {
+            return sprintf('\'%s\' => \'%s\',', $key, ucfirst($value));
+        }, array_keys($translations), $translations);
     }
 
     /**
@@ -88,29 +135,47 @@ EOT;
     {
         $constants = '';
 
-        foreach ($this->getLocales() as $locale => $languages) {
-            $languageArray = [];
-            foreach ($languages as $language => $value) {
-                $languageArray[] = sprintf(
-                    '        Locale::%s => \'%s\',',
-                    $language,
-                    str_replace('\'', '\\\'', $value)
-                );
-            }
-
-            if (count($languageArray) > 0) {
-                array_unshift($languageArray, '');
-                $languageArray[] = '    ';
-            }
+        foreach ($this->getLanguages() as $locale => $languages) {
+            $translations = $this->getLanguagesConstantValues($languages);
+            $translationString = PHP_EOL.
+                str_repeat(' ', 8).
+                implode(PHP_EOL.str_repeat(' ', 8), $translations).
+                PHP_EOL.
+                str_repeat(' ', 4);
 
             $constants .= sprintf(
                 '    public const %s = [%s];',
                 strtoupper($locale),
-                implode(PHP_EOL, $languageArray)
+                $translationString
             ).PHP_EOL;
         }
 
         return $constants;
+    }
+
+    /**
+     * Returns the constants as string representation.
+     *
+     * @param string $languageKey
+     * @param string $constantName
+     * @return string
+     */
+    public function getIndexConstantsAsString(string $languageKey = '639-1', string $constantName = 'ISO_639_1'): string
+    {
+        $template = '    public const LANGUAGE_%s = [%s];';
+        $constants = '';
+
+        foreach ($this->getLanguages() as $locale => $languages) {
+            $key = $languages[$languageKey];
+
+            $constants .= sprintf(
+                '        \'%s\' => self::%s,',
+                $key,
+                strtoupper($locale)
+            ).PHP_EOL;
+        }
+
+        return PHP_EOL.sprintf($template, $constantName, PHP_EOL.$constants.'    ').PHP_EOL;
     }
 
     /**
@@ -121,11 +186,13 @@ EOT;
     public function getClass(): string
     {
         return sprintf(
-                self::CLASS_TEMPLATE,
-                $this->csvFile,
-                date('Y-m-d H:i:s'),
-                date('Y-m-d H:i:s'),
-                $this->getConstantsAsString()
+            self::CLASS_TEMPLATE,
+            $this->csvFile,
+            date('Y-m-d H:i:s'),
+            date('Y-m-d H:i:s'),
+            $this->getConstantsAsString(),
+            $this->getIndexConstantsAsString(),
+            $this->getIndexConstantsAsString('639-2/T', 'ISO_639_2_T')
         );
     }
 
@@ -144,7 +211,7 @@ EOT;
 }
 
 
-$csvFile = 'data/locales.csv';
+$csvFile = 'data/languages.csv';
 $phpFile = 'src/Constants/Language.php';
 
 $buildLanguages = new BuildLanguages($csvFile);
@@ -153,3 +220,5 @@ match ($buildLanguages->writeClass($phpFile)) {
     true => print sprintf('"%s" transformed and written to "%s".', $csvFile, $phpFile),
     false => print sprintf('Unable to transform the given file "%s"', $csvFile),
 };
+
+print PHP_EOL;
