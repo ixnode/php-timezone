@@ -31,7 +31,7 @@ print (new Timezone('Europe/Berlin'))->getCountryName(Locale::DE_DE);
 // (string) "Deutschland"
 ```
 
-### Get some local language names in different languages
+### Get some locale language names in different languages
 
 ```php
 use Ixnode\PhpTimezone\Constants\Locale
