@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class CountrySouthAmerica (auto-generated with bin/build-countries from "data/south-america.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2023-08-01 11:27:24)
- * @since 0.1.0 (2023-08-01 11:27:24) Generated version.
+ * @version 0.1.0 (2023-09-04 20:45:28)
+ * @since 0.1.0 (2023-09-04 20:45:28) Generated version.
  */
 class CountrySouthAmerica
 {

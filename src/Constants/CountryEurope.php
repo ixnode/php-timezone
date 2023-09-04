@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class CountryEurope (auto-generated with bin/build-countries from "data/europe.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2023-08-01 11:27:24)
- * @since 0.1.0 (2023-08-01 11:27:24) Generated version.
+ * @version 0.1.0 (2023-09-04 20:45:28)
+ * @since 0.1.0 (2023-09-04 20:45:28) Generated version.
  */
 class CountryEurope
 {
@@ -72,6 +72,7 @@ class CountryEurope
     public const COUNTRY_CODE_VA = 'VA';
     public const COUNTRY_CODE_IM = 'IM';
     public const COUNTRY_CODE_ME = 'ME';
+    public const COUNTRY_CODE_XK = 'XK';
 
     /* Country language names */
     public const COUNTRY_NAME_AL = [
@@ -613,6 +614,17 @@ class CountryEurope
         Locale::PL_PL => 'Czarnogóra',
         Locale::SE_SE => 'Montenegro',
     ];
+    public const COUNTRY_NAME_XK = [
+        Locale::CS_CZ => 'Kosovo',
+        Locale::DE_DE => 'Kosovo',
+        Locale::EN_GB => 'Kosovo',
+        Locale::ES_ES => 'Kosovo',
+        Locale::FR_FR => 'Kosovo',
+        Locale::HR_HR => 'Kosovo',
+        Locale::IT_IT => 'Kosovo',
+        Locale::PL_PL => 'Kosowo',
+        Locale::SE_SE => 'Kosovo',
+    ];
 
     /* Countries */
     public const COUNTRIES = [
@@ -665,5 +677,6 @@ class CountryEurope
         self::COUNTRY_CODE_VA => ['name' => self::COUNTRY_NAME_VA, 'iso2' => 'VA', 'iso3' => 'VAT', 'tld' => 'va', ],
         self::COUNTRY_CODE_IM => ['name' => self::COUNTRY_NAME_IM, 'iso2' => 'IM', 'iso3' => 'IMN', 'tld' => 'im', ],
         self::COUNTRY_CODE_ME => ['name' => self::COUNTRY_NAME_ME, 'iso2' => 'ME', 'iso3' => 'MNE', 'tld' => 'me', ],
+        self::COUNTRY_CODE_XK => ['name' => self::COUNTRY_NAME_XK, 'iso2' => 'XK', 'iso3' => 'XXK', 'tld' => 'xk', ],
     ];
 }
