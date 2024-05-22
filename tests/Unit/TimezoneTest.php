@@ -87,6 +87,8 @@ final class TimezoneTest extends TestCase
             [++$number, 'getCountryName', null, 'Africa/Abidjan', CountryAfrica::COUNTRY_NAME_CI[Locale::EN_GB]],
             [++$number, 'getCountryCode', null, 'Africa/Accra', CountryAfrica::COUNTRY_CODE_GH],
             [++$number, 'getCountryName', null, 'Africa/Accra', CountryAfrica::COUNTRY_NAME_GH[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Africa/El_Aaiun', CountryAfrica::COUNTRY_CODE_EH],
+            [++$number, 'getCountryName', null, 'Africa/El_Aaiun', CountryAfrica::COUNTRY_NAME_EH[Locale::EN_GB]],
 
             /**
              * getCountry/getCountryName: Asia

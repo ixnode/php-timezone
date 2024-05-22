@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class CountryAfrica (auto-generated with bin/build-countries from "data/africa.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2023-09-04 20:45:28)
- * @since 0.1.0 (2023-09-04 20:45:28) Generated version.
+ * @version 0.1.0 (2024-05-22 18:59:55)
+ * @since 0.1.0 (2024-05-22 18:59:55) Generated version.
  */
 class CountryAfrica
 {
@@ -80,6 +80,7 @@ class CountryAfrica
     public const COUNTRY_CODE_ZM = 'ZM';
     public const COUNTRY_CODE_ZW = 'ZW';
     public const COUNTRY_CODE_SS = 'SS';
+    public const COUNTRY_CODE_EH = 'EH';
 
     /* Country language names */
     public const COUNTRY_NAME_DZ = [
@@ -709,6 +710,17 @@ class CountryAfrica
         Locale::PL_PL => 'Sudan Południowy',
         Locale::SE_SE => 'Sydsudan',
     ];
+    public const COUNTRY_NAME_EH = [
+        Locale::CS_CZ => 'Západní Sahara',
+        Locale::DE_DE => 'Westsahara',
+        Locale::EN_GB => 'Western Sahara',
+        Locale::ES_ES => 'República Árabe Saharaui Democrática',
+        Locale::FR_FR => 'Sahara occidental',
+        Locale::HR_HR => 'Zapadna Sahara',
+        Locale::IT_IT => 'Sahara occidentale',
+        Locale::PL_PL => 'Sahara Zachodnia',
+        Locale::SE_SE => 'Västsahara',
+    ];
 
     /* Countries */
     public const COUNTRIES = [
@@ -769,5 +781,6 @@ class CountryAfrica
         self::COUNTRY_CODE_ZM => ['name' => self::COUNTRY_NAME_ZM, 'iso2' => 'ZM', 'iso3' => 'ZMB', 'tld' => 'zm', ],
         self::COUNTRY_CODE_ZW => ['name' => self::COUNTRY_NAME_ZW, 'iso2' => 'ZW', 'iso3' => 'ZWE', 'tld' => 'zw', ],
         self::COUNTRY_CODE_SS => ['name' => self::COUNTRY_NAME_SS, 'iso2' => 'SS', 'iso3' => 'SSD', 'tld' => 'ss', ],
+        self::COUNTRY_CODE_EH => ['name' => self::COUNTRY_NAME_EH, 'iso2' => 'EH', 'iso3' => 'ESH', 'tld' => 'eh', ],
     ];
 }

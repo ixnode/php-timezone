@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class CountryEurope (auto-generated with bin/build-countries from "data/europe.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2023-09-04 20:45:28)
- * @since 0.1.0 (2023-09-04 20:45:28) Generated version.
+ * @version 0.1.0 (2024-05-22 18:59:55)
+ * @since 0.1.0 (2024-05-22 18:59:55) Generated version.
  */
 class CountryEurope
 {

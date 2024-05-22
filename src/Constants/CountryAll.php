@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class CountryAll (auto-generated with bin/build-countries from "data/africa.csv, data/antarctica.csv, data/asia.csv, data/australia.csv, data/europe.csv, data/north-america.csv, data/south-america.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2023-09-04 20:45:28)
- * @since 0.1.0 (2023-09-04 20:45:28) Generated version.
+ * @version 0.1.0 (2024-05-22 18:59:55)
+ * @since 0.1.0 (2024-05-22 18:59:55) Generated version.
  */
 class CountryAll
 {
@@ -82,6 +82,7 @@ class CountryAll
         CountryAfrica::COUNTRY_CODE_ZM => CountryAfrica::COUNTRY_NAME_ZM,
         CountryAfrica::COUNTRY_CODE_ZW => CountryAfrica::COUNTRY_NAME_ZW,
         CountryAfrica::COUNTRY_CODE_SS => CountryAfrica::COUNTRY_NAME_SS,
+        CountryAfrica::COUNTRY_CODE_EH => CountryAfrica::COUNTRY_NAME_EH,
 
         /* Antarctica */
         CountryAntarctica::COUNTRY_CODE_AQ => CountryAntarctica::COUNTRY_NAME_AQ,
