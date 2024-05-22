@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Releases
 
+### [0.1.19] - 2024-05-22
+
+* Add Western Sahara (EH) to CountryAfrica
+
 ### [0.1.18] - 2023-09-04
 
 * Add Kosovo country
