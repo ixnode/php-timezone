@@ -113,6 +113,8 @@ final class TimezoneTest extends TestCase
             [++$number, 'getCountryName', null, 'Pacific/Marquesas', CountryAustralia::COUNTRY_NAME_PF[Locale::EN_GB]],
             [++$number, 'getCountryCode', null, 'Pacific/Port_Moresby', CountryAustralia::COUNTRY_CODE_PG],
             [++$number, 'getCountryName', null, 'Pacific/Port_Moresby', CountryAustralia::COUNTRY_NAME_PG[Locale::EN_GB]],
+            [++$number, 'getCountryCode', null, 'Pacific/Kanton', CountryAustralia::COUNTRY_CODE_KI],
+            [++$number, 'getCountryName', null, 'Pacific/Kanton', CountryAustralia::COUNTRY_NAME_KI[Locale::EN_GB]],
 
             /**
              * getCountry/getCountryName: Europe
