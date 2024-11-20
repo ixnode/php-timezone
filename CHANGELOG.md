@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Releases
 
+### [0.1.21] - 2024-05-24
+
+* Add states and translations
+* Fix timezone Europe/Kyiv and Pacific/Kanton
+
 ### [0.1.20] - 2024-05-24
 
 * Add Pacific/Kanton timezone

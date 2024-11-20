@@ -1,4 +1,5 @@
 {
+  "version": "0.1.21",
   "name": "ixnode/php-timezone",
   "description": "PHP Timezone - This library converts different timezone strings.",
   "type": "library",
