@@ -7,7 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Releases
 
-### [0.1.21] - 2024-05-24
+### [0.1.22] - 2024-11-20
+
+* Add StateAll class for easy access
+* Refactoring
+
+### [0.1.21] - 2024-11-20
 
 * Add states and translations
 * Fix timezone Europe/Kyiv and Pacific/Kanton
