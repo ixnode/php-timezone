@@ -49,14 +49,6 @@ class Timezone
             return CountryUnknown::COUNTRY_CODE_IV;
         }
 
-        if ($this->timezone === 'Europe/Kyiv') {
-            $this->timezone = 'Europe/Kiev';
-        }
-
-        if ($this->timezone === 'Pacific/Kanton') {
-            $this->timezone = 'Pacific/Enderbury';
-        }
-
         try {
             $dateTimeZone = new DateTimeZone($this->timezone);
             $location = $dateTimeZone->getLocation();
