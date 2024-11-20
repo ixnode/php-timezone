@@ -16,13 +16,13 @@ namespace Ixnode\PhpTimezone\Constants\State\Europe;
 use Ixnode\PhpTimezone\Constants\Locale;
 
 /**
- * Class StateGermany
+ * Class StateDe
  *
  * @author Björn Hempel <bjoern@hempel.li>
  * @version 0.1.0 (2024-11-20)
  * @since 0.1.0 (2024-11-20) First version.
  */
-class StateGermany
+class StateDe
 {
     /* State codes */
     public const STATE_CODE_ALL = 'ALL';

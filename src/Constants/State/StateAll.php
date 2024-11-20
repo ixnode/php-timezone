@@ -14,7 +14,9 @@ declare(strict_types=1);
 namespace Ixnode\PhpTimezone\Constants\State;
 
 use Ixnode\PhpTimezone\Constants\CountryEurope;
-use Ixnode\PhpTimezone\Constants\State\Europe\StateGermany;
+use Ixnode\PhpTimezone\Constants\State\Europe\StateAt;
+use Ixnode\PhpTimezone\Constants\State\Europe\StateCh;
+use Ixnode\PhpTimezone\Constants\State\Europe\StateDe;
 
 /**
  * Class StateAll
@@ -36,7 +38,9 @@ class StateAll
         /* Australia */
 
         /* Europe */
-        CountryEurope::COUNTRY_CODE_DE => StateGermany::STATES
+        CountryEurope::COUNTRY_CODE_AT => StateAt::STATES,
+        CountryEurope::COUNTRY_CODE_CH => StateCh::STATES,
+        CountryEurope::COUNTRY_CODE_DE => StateDe::STATES,
 
         /* North America */
 
