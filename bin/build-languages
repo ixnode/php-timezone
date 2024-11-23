@@ -107,6 +107,8 @@ EOT;
             'de - german' => 'de',
             'es - spanish' => 'es',
             'fr - french' => 'fr',
+            'hr - croatian' => 'hr',
+            'it - italian' => 'it',
             'pt - portuguese' => 'pt',
             'sv - swedish' => 'sv',
             'da - danish' => 'da',
