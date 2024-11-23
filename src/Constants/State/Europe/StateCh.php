@@ -63,7 +63,7 @@ class StateCh
         Locale::HR_HR => 'Sve savezne države',
         Locale::IT_IT => 'Tutti gli Stati federali',
         Locale::PL_PL => 'Wszystkie stany federalne',
-        Locale::SE_SE => 'Alla federala stater',
+        Locale::SV_SE => 'Alla federala stater',
     ];
 
     /* State language names */
@@ -76,7 +76,7 @@ class StateCh
         Locale::HR_HR => 'Zürich (kanton)',
         Locale::IT_IT => 'Canton Zurigo',
         Locale::PL_PL => 'Zurych (kanton)',
-        Locale::SE_SE => 'Zürich (kanton)',
+        Locale::SV_SE => 'Zürich (kanton)',
     ];
     public const STATE_NAME_BE = [
         Locale::CS_CZ => 'Bern (kanton)',
@@ -87,7 +87,7 @@ class StateCh
         Locale::HR_HR => 'Bern (kanton)',
         Locale::IT_IT => 'Canton Berna',
         Locale::PL_PL => 'Berno (kanton)',
-        Locale::SE_SE => 'Bern (kanton)',
+        Locale::SV_SE => 'Bern (kanton)',
     ];
     public const STATE_NAME_LU = [
         Locale::CS_CZ => 'Lucern (kanton)',
@@ -98,7 +98,7 @@ class StateCh
         Locale::HR_HR => 'Luzern (kanton)',
         Locale::IT_IT => 'Canton Lucerna',
         Locale::PL_PL => 'Lucerna (kanton)',
-        Locale::SE_SE => 'Luzern (kanton)',
+        Locale::SV_SE => 'Luzern (kanton)',
     ];
     public const STATE_NAME_UR = [
         Locale::CS_CZ => 'Uri (kanton)',
@@ -109,7 +109,7 @@ class StateCh
         Locale::HR_HR => 'Uri (kanton)',
         Locale::IT_IT => 'Canton Uri',
         Locale::PL_PL => 'Uri (kanton)',
-        Locale::SE_SE => 'Uri (kanton)',
+        Locale::SV_SE => 'Uri (kanton)',
     ];
     public const STATE_NAME_SZ = [
         Locale::CS_CZ => 'Schwyz (kanton)',
@@ -120,7 +120,7 @@ class StateCh
         Locale::HR_HR => 'Schwyz (kanton)',
         Locale::IT_IT => 'Canton Svitto',
         Locale::PL_PL => 'Schwyz (kanton)',
-        Locale::SE_SE => 'Schwyz (kanton)',
+        Locale::SV_SE => 'Schwyz (kanton)',
     ];
     public const STATE_NAME_OW = [
         Locale::CS_CZ => 'Obwalden (kanton)',
@@ -131,7 +131,7 @@ class StateCh
         Locale::HR_HR => 'Obwalden (kanton)',
         Locale::IT_IT => 'Canton Obvaldo',
         Locale::PL_PL => 'Obwalden (kanton)',
-        Locale::SE_SE => 'Obwalden (kanton)',
+        Locale::SV_SE => 'Obwalden (kanton)',
     ];
     public const STATE_NAME_NW = [
         Locale::CS_CZ => 'Nidwalden (kanton)',
@@ -142,7 +142,7 @@ class StateCh
         Locale::HR_HR => 'Nidwalden (kanton)',
         Locale::IT_IT => 'Canton Nidvaldo',
         Locale::PL_PL => 'Nidwalden (kanton)',
-        Locale::SE_SE => 'Nidwalden (kanton)',
+        Locale::SV_SE => 'Nidwalden (kanton)',
     ];
     public const STATE_NAME_GL = [
         Locale::CS_CZ => 'Glarus (kanton)',
@@ -153,7 +153,7 @@ class StateCh
         Locale::HR_HR => 'Glarus (kanton)',
         Locale::IT_IT => 'Canton Glarona',
         Locale::PL_PL => 'Glarus (kanton)',
-        Locale::SE_SE => 'Glarus (kanton)',
+        Locale::SV_SE => 'Glarus (kanton)',
     ];
     public const STATE_NAME_ZG = [
         Locale::CS_CZ => 'Zug (kanton)',
@@ -164,7 +164,7 @@ class StateCh
         Locale::HR_HR => 'Zug (kanton)',
         Locale::IT_IT => 'Canton Zugo',
         Locale::PL_PL => 'Zug (kanton)',
-        Locale::SE_SE => 'Zug (kanton)',
+        Locale::SV_SE => 'Zug (kanton)',
     ];
     public const STATE_NAME_FR = [
         Locale::CS_CZ => 'Fribourg (kanton)',
@@ -175,7 +175,7 @@ class StateCh
         Locale::HR_HR => 'Fribourg (kanton)',
         Locale::IT_IT => 'Canton Friburgo',
         Locale::PL_PL => 'Fryburg (kanton)',
-        Locale::SE_SE => 'Fribourg (kanton)',
+        Locale::SV_SE => 'Fribourg (kanton)',
     ];
     public const STATE_NAME_SO = [
         Locale::CS_CZ => 'Solothurn (kanton)',
@@ -186,7 +186,7 @@ class StateCh
         Locale::HR_HR => 'Solothurn (kanton)',
         Locale::IT_IT => 'Canton Soletta',
         Locale::PL_PL => 'Solura (kanton)',
-        Locale::SE_SE => 'Solothurn (kanton)',
+        Locale::SV_SE => 'Solothurn (kanton)',
     ];
     public const STATE_NAME_BS = [
         Locale::CS_CZ => 'Basilej-město (kanton)',
@@ -197,7 +197,7 @@ class StateCh
         Locale::HR_HR => 'Basel-Stadt (kanton)',
         Locale::IT_IT => 'Canton Basilea Città',
         Locale::PL_PL => 'Bazylea-Miasto (kanton)',
-        Locale::SE_SE => 'Basel-Stadt (kanton)',
+        Locale::SV_SE => 'Basel-Stadt (kanton)',
     ];
     public const STATE_NAME_BL = [
         Locale::CS_CZ => 'Basilej-venkov (kanton)',
@@ -208,7 +208,7 @@ class StateCh
         Locale::HR_HR => 'Basel-Landschaft (kanton)',
         Locale::IT_IT => 'Canton Basilea Campagna',
         Locale::PL_PL => 'Bazylea-Okręg (kanton)',
-        Locale::SE_SE => 'Basel-Landschaft (kanton)',
+        Locale::SV_SE => 'Basel-Landschaft (kanton)',
     ];
     public const STATE_NAME_SH = [
         Locale::CS_CZ => 'Schaffhausen (kanton)',
@@ -219,7 +219,7 @@ class StateCh
         Locale::HR_HR => 'Schaffhausen (kanton)',
         Locale::IT_IT => 'Canton Sciaffusa',
         Locale::PL_PL => 'Szafuza (kanton)',
-        Locale::SE_SE => 'Schaffhausen (kanton)',
+        Locale::SV_SE => 'Schaffhausen (kanton)',
     ];
     public const STATE_NAME_AR = [
         Locale::CS_CZ => 'Appenzell Ausserrhoden (kanton)',
@@ -230,7 +230,7 @@ class StateCh
         Locale::HR_HR => 'Appenzell Ausserrhoden (kanton)',
         Locale::IT_IT => 'Canton Appenzello Esterno',
         Locale::PL_PL => 'Appenzell Ausserrhoden (kanton)',
-        Locale::SE_SE => 'Appenzell Ausserrhoden (kanton)',
+        Locale::SV_SE => 'Appenzell Ausserrhoden (kanton)',
     ];
     public const STATE_NAME_AI = [
         Locale::CS_CZ => 'Appenzell Innerrhoden (kanton)',
@@ -241,7 +241,7 @@ class StateCh
         Locale::HR_HR => 'Appenzell Innerrhoden (kanton)',
         Locale::IT_IT => 'Canton Appenzello Interno',
         Locale::PL_PL => 'Appenzell Innerrhoden (kanton)',
-        Locale::SE_SE => 'Appenzell Innerrhoden (kanton)',
+        Locale::SV_SE => 'Appenzell Innerrhoden (kanton)',
     ];
     public const STATE_NAME_SG = [
         Locale::CS_CZ => 'St. Gallen (kanton)',
@@ -252,7 +252,7 @@ class StateCh
         Locale::HR_HR => 'St. Gallen (kanton)',
         Locale::IT_IT => 'Canton San Gallo',
         Locale::PL_PL => 'St. Gallen (kanton)',
-        Locale::SE_SE => 'Sankt Gallen (kanton)',
+        Locale::SV_SE => 'Sankt Gallen (kanton)',
     ];
     public const STATE_NAME_GR = [
         Locale::CS_CZ => 'Graubünden (kanton)',
@@ -263,7 +263,7 @@ class StateCh
         Locale::HR_HR => 'Graubünden (kanton)',
         Locale::IT_IT => 'Canton Grigioni',
         Locale::PL_PL => 'Gryzonia (kanton)',
-        Locale::SE_SE => 'Graubünden (kanton)',
+        Locale::SV_SE => 'Graubünden (kanton)',
     ];
     public const STATE_NAME_AG = [
         Locale::CS_CZ => 'Aargau (kanton)',
@@ -274,7 +274,7 @@ class StateCh
         Locale::HR_HR => 'Aargau (kanton)',
         Locale::IT_IT => 'Canton Argovia',
         Locale::PL_PL => 'Argowia (kanton)',
-        Locale::SE_SE => 'Aargau (kanton)',
+        Locale::SV_SE => 'Aargau (kanton)',
     ];
     public const STATE_NAME_TG = [
         Locale::CS_CZ => 'Thurgau (kanton)',
@@ -285,7 +285,7 @@ class StateCh
         Locale::HR_HR => 'Thurgau (kanton)',
         Locale::IT_IT => 'Canton Turgovia',
         Locale::PL_PL => 'Turgowia (kanton)',
-        Locale::SE_SE => 'Thurgau (kanton)',
+        Locale::SV_SE => 'Thurgau (kanton)',
     ];
     public const STATE_NAME_TI = [
         Locale::CS_CZ => 'Ticino (kanton)',
@@ -296,7 +296,7 @@ class StateCh
         Locale::HR_HR => 'Ticino (kanton)',
         Locale::IT_IT => 'Canton Ticino',
         Locale::PL_PL => 'Ticino (kanton)',
-        Locale::SE_SE => 'Ticino (kanton)',
+        Locale::SV_SE => 'Ticino (kanton)',
     ];
     public const STATE_NAME_VD = [
         Locale::CS_CZ => 'Vaud (kanton)',
@@ -307,7 +307,7 @@ class StateCh
         Locale::HR_HR => 'Vaud (kanton)',
         Locale::IT_IT => 'Canton Vaud',
         Locale::PL_PL => 'Vaud (kanton)',
-        Locale::SE_SE => 'Vaud (kanton)',
+        Locale::SV_SE => 'Vaud (kanton)',
     ];
     public const STATE_NAME_VS = [
         Locale::CS_CZ => 'Valais (kanton)',
@@ -318,7 +318,7 @@ class StateCh
         Locale::HR_HR => 'Valais (kanton)',
         Locale::IT_IT => 'Canton Vallese',
         Locale::PL_PL => 'Valais (kanton)',
-        Locale::SE_SE => 'Valais (kanton)',
+        Locale::SV_SE => 'Valais (kanton)',
     ];
     public const STATE_NAME_NE = [
         Locale::CS_CZ => 'Neuchâtel (kanton)',
@@ -329,7 +329,7 @@ class StateCh
         Locale::HR_HR => 'Neuchâtel (kanton)',
         Locale::IT_IT => 'Canton Neuchâtel',
         Locale::PL_PL => 'Neuchâtel (kanton)',
-        Locale::SE_SE => 'Neuchâtel (kanton)',
+        Locale::SV_SE => 'Neuchâtel (kanton)',
     ];
     public const STATE_NAME_GE = [
         Locale::CS_CZ => 'Ženeva (kanton)',
@@ -340,7 +340,7 @@ class StateCh
         Locale::HR_HR => 'Kanton Ženeva',
         Locale::IT_IT => 'Canton Ginevra',
         Locale::PL_PL => 'Genewa (kanton)',
-        Locale::SE_SE => 'Genève (kanton)',
+        Locale::SV_SE => 'Genève (kanton)',
     ];
     public const STATE_NAME_JU = [
         Locale::CS_CZ => 'Jura (kanton)',
@@ -351,7 +351,7 @@ class StateCh
         Locale::HR_HR => 'Jura (kanton)',
         Locale::IT_IT => 'Canton Giura',
         Locale::PL_PL => 'Jura (kanton)',
-        Locale::SE_SE => 'Jura (kanton)',
+        Locale::SV_SE => 'Jura (kanton)',
     ];
 
     /* States */

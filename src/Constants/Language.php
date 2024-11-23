@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class Language (auto-generated with bin/build-locales from "data/languages.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2023-08-26 20:52:23)
- * @since 0.1.0 (2023-08-26 20:52:23) Generated version.
+ * @version 0.1.0 (2024-11-22 23:51:58)
+ * @since 0.1.0 (2024-11-22 23:51:58) Generated version.
  * @SuppressWarnings(PHPMD.ExcessiveClassLength)
  */
 class Language

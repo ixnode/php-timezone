@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class CountryAustralia (auto-generated with bin/build-countries from "data/australia.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2024-05-22 18:59:55)
- * @since 0.1.0 (2024-05-22 18:59:55) Generated version.
+ * @version 0.1.0 (2024-11-23 10:02:23)
+ * @since 0.1.0 (2024-11-23 10:02:23) Generated version.
  */
 class CountryAustralia
 {
@@ -60,7 +60,7 @@ class CountryAustralia
         Locale::HR_HR => 'Američka Samoa',
         Locale::IT_IT => 'Samoa Americane',
         Locale::PL_PL => 'Samoa Amerykańskie',
-        Locale::SE_SE => 'Amerikanska Samoa',
+        Locale::SV_SE => 'Amerikanska Samoa',
     ];
     public const COUNTRY_NAME_AU = [
         Locale::CS_CZ => 'Austrálie',
@@ -71,7 +71,7 @@ class CountryAustralia
         Locale::HR_HR => 'Australija',
         Locale::IT_IT => 'Australia',
         Locale::PL_PL => 'Australia',
-        Locale::SE_SE => 'Australien',
+        Locale::SV_SE => 'Australien',
     ];
     public const COUNTRY_NAME_NZ = [
         Locale::CS_CZ => 'Nový Zéland',
@@ -82,7 +82,7 @@ class CountryAustralia
         Locale::HR_HR => 'Novi Zeland',
         Locale::IT_IT => 'Nuova Zelanda',
         Locale::PL_PL => 'Nowa Zelandia',
-        Locale::SE_SE => 'Nya Zeeland',
+        Locale::SV_SE => 'Nya Zeeland',
     ];
     public const COUNTRY_NAME_CK = [
         Locale::CS_CZ => 'Cookovy ostrovy',
@@ -93,7 +93,7 @@ class CountryAustralia
         Locale::HR_HR => 'Cookovi Otoci',
         Locale::IT_IT => 'Isole Cook',
         Locale::PL_PL => 'Wyspy Cooka',
-        Locale::SE_SE => 'Cooköarna',
+        Locale::SV_SE => 'Cooköarna',
     ];
     public const COUNTRY_NAME_FJ = [
         Locale::CS_CZ => 'Fidži',
@@ -104,7 +104,7 @@ class CountryAustralia
         Locale::HR_HR => 'Fidži',
         Locale::IT_IT => 'Figi',
         Locale::PL_PL => 'Fidżi',
-        Locale::SE_SE => 'Fiji',
+        Locale::SV_SE => 'Fiji',
     ];
     public const COUNTRY_NAME_PF = [
         Locale::CS_CZ => 'Francouzská Polynésie',
@@ -115,7 +115,7 @@ class CountryAustralia
         Locale::HR_HR => 'Francuska Polinezija',
         Locale::IT_IT => 'Polinesia Francese',
         Locale::PL_PL => 'Polinezja Francuska',
-        Locale::SE_SE => 'Franska Polynesien',
+        Locale::SV_SE => 'Franska Polynesien',
     ];
     public const COUNTRY_NAME_GU = [
         Locale::CS_CZ => 'Guam',
@@ -126,7 +126,7 @@ class CountryAustralia
         Locale::HR_HR => 'Guam',
         Locale::IT_IT => 'Guam',
         Locale::PL_PL => 'Guam',
-        Locale::SE_SE => 'Guam',
+        Locale::SV_SE => 'Guam',
     ];
     public const COUNTRY_NAME_KI = [
         Locale::CS_CZ => 'Kiribati',
@@ -137,7 +137,7 @@ class CountryAustralia
         Locale::HR_HR => 'Kiribati',
         Locale::IT_IT => 'Kiribati',
         Locale::PL_PL => 'Kiribati',
-        Locale::SE_SE => 'Kiribati',
+        Locale::SV_SE => 'Kiribati',
     ];
     public const COUNTRY_NAME_MP = [
         Locale::CS_CZ => 'Severní Mariany',
@@ -148,7 +148,7 @@ class CountryAustralia
         Locale::HR_HR => 'Sjevernomarijanski otoci',
         Locale::IT_IT => 'Isole Marianne Settentrionali',
         Locale::PL_PL => 'Mariany Północne',
-        Locale::SE_SE => 'Nordmarianerna',
+        Locale::SV_SE => 'Nordmarianerna',
     ];
     public const COUNTRY_NAME_MH = [
         Locale::CS_CZ => 'Marshallovy ostrovy',
@@ -159,7 +159,7 @@ class CountryAustralia
         Locale::HR_HR => 'Maršalovi Otoci',
         Locale::IT_IT => 'Isole Marshall',
         Locale::PL_PL => 'Wyspy Marshalla',
-        Locale::SE_SE => 'Marshallöarna',
+        Locale::SV_SE => 'Marshallöarna',
     ];
     public const COUNTRY_NAME_FM = [
         Locale::CS_CZ => 'Mikronésie',
@@ -170,7 +170,7 @@ class CountryAustralia
         Locale::HR_HR => 'Mikronezija',
         Locale::IT_IT => 'Micronesia',
         Locale::PL_PL => 'Mikronezja',
-        Locale::SE_SE => 'Mikronesiska federationen',
+        Locale::SV_SE => 'Mikronesiska federationen',
     ];
     public const COUNTRY_NAME_UM = [
         Locale::CS_CZ => 'Menší odlehlé ostrovy USA',
@@ -181,7 +181,7 @@ class CountryAustralia
         Locale::HR_HR => 'Mali udaljeni otoci SAD-a',
         Locale::IT_IT => 'Isole minori degli Stati Uniti',
         Locale::PL_PL => 'Dalekie Wyspy Mniejsze Stanów Zjednoczonych',
-        Locale::SE_SE => 'Förenta staternas mindre öar i Oceanien och Västindien',
+        Locale::SV_SE => 'Förenta staternas mindre öar i Oceanien och Västindien',
     ];
     public const COUNTRY_NAME_NR = [
         Locale::CS_CZ => 'Nauru',
@@ -192,7 +192,7 @@ class CountryAustralia
         Locale::HR_HR => 'Nauru',
         Locale::IT_IT => 'Nauru',
         Locale::PL_PL => 'Nauru',
-        Locale::SE_SE => 'Nauru',
+        Locale::SV_SE => 'Nauru',
     ];
     public const COUNTRY_NAME_NC = [
         Locale::CS_CZ => 'Nová Kaledonie',
@@ -203,7 +203,7 @@ class CountryAustralia
         Locale::HR_HR => 'Nova Kaledonija',
         Locale::IT_IT => 'Nuova Caledonia',
         Locale::PL_PL => 'Nowa Kaledonia',
-        Locale::SE_SE => 'Nya Kaledonien',
+        Locale::SV_SE => 'Nya Kaledonien',
     ];
     public const COUNTRY_NAME_NU = [
         Locale::CS_CZ => 'Niue',
@@ -214,7 +214,7 @@ class CountryAustralia
         Locale::HR_HR => 'Niue',
         Locale::IT_IT => 'Niue',
         Locale::PL_PL => 'Niue',
-        Locale::SE_SE => 'Niue',
+        Locale::SV_SE => 'Niue',
     ];
     public const COUNTRY_NAME_NF = [
         Locale::CS_CZ => 'Norfolk',
@@ -225,7 +225,7 @@ class CountryAustralia
         Locale::HR_HR => 'Otok Norfolk',
         Locale::IT_IT => 'Isola di Norfolk',
         Locale::PL_PL => 'Norfolk',
-        Locale::SE_SE => 'Norfolkön',
+        Locale::SV_SE => 'Norfolkön',
     ];
     public const COUNTRY_NAME_PW = [
         Locale::CS_CZ => 'Palau',
@@ -236,7 +236,7 @@ class CountryAustralia
         Locale::HR_HR => 'Palau',
         Locale::IT_IT => 'Palau',
         Locale::PL_PL => 'Palau',
-        Locale::SE_SE => 'Palau',
+        Locale::SV_SE => 'Palau',
     ];
     public const COUNTRY_NAME_PG = [
         Locale::CS_CZ => 'Papua Nová Guinea',
@@ -247,7 +247,7 @@ class CountryAustralia
         Locale::HR_HR => 'Papua Nova Gvineja',
         Locale::IT_IT => 'Papua Nuova Guinea',
         Locale::PL_PL => 'Papua-Nowa Gwinea',
-        Locale::SE_SE => 'Papua Nya Guinea',
+        Locale::SV_SE => 'Papua Nya Guinea',
     ];
     public const COUNTRY_NAME_SB = [
         Locale::CS_CZ => 'Šalomounovy ostrovy',
@@ -258,7 +258,7 @@ class CountryAustralia
         Locale::HR_HR => 'Salomonski Otoci',
         Locale::IT_IT => 'Isole Salomone',
         Locale::PL_PL => 'Wyspy Salomona',
-        Locale::SE_SE => 'Salomonöarna',
+        Locale::SV_SE => 'Salomonöarna',
     ];
     public const COUNTRY_NAME_TK = [
         Locale::CS_CZ => 'Tokelau',
@@ -269,7 +269,7 @@ class CountryAustralia
         Locale::HR_HR => 'Tokelau',
         Locale::IT_IT => 'Tokelau',
         Locale::PL_PL => 'Tokelau',
-        Locale::SE_SE => 'Tokelauöarna',
+        Locale::SV_SE => 'Tokelauöarna',
     ];
     public const COUNTRY_NAME_TO = [
         Locale::CS_CZ => 'Tonga',
@@ -280,7 +280,7 @@ class CountryAustralia
         Locale::HR_HR => 'Tonga',
         Locale::IT_IT => 'Tonga',
         Locale::PL_PL => 'Tonga',
-        Locale::SE_SE => 'Tonga',
+        Locale::SV_SE => 'Tonga',
     ];
     public const COUNTRY_NAME_TV = [
         Locale::CS_CZ => 'Tuvalu',
@@ -291,7 +291,7 @@ class CountryAustralia
         Locale::HR_HR => 'Tuvalu',
         Locale::IT_IT => 'Tuvalu',
         Locale::PL_PL => 'Tuvalu',
-        Locale::SE_SE => 'Tuvalu',
+        Locale::SV_SE => 'Tuvalu',
     ];
     public const COUNTRY_NAME_VU = [
         Locale::CS_CZ => 'Vanuatu',
@@ -302,7 +302,7 @@ class CountryAustralia
         Locale::HR_HR => 'Vanuatu',
         Locale::IT_IT => 'Vanuatu',
         Locale::PL_PL => 'Vanuatu',
-        Locale::SE_SE => 'Vanuatu',
+        Locale::SV_SE => 'Vanuatu',
     ];
     public const COUNTRY_NAME_WF = [
         Locale::CS_CZ => 'Wallis a Futuna',
@@ -313,7 +313,7 @@ class CountryAustralia
         Locale::HR_HR => 'Wallis i Futuna',
         Locale::IT_IT => 'Wallis e Futuna',
         Locale::PL_PL => 'Wallis i Futuna',
-        Locale::SE_SE => 'Wallis- och Futunaöarna',
+        Locale::SV_SE => 'Wallis- och Futunaöarna',
     ];
     public const COUNTRY_NAME_WS = [
         Locale::CS_CZ => 'Samoa',
@@ -324,7 +324,7 @@ class CountryAustralia
         Locale::HR_HR => 'Samoa',
         Locale::IT_IT => 'Samoa',
         Locale::PL_PL => 'Samoa',
-        Locale::SE_SE => 'Samoa',
+        Locale::SV_SE => 'Samoa',
     ];
     public const COUNTRY_NAME_TL = [
         Locale::CS_CZ => 'Východní Timor',
@@ -335,7 +335,7 @@ class CountryAustralia
         Locale::HR_HR => 'Timor-Leste',
         Locale::IT_IT => 'Timor Est',
         Locale::PL_PL => 'Timor Wschodni',
-        Locale::SE_SE => 'Östtimor',
+        Locale::SV_SE => 'Östtimor',
     ];
 
     /* Countries */

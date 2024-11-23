@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class CountryAsia (auto-generated with bin/build-countries from "data/asia.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2024-05-22 18:59:55)
- * @since 0.1.0 (2024-05-22 18:59:55) Generated version.
+ * @version 0.1.0 (2024-11-23 10:02:23)
+ * @since 0.1.0 (2024-11-23 10:02:23) Generated version.
  */
 class CountryAsia
 {
@@ -86,7 +86,7 @@ class CountryAsia
         Locale::HR_HR => 'Afganistan',
         Locale::IT_IT => 'Afghanistan',
         Locale::PL_PL => 'Afganistan',
-        Locale::SE_SE => 'Afghanistan',
+        Locale::SV_SE => 'Afghanistan',
     ];
     public const COUNTRY_NAME_AM = [
         Locale::CS_CZ => 'Arménie',
@@ -97,7 +97,7 @@ class CountryAsia
         Locale::HR_HR => 'Armenija',
         Locale::IT_IT => 'Armenia',
         Locale::PL_PL => 'Armenia',
-        Locale::SE_SE => 'Armenien',
+        Locale::SV_SE => 'Armenien',
     ];
     public const COUNTRY_NAME_AZ = [
         Locale::CS_CZ => 'Ázerbájdžán',
@@ -108,7 +108,7 @@ class CountryAsia
         Locale::HR_HR => 'Azerbajdžan',
         Locale::IT_IT => 'Azerbaijan',
         Locale::PL_PL => 'Azerbejdżan',
-        Locale::SE_SE => 'Azerbajdzjan',
+        Locale::SV_SE => 'Azerbajdzjan',
     ];
     public const COUNTRY_NAME_BH = [
         Locale::CS_CZ => 'Bahrajn',
@@ -119,7 +119,7 @@ class CountryAsia
         Locale::HR_HR => 'Bahrein',
         Locale::IT_IT => 'Bahrein',
         Locale::PL_PL => 'Bahrajn',
-        Locale::SE_SE => 'Bahrain',
+        Locale::SV_SE => 'Bahrain',
     ];
     public const COUNTRY_NAME_BD = [
         Locale::CS_CZ => 'Bangladéš',
@@ -130,7 +130,7 @@ class CountryAsia
         Locale::HR_HR => 'Bangladeš',
         Locale::IT_IT => 'Bangladesh',
         Locale::PL_PL => 'Bangladesz',
-        Locale::SE_SE => 'Bangladesh',
+        Locale::SV_SE => 'Bangladesh',
     ];
     public const COUNTRY_NAME_BT = [
         Locale::CS_CZ => 'Bhútán',
@@ -141,7 +141,7 @@ class CountryAsia
         Locale::HR_HR => 'Butan',
         Locale::IT_IT => 'Bhutan',
         Locale::PL_PL => 'Bhutan',
-        Locale::SE_SE => 'Bhutan',
+        Locale::SV_SE => 'Bhutan',
     ];
     public const COUNTRY_NAME_BN = [
         Locale::CS_CZ => 'Brunej',
@@ -152,7 +152,7 @@ class CountryAsia
         Locale::HR_HR => 'Brunej',
         Locale::IT_IT => 'Brunei',
         Locale::PL_PL => 'Brunei',
-        Locale::SE_SE => 'Brunei',
+        Locale::SV_SE => 'Brunei',
     ];
     public const COUNTRY_NAME_KH = [
         Locale::CS_CZ => 'Kambodža',
@@ -163,7 +163,7 @@ class CountryAsia
         Locale::HR_HR => 'Kambodža',
         Locale::IT_IT => 'La Cambogia',
         Locale::PL_PL => 'Kambodża',
-        Locale::SE_SE => 'Kambodja',
+        Locale::SV_SE => 'Kambodja',
     ];
     public const COUNTRY_NAME_CN = [
         Locale::CS_CZ => 'Čína',
@@ -174,7 +174,7 @@ class CountryAsia
         Locale::HR_HR => 'Kina',
         Locale::IT_IT => 'Repubblica Popolare Cinese',
         Locale::PL_PL => 'Chiny',
-        Locale::SE_SE => 'Kina',
+        Locale::SV_SE => 'Kina',
     ];
     public const COUNTRY_NAME_CX = [
         Locale::CS_CZ => 'Vánoční ostrov',
@@ -185,7 +185,7 @@ class CountryAsia
         Locale::HR_HR => 'Božićni otok',
         Locale::IT_IT => 'Isola di Natale',
         Locale::PL_PL => 'Wyspa Bożego Narodzenia',
-        Locale::SE_SE => 'Julön',
+        Locale::SV_SE => 'Julön',
     ];
     public const COUNTRY_NAME_CC = [
         Locale::CS_CZ => 'Kokosové ostrovy',
@@ -196,7 +196,7 @@ class CountryAsia
         Locale::HR_HR => 'Kokosovi (Keelingovi) otoci',
         Locale::IT_IT => 'Isole Cocos',
         Locale::PL_PL => 'Wyspy Kokosowe',
-        Locale::SE_SE => 'Kokosöarna',
+        Locale::SV_SE => 'Kokosöarna',
     ];
     public const COUNTRY_NAME_IO = [
         Locale::CS_CZ => 'Britské indickooceánské území',
@@ -207,7 +207,7 @@ class CountryAsia
         Locale::HR_HR => 'Britanski Indijskooceanski teritorij',
         Locale::IT_IT => 'Territorio britannico dell\'Oceano Indiano',
         Locale::PL_PL => 'Brytyjskie Terytorium Oceanu Indyjskiego',
-        Locale::SE_SE => 'Brittiska territoriet i Indiska Oceanen',
+        Locale::SV_SE => 'Brittiska territoriet i Indiska Oceanen',
     ];
     public const COUNTRY_NAME_GE = [
         Locale::CS_CZ => 'Gruzie',
@@ -218,7 +218,7 @@ class CountryAsia
         Locale::HR_HR => 'Gruzija',
         Locale::IT_IT => 'Georgia',
         Locale::PL_PL => 'Gruzja',
-        Locale::SE_SE => 'Georgien',
+        Locale::SV_SE => 'Georgien',
     ];
     public const COUNTRY_NAME_HK = [
         Locale::CS_CZ => 'Hongkong',
@@ -229,7 +229,7 @@ class CountryAsia
         Locale::HR_HR => 'PUP Hong Kong Kina',
         Locale::IT_IT => 'Hong Kong',
         Locale::PL_PL => 'Hongkong',
-        Locale::SE_SE => 'Hongkong',
+        Locale::SV_SE => 'Hongkong',
     ];
     public const COUNTRY_NAME_IN = [
         Locale::CS_CZ => 'Indie',
@@ -240,7 +240,7 @@ class CountryAsia
         Locale::HR_HR => 'Indija',
         Locale::IT_IT => 'India',
         Locale::PL_PL => 'Indie',
-        Locale::SE_SE => 'Indien',
+        Locale::SV_SE => 'Indien',
     ];
     public const COUNTRY_NAME_ID = [
         Locale::CS_CZ => 'Indonésie',
@@ -251,7 +251,7 @@ class CountryAsia
         Locale::HR_HR => 'Indonezija',
         Locale::IT_IT => 'Indonesia',
         Locale::PL_PL => 'Indonezja',
-        Locale::SE_SE => 'Indonesien',
+        Locale::SV_SE => 'Indonesien',
     ];
     public const COUNTRY_NAME_IR = [
         Locale::CS_CZ => 'Írán',
@@ -262,7 +262,7 @@ class CountryAsia
         Locale::HR_HR => 'Iran',
         Locale::IT_IT => 'Iran',
         Locale::PL_PL => 'Iran',
-        Locale::SE_SE => 'Iran',
+        Locale::SV_SE => 'Iran',
     ];
     public const COUNTRY_NAME_IQ = [
         Locale::CS_CZ => 'Irák',
@@ -273,7 +273,7 @@ class CountryAsia
         Locale::HR_HR => 'Irak',
         Locale::IT_IT => 'Iraq',
         Locale::PL_PL => 'Irak',
-        Locale::SE_SE => 'Irak',
+        Locale::SV_SE => 'Irak',
     ];
     public const COUNTRY_NAME_IL = [
         Locale::CS_CZ => 'Izrael',
@@ -284,7 +284,7 @@ class CountryAsia
         Locale::HR_HR => 'Izrael',
         Locale::IT_IT => 'Israele',
         Locale::PL_PL => 'Izrael',
-        Locale::SE_SE => 'Israel',
+        Locale::SV_SE => 'Israel',
     ];
     public const COUNTRY_NAME_JP = [
         Locale::CS_CZ => 'Japonsko',
@@ -295,7 +295,7 @@ class CountryAsia
         Locale::HR_HR => 'Japan',
         Locale::IT_IT => 'Giappone',
         Locale::PL_PL => 'Japonia',
-        Locale::SE_SE => 'Japan',
+        Locale::SV_SE => 'Japan',
     ];
     public const COUNTRY_NAME_JO = [
         Locale::CS_CZ => 'Jordánsko',
@@ -306,7 +306,7 @@ class CountryAsia
         Locale::HR_HR => 'Jordan',
         Locale::IT_IT => 'Giordania',
         Locale::PL_PL => 'Jordania',
-        Locale::SE_SE => 'Jordanien',
+        Locale::SV_SE => 'Jordanien',
     ];
     public const COUNTRY_NAME_KZ = [
         Locale::CS_CZ => 'Kazachstán',
@@ -317,7 +317,7 @@ class CountryAsia
         Locale::HR_HR => 'Kazahstan',
         Locale::IT_IT => 'Kazakistan',
         Locale::PL_PL => 'Kazachstan',
-        Locale::SE_SE => 'Kazakstan',
+        Locale::SV_SE => 'Kazakstan',
     ];
     public const COUNTRY_NAME_KP = [
         Locale::CS_CZ => 'Severní Korea',
@@ -328,7 +328,7 @@ class CountryAsia
         Locale::HR_HR => 'Sjeverna Koreja',
         Locale::IT_IT => 'Corea del Nord',
         Locale::PL_PL => 'Korea Północna',
-        Locale::SE_SE => 'Nordkorea',
+        Locale::SV_SE => 'Nordkorea',
     ];
     public const COUNTRY_NAME_KR = [
         Locale::CS_CZ => 'Jižní Korea',
@@ -339,7 +339,7 @@ class CountryAsia
         Locale::HR_HR => 'Južna Koreja',
         Locale::IT_IT => 'Corea del Sud',
         Locale::PL_PL => 'Korea Południowa',
-        Locale::SE_SE => 'Sydkorea',
+        Locale::SV_SE => 'Sydkorea',
     ];
     public const COUNTRY_NAME_KW = [
         Locale::CS_CZ => 'Kuvajt',
@@ -350,7 +350,7 @@ class CountryAsia
         Locale::HR_HR => 'Kuvajt',
         Locale::IT_IT => 'Kuwait',
         Locale::PL_PL => 'Kuwejt',
-        Locale::SE_SE => 'Kuwait',
+        Locale::SV_SE => 'Kuwait',
     ];
     public const COUNTRY_NAME_KG = [
         Locale::CS_CZ => 'Kyrgyzstán',
@@ -361,7 +361,7 @@ class CountryAsia
         Locale::HR_HR => 'Kirgistan',
         Locale::IT_IT => 'Kirghizistan',
         Locale::PL_PL => 'Kirgistan',
-        Locale::SE_SE => 'Kirgizistan',
+        Locale::SV_SE => 'Kirgizistan',
     ];
     public const COUNTRY_NAME_LA = [
         Locale::CS_CZ => 'Laos',
@@ -372,7 +372,7 @@ class CountryAsia
         Locale::HR_HR => 'Laos',
         Locale::IT_IT => 'Laos',
         Locale::PL_PL => 'Laos',
-        Locale::SE_SE => 'Laos',
+        Locale::SV_SE => 'Laos',
     ];
     public const COUNTRY_NAME_LB = [
         Locale::CS_CZ => 'Libanon',
@@ -383,7 +383,7 @@ class CountryAsia
         Locale::HR_HR => 'Libanon',
         Locale::IT_IT => 'Libano',
         Locale::PL_PL => 'Liban',
-        Locale::SE_SE => 'Libanon',
+        Locale::SV_SE => 'Libanon',
     ];
     public const COUNTRY_NAME_MO = [
         Locale::CS_CZ => 'Macao',
@@ -394,7 +394,7 @@ class CountryAsia
         Locale::HR_HR => 'PUP Makao Kina',
         Locale::IT_IT => 'Macao',
         Locale::PL_PL => 'Makau',
-        Locale::SE_SE => 'Macao',
+        Locale::SV_SE => 'Macao',
     ];
     public const COUNTRY_NAME_MY = [
         Locale::CS_CZ => 'Malajsie',
@@ -405,7 +405,7 @@ class CountryAsia
         Locale::HR_HR => 'Malezija',
         Locale::IT_IT => 'Malesia',
         Locale::PL_PL => 'Malezja',
-        Locale::SE_SE => 'Malaysia',
+        Locale::SV_SE => 'Malaysia',
     ];
     public const COUNTRY_NAME_MV = [
         Locale::CS_CZ => 'Maledivy',
@@ -416,7 +416,7 @@ class CountryAsia
         Locale::HR_HR => 'Maldivi',
         Locale::IT_IT => 'Maldive',
         Locale::PL_PL => 'Malediwy',
-        Locale::SE_SE => 'Maldiverna',
+        Locale::SV_SE => 'Maldiverna',
     ];
     public const COUNTRY_NAME_MN = [
         Locale::CS_CZ => 'Mongolsko',
@@ -427,7 +427,7 @@ class CountryAsia
         Locale::HR_HR => 'Mongolija',
         Locale::IT_IT => 'Mongolia',
         Locale::PL_PL => 'Mongolia',
-        Locale::SE_SE => 'Mongoliet',
+        Locale::SV_SE => 'Mongoliet',
     ];
     public const COUNTRY_NAME_MM = [
         Locale::CS_CZ => 'Myanmar',
@@ -438,7 +438,7 @@ class CountryAsia
         Locale::HR_HR => 'Mjanmar (Burma)',
         Locale::IT_IT => 'Myanmar',
         Locale::PL_PL => 'Mjanma',
-        Locale::SE_SE => 'Myanmar',
+        Locale::SV_SE => 'Myanmar',
     ];
     public const COUNTRY_NAME_NP = [
         Locale::CS_CZ => 'Nepál',
@@ -449,7 +449,7 @@ class CountryAsia
         Locale::HR_HR => 'Nepal',
         Locale::IT_IT => 'Nepal',
         Locale::PL_PL => 'Nepal',
-        Locale::SE_SE => 'Nepal',
+        Locale::SV_SE => 'Nepal',
     ];
     public const COUNTRY_NAME_OM = [
         Locale::CS_CZ => 'Omán',
@@ -460,7 +460,7 @@ class CountryAsia
         Locale::HR_HR => 'Oman',
         Locale::IT_IT => 'Oman',
         Locale::PL_PL => 'Oman',
-        Locale::SE_SE => 'Oman',
+        Locale::SV_SE => 'Oman',
     ];
     public const COUNTRY_NAME_PK = [
         Locale::CS_CZ => 'Pákistán',
@@ -471,7 +471,7 @@ class CountryAsia
         Locale::HR_HR => 'Pakistan',
         Locale::IT_IT => 'Pakistan',
         Locale::PL_PL => 'Pakistan',
-        Locale::SE_SE => 'Pakistan',
+        Locale::SV_SE => 'Pakistan',
     ];
     public const COUNTRY_NAME_PH = [
         Locale::CS_CZ => 'Filipíny',
@@ -482,7 +482,7 @@ class CountryAsia
         Locale::HR_HR => 'Filipini',
         Locale::IT_IT => 'Filippine',
         Locale::PL_PL => 'Filipiny',
-        Locale::SE_SE => 'Filippinerna',
+        Locale::SV_SE => 'Filippinerna',
     ];
     public const COUNTRY_NAME_QA = [
         Locale::CS_CZ => 'Katar',
@@ -493,7 +493,7 @@ class CountryAsia
         Locale::HR_HR => 'Katar',
         Locale::IT_IT => 'Qatar',
         Locale::PL_PL => 'Katar',
-        Locale::SE_SE => 'Qatar',
+        Locale::SV_SE => 'Qatar',
     ];
     public const COUNTRY_NAME_SA = [
         Locale::CS_CZ => 'Saúdská Arábie',
@@ -504,7 +504,7 @@ class CountryAsia
         Locale::HR_HR => 'Saudijska Arabija',
         Locale::IT_IT => 'Arabia Saudita',
         Locale::PL_PL => 'Arabia Saudyjska',
-        Locale::SE_SE => 'Saudiarabien',
+        Locale::SV_SE => 'Saudiarabien',
     ];
     public const COUNTRY_NAME_SG = [
         Locale::CS_CZ => 'Singapur',
@@ -515,7 +515,7 @@ class CountryAsia
         Locale::HR_HR => 'Singapur',
         Locale::IT_IT => 'Singapore',
         Locale::PL_PL => 'Singapur',
-        Locale::SE_SE => 'Singapore',
+        Locale::SV_SE => 'Singapore',
     ];
     public const COUNTRY_NAME_LK = [
         Locale::CS_CZ => 'Srí Lanka',
@@ -526,7 +526,7 @@ class CountryAsia
         Locale::HR_HR => 'Šri Lanka',
         Locale::IT_IT => 'Sri Lanka',
         Locale::PL_PL => 'Sri Lanka',
-        Locale::SE_SE => 'Sri Lanka',
+        Locale::SV_SE => 'Sri Lanka',
     ];
     public const COUNTRY_NAME_SY = [
         Locale::CS_CZ => 'Sýrie',
@@ -537,7 +537,7 @@ class CountryAsia
         Locale::HR_HR => 'Sirija',
         Locale::IT_IT => 'Siria',
         Locale::PL_PL => 'Syria',
-        Locale::SE_SE => 'Syrien',
+        Locale::SV_SE => 'Syrien',
     ];
     public const COUNTRY_NAME_TW = [
         Locale::CS_CZ => 'Tchaj-wan',
@@ -548,7 +548,7 @@ class CountryAsia
         Locale::HR_HR => 'Tajvan',
         Locale::IT_IT => 'Repubblica di Cina',
         Locale::PL_PL => 'Tajwan',
-        Locale::SE_SE => 'Taiwan',
+        Locale::SV_SE => 'Taiwan',
     ];
     public const COUNTRY_NAME_TJ = [
         Locale::CS_CZ => 'Tádžikistán',
@@ -559,7 +559,7 @@ class CountryAsia
         Locale::HR_HR => 'Tadžikistan',
         Locale::IT_IT => 'Tagikistan',
         Locale::PL_PL => 'Tadżykistan',
-        Locale::SE_SE => 'Tadzjikistan',
+        Locale::SV_SE => 'Tadzjikistan',
     ];
     public const COUNTRY_NAME_TH = [
         Locale::CS_CZ => 'Thajsko',
@@ -570,7 +570,7 @@ class CountryAsia
         Locale::HR_HR => 'Tajland',
         Locale::IT_IT => 'Tailandia',
         Locale::PL_PL => 'Tajlandia',
-        Locale::SE_SE => 'Thailand',
+        Locale::SV_SE => 'Thailand',
     ];
     public const COUNTRY_NAME_TR = [
         Locale::CS_CZ => 'Turecko',
@@ -581,7 +581,7 @@ class CountryAsia
         Locale::HR_HR => 'Turska',
         Locale::IT_IT => 'Turchia',
         Locale::PL_PL => 'Turcja',
-        Locale::SE_SE => 'Turkiet',
+        Locale::SV_SE => 'Turkiet',
     ];
     public const COUNTRY_NAME_TM = [
         Locale::CS_CZ => 'Turkmenistán',
@@ -592,7 +592,7 @@ class CountryAsia
         Locale::HR_HR => 'Turkmenistan',
         Locale::IT_IT => 'Turkmenistan',
         Locale::PL_PL => 'Turkmenistan',
-        Locale::SE_SE => 'Turkmenistan',
+        Locale::SV_SE => 'Turkmenistan',
     ];
     public const COUNTRY_NAME_AE = [
         Locale::CS_CZ => 'Spojené arabské emiráty',
@@ -603,7 +603,7 @@ class CountryAsia
         Locale::HR_HR => 'Ujedinjeni Arapski Emirati',
         Locale::IT_IT => 'Emirati Arabi Uniti',
         Locale::PL_PL => 'Zjednoczone Emiraty Arabskie',
-        Locale::SE_SE => 'Förenade Arabemiraten',
+        Locale::SV_SE => 'Förenade Arabemiraten',
     ];
     public const COUNTRY_NAME_UZ = [
         Locale::CS_CZ => 'Uzbekistán',
@@ -614,7 +614,7 @@ class CountryAsia
         Locale::HR_HR => 'Uzbekistan',
         Locale::IT_IT => 'Uzbekistan',
         Locale::PL_PL => 'Uzbekistan',
-        Locale::SE_SE => 'Uzbekistan',
+        Locale::SV_SE => 'Uzbekistan',
     ];
     public const COUNTRY_NAME_VN = [
         Locale::CS_CZ => 'Vietnam',
@@ -625,7 +625,7 @@ class CountryAsia
         Locale::HR_HR => 'Vijetnam',
         Locale::IT_IT => 'Vietnam',
         Locale::PL_PL => 'Wietnam',
-        Locale::SE_SE => 'Vietnam',
+        Locale::SV_SE => 'Vietnam',
     ];
     public const COUNTRY_NAME_YE = [
         Locale::CS_CZ => 'Jemen',
@@ -636,7 +636,7 @@ class CountryAsia
         Locale::HR_HR => 'Jemen',
         Locale::IT_IT => 'Yemen',
         Locale::PL_PL => 'Jemen',
-        Locale::SE_SE => 'Jemen',
+        Locale::SV_SE => 'Jemen',
     ];
     public const COUNTRY_NAME_PS = [
         Locale::CS_CZ => 'Palestinská autonomie',
@@ -647,7 +647,7 @@ class CountryAsia
         Locale::HR_HR => 'Palestinsko područje',
         Locale::IT_IT => 'Palestina',
         Locale::PL_PL => 'Palestyna',
-        Locale::SE_SE => 'Palestina',
+        Locale::SV_SE => 'Palestina',
     ];
 
     /* Countries */

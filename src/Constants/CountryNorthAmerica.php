@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class CountryNorthAmerica (auto-generated with bin/build-countries from "data/north-america.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2024-05-22 18:59:55)
- * @since 0.1.0 (2024-05-22 18:59:55) Generated version.
+ * @version 0.1.0 (2024-11-23 10:02:23)
+ * @since 0.1.0 (2024-11-23 10:02:23) Generated version.
  */
 class CountryNorthAmerica
 {
@@ -73,7 +73,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Angvila',
         Locale::IT_IT => 'Anguilla',
         Locale::PL_PL => 'Anguilla',
-        Locale::SE_SE => 'Anguilla',
+        Locale::SV_SE => 'Anguilla',
     ];
     public const COUNTRY_NAME_AG = [
         Locale::CS_CZ => 'Antigua a Barbuda',
@@ -84,7 +84,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Antigva i Barbuda',
         Locale::IT_IT => 'Antigua e Barbuda',
         Locale::PL_PL => 'Antigua i Barbuda',
-        Locale::SE_SE => 'Antigua och Barbuda',
+        Locale::SV_SE => 'Antigua och Barbuda',
     ];
     public const COUNTRY_NAME_AW = [
         Locale::CS_CZ => 'Aruba',
@@ -95,7 +95,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Aruba',
         Locale::IT_IT => 'Aruba',
         Locale::PL_PL => 'Aruba',
-        Locale::SE_SE => 'Aruba',
+        Locale::SV_SE => 'Aruba',
     ];
     public const COUNTRY_NAME_BS = [
         Locale::CS_CZ => 'Bahamy',
@@ -106,7 +106,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Bahami',
         Locale::IT_IT => 'Bahamas',
         Locale::PL_PL => 'Bahamy',
-        Locale::SE_SE => 'Bahamas',
+        Locale::SV_SE => 'Bahamas',
     ];
     public const COUNTRY_NAME_BB = [
         Locale::CS_CZ => 'Barbados',
@@ -117,7 +117,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Barbados',
         Locale::IT_IT => 'Barbados',
         Locale::PL_PL => 'Barbados',
-        Locale::SE_SE => 'Barbados',
+        Locale::SV_SE => 'Barbados',
     ];
     public const COUNTRY_NAME_BZ = [
         Locale::CS_CZ => 'Belize',
@@ -128,7 +128,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Belize',
         Locale::IT_IT => 'Belize',
         Locale::PL_PL => 'Belize',
-        Locale::SE_SE => 'Belize',
+        Locale::SV_SE => 'Belize',
     ];
     public const COUNTRY_NAME_BM = [
         Locale::CS_CZ => 'Bermudy',
@@ -139,7 +139,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Bermudi',
         Locale::IT_IT => 'Bermuda',
         Locale::PL_PL => 'Bermudy',
-        Locale::SE_SE => 'Bermuda',
+        Locale::SV_SE => 'Bermuda',
     ];
     public const COUNTRY_NAME_VG = [
         Locale::CS_CZ => 'Britské Panenské ostrovy',
@@ -150,7 +150,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Britanski Djevičanski otoci',
         Locale::IT_IT => 'Isole Vergini britanniche',
         Locale::PL_PL => 'Brytyjskie Wyspy Dziewicze',
-        Locale::SE_SE => 'Brittiska Jungfruöarna',
+        Locale::SV_SE => 'Brittiska Jungfruöarna',
     ];
     public const COUNTRY_NAME_CA = [
         Locale::CS_CZ => 'Kanada',
@@ -161,7 +161,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Kanada',
         Locale::IT_IT => 'Canada',
         Locale::PL_PL => 'Kanada',
-        Locale::SE_SE => 'Kanada',
+        Locale::SV_SE => 'Kanada',
     ];
     public const COUNTRY_NAME_KY = [
         Locale::CS_CZ => 'Kajmanské ostrovy',
@@ -172,7 +172,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Kajmanski otoci',
         Locale::IT_IT => 'Isole Cayman',
         Locale::PL_PL => 'Kajmany',
-        Locale::SE_SE => 'Caymanöarna',
+        Locale::SV_SE => 'Caymanöarna',
     ];
     public const COUNTRY_NAME_CR = [
         Locale::CS_CZ => 'Kostarika',
@@ -183,7 +183,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Kostarika',
         Locale::IT_IT => 'Costa Rica',
         Locale::PL_PL => 'Kostaryka',
-        Locale::SE_SE => 'Costa Rica',
+        Locale::SV_SE => 'Costa Rica',
     ];
     public const COUNTRY_NAME_CU = [
         Locale::CS_CZ => 'Kuba',
@@ -194,7 +194,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Kuba',
         Locale::IT_IT => 'Cuba',
         Locale::PL_PL => 'Kuba',
-        Locale::SE_SE => 'Kuba',
+        Locale::SV_SE => 'Kuba',
     ];
     public const COUNTRY_NAME_CW = [
         Locale::CS_CZ => 'Curaçao',
@@ -205,7 +205,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Curaçao',
         Locale::IT_IT => 'Curaçao',
         Locale::PL_PL => 'Curaçao',
-        Locale::SE_SE => 'Curaçao',
+        Locale::SV_SE => 'Curaçao',
     ];
     public const COUNTRY_NAME_DM = [
         Locale::CS_CZ => 'Dominika',
@@ -216,7 +216,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Dominika',
         Locale::IT_IT => 'Dominica',
         Locale::PL_PL => 'Dominika',
-        Locale::SE_SE => 'Dominica',
+        Locale::SV_SE => 'Dominica',
     ];
     public const COUNTRY_NAME_DO = [
         Locale::CS_CZ => 'Dominikánská republika',
@@ -227,7 +227,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Dominikanska Republika',
         Locale::IT_IT => 'Repubblica Dominicana',
         Locale::PL_PL => 'Dominikana',
-        Locale::SE_SE => 'Dominikanska republiken',
+        Locale::SV_SE => 'Dominikanska republiken',
     ];
     public const COUNTRY_NAME_SV = [
         Locale::CS_CZ => 'Salvador',
@@ -238,7 +238,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Salvador',
         Locale::IT_IT => 'El Salvador',
         Locale::PL_PL => 'Salwador',
-        Locale::SE_SE => 'El Salvador',
+        Locale::SV_SE => 'El Salvador',
     ];
     public const COUNTRY_NAME_GL = [
         Locale::CS_CZ => 'Grónsko',
@@ -249,7 +249,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Grenland',
         Locale::IT_IT => 'Groenlandia',
         Locale::PL_PL => 'Grenlandia',
-        Locale::SE_SE => 'Grönland',
+        Locale::SV_SE => 'Grönland',
     ];
     public const COUNTRY_NAME_GD = [
         Locale::CS_CZ => 'Grenada',
@@ -260,7 +260,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Grenada',
         Locale::IT_IT => 'Grenada',
         Locale::PL_PL => 'Grenada',
-        Locale::SE_SE => 'Grenada',
+        Locale::SV_SE => 'Grenada',
     ];
     public const COUNTRY_NAME_GP = [
         Locale::CS_CZ => 'Guadeloupe',
@@ -271,7 +271,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Guadalupe',
         Locale::IT_IT => 'Guadalupa',
         Locale::PL_PL => 'Gwadelupa',
-        Locale::SE_SE => 'Guadeloupe',
+        Locale::SV_SE => 'Guadeloupe',
     ];
     public const COUNTRY_NAME_GT = [
         Locale::CS_CZ => 'Guatemala',
@@ -282,7 +282,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Gvatemala',
         Locale::IT_IT => 'Guatemala',
         Locale::PL_PL => 'Gwatemala',
-        Locale::SE_SE => 'Guatemala',
+        Locale::SV_SE => 'Guatemala',
     ];
     public const COUNTRY_NAME_HT = [
         Locale::CS_CZ => 'Haiti',
@@ -293,7 +293,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Haiti',
         Locale::IT_IT => 'Haiti',
         Locale::PL_PL => 'Haiti',
-        Locale::SE_SE => 'Haiti',
+        Locale::SV_SE => 'Haiti',
     ];
     public const COUNTRY_NAME_HN = [
         Locale::CS_CZ => 'Honduras',
@@ -304,7 +304,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Honduras',
         Locale::IT_IT => 'Honduras',
         Locale::PL_PL => 'Honduras',
-        Locale::SE_SE => 'Honduras',
+        Locale::SV_SE => 'Honduras',
     ];
     public const COUNTRY_NAME_JM = [
         Locale::CS_CZ => 'Jamajka',
@@ -315,7 +315,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Jamajka',
         Locale::IT_IT => 'Giamaica',
         Locale::PL_PL => 'Jamajka',
-        Locale::SE_SE => 'Jamaica',
+        Locale::SV_SE => 'Jamaica',
     ];
     public const COUNTRY_NAME_MQ = [
         Locale::CS_CZ => 'Martinik',
@@ -326,7 +326,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Martinique',
         Locale::IT_IT => 'Martinica',
         Locale::PL_PL => 'Martynika',
-        Locale::SE_SE => 'Martinique',
+        Locale::SV_SE => 'Martinique',
     ];
     public const COUNTRY_NAME_MX = [
         Locale::CS_CZ => 'Mexiko',
@@ -337,7 +337,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Meksiko',
         Locale::IT_IT => 'Messico',
         Locale::PL_PL => 'Meksyk',
-        Locale::SE_SE => 'Mexiko',
+        Locale::SV_SE => 'Mexiko',
     ];
     public const COUNTRY_NAME_PM = [
         Locale::CS_CZ => 'Saint Pierre a Miquelon',
@@ -348,7 +348,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Saint-Pierre-et-Miquelon',
         Locale::IT_IT => 'Saint-Pierre e Miquelon',
         Locale::PL_PL => 'Saint-Pierre i Miquelon',
-        Locale::SE_SE => 'Saint-Pierre och Miquelon',
+        Locale::SV_SE => 'Saint-Pierre och Miquelon',
     ];
     public const COUNTRY_NAME_MS = [
         Locale::CS_CZ => 'Montserrat',
@@ -359,7 +359,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Montserrat',
         Locale::IT_IT => 'Montserrat',
         Locale::PL_PL => 'Montserrat',
-        Locale::SE_SE => 'Montserrat',
+        Locale::SV_SE => 'Montserrat',
     ];
     public const COUNTRY_NAME_KN = [
         Locale::CS_CZ => 'Svatý Kryštof a Nevis',
@@ -370,7 +370,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Sveti Kristofor i Nevis',
         Locale::IT_IT => 'Saint Kitts e Nevis',
         Locale::PL_PL => 'Saint Kitts i Nevis',
-        Locale::SE_SE => 'Saint Kitts och Nevis',
+        Locale::SV_SE => 'Saint Kitts och Nevis',
     ];
     public const COUNTRY_NAME_NI = [
         Locale::CS_CZ => 'Nikaragua',
@@ -381,7 +381,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Nikaragva',
         Locale::IT_IT => 'Nicaragua',
         Locale::PL_PL => 'Nikaragua',
-        Locale::SE_SE => 'Nicaragua',
+        Locale::SV_SE => 'Nicaragua',
     ];
     public const COUNTRY_NAME_PA = [
         Locale::CS_CZ => 'Panama',
@@ -392,7 +392,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Panama',
         Locale::IT_IT => 'Panama',
         Locale::PL_PL => 'Panama',
-        Locale::SE_SE => 'Panama',
+        Locale::SV_SE => 'Panama',
     ];
     public const COUNTRY_NAME_PR = [
         Locale::CS_CZ => 'Portoriko',
@@ -403,7 +403,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Portoriko',
         Locale::IT_IT => 'Porto Rico',
         Locale::PL_PL => 'Portoryko',
-        Locale::SE_SE => 'Puerto Rico',
+        Locale::SV_SE => 'Puerto Rico',
     ];
     public const COUNTRY_NAME_LC = [
         Locale::CS_CZ => 'Svatá Lucie',
@@ -414,7 +414,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Sveta Lucija',
         Locale::IT_IT => 'Santa Lucia',
         Locale::PL_PL => 'Saint Lucia',
-        Locale::SE_SE => 'Saint Lucia',
+        Locale::SV_SE => 'Saint Lucia',
     ];
     public const COUNTRY_NAME_VC = [
         Locale::CS_CZ => 'Svatý Vincenc a Grenadiny',
@@ -425,7 +425,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Sveti Vincent i Grenadini',
         Locale::IT_IT => 'Saint Vincent e Grenadine',
         Locale::PL_PL => 'Saint Vincent i Grenadyny',
-        Locale::SE_SE => 'Saint Vincent och Grenadinerna',
+        Locale::SV_SE => 'Saint Vincent och Grenadinerna',
     ];
     public const COUNTRY_NAME_TT = [
         Locale::CS_CZ => 'Trinidad a Tobago',
@@ -436,7 +436,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Trinidad i Tobago',
         Locale::IT_IT => 'Trinidad e Tobago',
         Locale::PL_PL => 'Trynidad i Tobago',
-        Locale::SE_SE => 'Trinidad och Tobago',
+        Locale::SV_SE => 'Trinidad och Tobago',
     ];
     public const COUNTRY_NAME_TC = [
         Locale::CS_CZ => 'Turks a Caicos',
@@ -447,7 +447,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Otoci Turks i Caicos',
         Locale::IT_IT => 'Isole Turks e Caicos',
         Locale::PL_PL => 'Turks i Caicos',
-        Locale::SE_SE => 'Turks- och Caicosöarna',
+        Locale::SV_SE => 'Turks- och Caicosöarna',
     ];
     public const COUNTRY_NAME_VI = [
         Locale::CS_CZ => 'Americké Panenské ostrovy',
@@ -458,7 +458,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Američki Djevičanski otoci',
         Locale::IT_IT => 'Isole Vergini Americane',
         Locale::PL_PL => 'Wyspy Dziewicze Stanów Zjednoczonych',
-        Locale::SE_SE => 'Amerikanska Jungfruöarna',
+        Locale::SV_SE => 'Amerikanska Jungfruöarna',
     ];
     public const COUNTRY_NAME_US = [
         Locale::CS_CZ => 'Spojené státy americké',
@@ -469,7 +469,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Sjedinjene Američke Države',
         Locale::IT_IT => 'Stati Uniti d\'America',
         Locale::PL_PL => 'Stany Zjednoczone',
-        Locale::SE_SE => 'USA',
+        Locale::SV_SE => 'USA',
     ];
     public const COUNTRY_NAME_SX = [
         Locale::CS_CZ => 'Svatý Martin (nizozemská část)',
@@ -480,7 +480,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Sint Maarten',
         Locale::IT_IT => 'Sint Maarten',
         Locale::PL_PL => 'Sint Maarten',
-        Locale::SE_SE => 'Sint Maarten',
+        Locale::SV_SE => 'Sint Maarten',
     ];
     public const COUNTRY_NAME_BQ = [
         Locale::CS_CZ => 'Bonaire, Svatý Eustach a Saba',
@@ -491,7 +491,7 @@ class CountryNorthAmerica
         Locale::HR_HR => 'Karipski otoci Nizozemske',
         Locale::IT_IT => 'Bonaire',
         Locale::PL_PL => 'Bonaire, Sint Eustatius i Saba',
-        Locale::SE_SE => 'Bonaire, Sint Eustatius and Saba',
+        Locale::SV_SE => 'Bonaire, Sint Eustatius and Saba',
     ];
 
     /* Countries */

@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class CountrySouthAmerica (auto-generated with bin/build-countries from "data/south-america.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2024-05-22 18:59:55)
- * @since 0.1.0 (2024-05-22 18:59:55) Generated version.
+ * @version 0.1.0 (2024-11-23 10:02:23)
+ * @since 0.1.0 (2024-11-23 10:02:23) Generated version.
  */
 class CountrySouthAmerica
 {
@@ -48,7 +48,7 @@ class CountrySouthAmerica
         Locale::HR_HR => 'Argentina',
         Locale::IT_IT => 'Argentina',
         Locale::PL_PL => 'Argentyna',
-        Locale::SE_SE => 'Argentina',
+        Locale::SV_SE => 'Argentina',
     ];
     public const COUNTRY_NAME_BO = [
         Locale::CS_CZ => 'Bolívie',
@@ -59,7 +59,7 @@ class CountrySouthAmerica
         Locale::HR_HR => 'Bolivija',
         Locale::IT_IT => 'Bolivia',
         Locale::PL_PL => 'Boliwia',
-        Locale::SE_SE => 'Bolivia',
+        Locale::SV_SE => 'Bolivia',
     ];
     public const COUNTRY_NAME_BR = [
         Locale::CS_CZ => 'Brazílie',
@@ -70,7 +70,7 @@ class CountrySouthAmerica
         Locale::HR_HR => 'Brazil',
         Locale::IT_IT => 'Brasile',
         Locale::PL_PL => 'Brazylia',
-        Locale::SE_SE => 'Brasilien',
+        Locale::SV_SE => 'Brasilien',
     ];
     public const COUNTRY_NAME_CL = [
         Locale::CS_CZ => 'Chile',
@@ -81,7 +81,7 @@ class CountrySouthAmerica
         Locale::HR_HR => 'Čile',
         Locale::IT_IT => 'Cile',
         Locale::PL_PL => 'Chile',
-        Locale::SE_SE => 'Chile',
+        Locale::SV_SE => 'Chile',
     ];
     public const COUNTRY_NAME_CO = [
         Locale::CS_CZ => 'Kolumbie',
@@ -92,7 +92,7 @@ class CountrySouthAmerica
         Locale::HR_HR => 'Kolumbija',
         Locale::IT_IT => 'Colombia',
         Locale::PL_PL => 'Kolumbia',
-        Locale::SE_SE => 'Colombia',
+        Locale::SV_SE => 'Colombia',
     ];
     public const COUNTRY_NAME_EC = [
         Locale::CS_CZ => 'Ekvádor',
@@ -103,7 +103,7 @@ class CountrySouthAmerica
         Locale::HR_HR => 'Ekvador',
         Locale::IT_IT => 'Ecuador',
         Locale::PL_PL => 'Ekwador',
-        Locale::SE_SE => 'Ecuador',
+        Locale::SV_SE => 'Ecuador',
     ];
     public const COUNTRY_NAME_FK = [
         Locale::CS_CZ => 'Falklandy (Malvíny)',
@@ -114,7 +114,7 @@ class CountrySouthAmerica
         Locale::HR_HR => 'Falklandski otoci',
         Locale::IT_IT => 'Isole Falkland',
         Locale::PL_PL => 'Falklandy',
-        Locale::SE_SE => 'Falklandsöarna',
+        Locale::SV_SE => 'Falklandsöarna',
     ];
     public const COUNTRY_NAME_GF = [
         Locale::CS_CZ => 'Francouzská Guyana',
@@ -125,7 +125,7 @@ class CountrySouthAmerica
         Locale::HR_HR => 'Francuska Gijana',
         Locale::IT_IT => 'Guiana Francese',
         Locale::PL_PL => 'Gujana Francuska',
-        Locale::SE_SE => 'Franska Guyana',
+        Locale::SV_SE => 'Franska Guyana',
     ];
     public const COUNTRY_NAME_GY = [
         Locale::CS_CZ => 'Guyana',
@@ -136,7 +136,7 @@ class CountrySouthAmerica
         Locale::HR_HR => 'Gvajana',
         Locale::IT_IT => 'Guyana',
         Locale::PL_PL => 'Gujana',
-        Locale::SE_SE => 'Guyana',
+        Locale::SV_SE => 'Guyana',
     ];
     public const COUNTRY_NAME_PY = [
         Locale::CS_CZ => 'Paraguay',
@@ -147,7 +147,7 @@ class CountrySouthAmerica
         Locale::HR_HR => 'Paragvaj',
         Locale::IT_IT => 'Paraguay',
         Locale::PL_PL => 'Paragwaj',
-        Locale::SE_SE => 'Paraguay',
+        Locale::SV_SE => 'Paraguay',
     ];
     public const COUNTRY_NAME_PE = [
         Locale::CS_CZ => 'Peru',
@@ -158,7 +158,7 @@ class CountrySouthAmerica
         Locale::HR_HR => 'Peru',
         Locale::IT_IT => 'Perù',
         Locale::PL_PL => 'Peru',
-        Locale::SE_SE => 'Peru',
+        Locale::SV_SE => 'Peru',
     ];
     public const COUNTRY_NAME_SR = [
         Locale::CS_CZ => 'Surinam',
@@ -169,7 +169,7 @@ class CountrySouthAmerica
         Locale::HR_HR => 'Surinam',
         Locale::IT_IT => 'Suriname',
         Locale::PL_PL => 'Surinam',
-        Locale::SE_SE => 'Surinam',
+        Locale::SV_SE => 'Surinam',
     ];
     public const COUNTRY_NAME_UY = [
         Locale::CS_CZ => 'Uruguay',
@@ -180,7 +180,7 @@ class CountrySouthAmerica
         Locale::HR_HR => 'Urugvaj',
         Locale::IT_IT => 'Uruguay',
         Locale::PL_PL => 'Urugwaj',
-        Locale::SE_SE => 'Uruguay',
+        Locale::SV_SE => 'Uruguay',
     ];
     public const COUNTRY_NAME_VE = [
         Locale::CS_CZ => 'Venezuela',
@@ -191,7 +191,7 @@ class CountrySouthAmerica
         Locale::HR_HR => 'Venezuela',
         Locale::IT_IT => 'Venezuela',
         Locale::PL_PL => 'Wenezuela',
-        Locale::SE_SE => 'Venezuela',
+        Locale::SV_SE => 'Venezuela',
     ];
 
     /* Countries */

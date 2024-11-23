@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class Locale (auto-generated with bin/build-locales from "data/locales.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2023-07-29 12:51:11)
- * @since 0.1.0 (2023-07-29 12:51:11) Generated version.
+ * @version 0.1.0 (2024-11-22 23:48:18)
+ * @since 0.1.0 (2024-11-22 23:48:18) Generated version.
  */
 class Locale
 {

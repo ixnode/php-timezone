@@ -53,7 +53,7 @@ class StateDe
         Locale::HR_HR => 'Sve savezne države',
         Locale::IT_IT => 'Tutti gli Stati federali',
         Locale::PL_PL => 'Wszystkie stany federalne',
-        Locale::SE_SE => 'Alla federala stater',
+        Locale::SV_SE => 'Alla federala stater',
     ];
 
     /* State language names */
@@ -66,7 +66,7 @@ class StateDe
         Locale::HR_HR => 'Brandenburg',
         Locale::IT_IT => 'Brandeburgo',
         Locale::PL_PL => 'Brandenburgia',
-        Locale::SE_SE => 'Brandenburg',
+        Locale::SV_SE => 'Brandenburg',
     ];
     public const STATE_NAME_BE = [
         Locale::CS_CZ => 'Berlín',
@@ -77,7 +77,7 @@ class StateDe
         Locale::HR_HR => 'Berlin',
         Locale::IT_IT => 'Berlino',
         Locale::PL_PL => 'Berlin',
-        Locale::SE_SE => 'Berlin',
+        Locale::SV_SE => 'Berlin',
     ];
     public const STATE_NAME_BW = [
         Locale::CS_CZ => 'Bádensko-Württembersko',
@@ -88,7 +88,7 @@ class StateDe
         Locale::HR_HR => 'Baden-Württemberg',
         Locale::IT_IT => 'Baden-Württemberg',
         Locale::PL_PL => 'Badenia-Wirtembergia',
-        Locale::SE_SE => 'Baden-Württemberg',
+        Locale::SV_SE => 'Baden-Württemberg',
     ];
     public const STATE_NAME_BY = [
         Locale::CS_CZ => 'Bavorsko',
@@ -99,7 +99,7 @@ class StateDe
         Locale::HR_HR => 'Bavarska',
         Locale::IT_IT => 'Baviera',
         Locale::PL_PL => 'Bawaria',
-        Locale::SE_SE => 'Bayern',
+        Locale::SV_SE => 'Bayern',
     ];
     public const STATE_NAME_HB = [
         Locale::CS_CZ => 'Brémy',
@@ -110,7 +110,7 @@ class StateDe
         Locale::HR_HR => 'Bremen',
         Locale::IT_IT => 'Brema',
         Locale::PL_PL => 'Brema',
-        Locale::SE_SE => 'Bremen',
+        Locale::SV_SE => 'Bremen',
     ];
     public const STATE_NAME_HE = [
         Locale::CS_CZ => 'Hesse',
@@ -121,7 +121,7 @@ class StateDe
         Locale::HR_HR => 'Hessen',
         Locale::IT_IT => 'Assia',
         Locale::PL_PL => 'Hesja',
-        Locale::SE_SE => 'Hesse',
+        Locale::SV_SE => 'Hesse',
     ];
     public const STATE_NAME_HH = [
         Locale::CS_CZ => 'Hamburk',
@@ -132,7 +132,7 @@ class StateDe
         Locale::HR_HR => 'Hamburg',
         Locale::IT_IT => 'Amburgo',
         Locale::PL_PL => 'Hamburg',
-        Locale::SE_SE => 'Hamburg',
+        Locale::SV_SE => 'Hamburg',
     ];
     public const STATE_NAME_MV = [
         Locale::CS_CZ => 'Meklenbursko-Přední Pomořansko',
@@ -143,7 +143,7 @@ class StateDe
         Locale::HR_HR => 'Mecklenburg-Zapadno Pomorje',
         Locale::IT_IT => 'Meclemburgo-Pomerania occidentale',
         Locale::PL_PL => 'Meklemburgia-Pomorze Przednie',
-        Locale::SE_SE => 'Mecklenburg-Vorpommern',
+        Locale::SV_SE => 'Mecklenburg-Vorpommern',
     ];
     public const STATE_NAME_NI = [
         Locale::CS_CZ => 'Dolní Sasko',
@@ -154,7 +154,7 @@ class StateDe
         Locale::HR_HR => 'Donja Saska',
         Locale::IT_IT => 'Bassa Sassonia',
         Locale::PL_PL => 'Dolna Saksonia',
-        Locale::SE_SE => 'Nedre Sachsen',
+        Locale::SV_SE => 'Nedre Sachsen',
     ];
     public const STATE_NAME_NW = [
         Locale::CS_CZ => 'Severní Porýní-Vestfálsko',
@@ -165,7 +165,7 @@ class StateDe
         Locale::HR_HR => 'Sjeverna Rajna-Vestfalija',
         Locale::IT_IT => 'Nord Reno-Westfalia',
         Locale::PL_PL => 'Nadrenia Północna-Westfalia',
-        Locale::SE_SE => 'Nordrhein-Westphalen',
+        Locale::SV_SE => 'Nordrhein-Westphalen',
     ];
     public const STATE_NAME_RP = [
         Locale::CS_CZ => 'Porýní-Falc',
@@ -176,7 +176,7 @@ class StateDe
         Locale::HR_HR => 'Rheinland-Pfalz',
         Locale::IT_IT => 'Renania-Palatinato',
         Locale::PL_PL => 'Nadrenia-Palatynat',
-        Locale::SE_SE => 'Rheinland-Pfalz',
+        Locale::SV_SE => 'Rheinland-Pfalz',
     ];
     public const STATE_NAME_SH = [
         Locale::CS_CZ => 'Šlesvicko-Holštýnsko',
@@ -187,7 +187,7 @@ class StateDe
         Locale::HR_HR => 'Schleswig-Holstein',
         Locale::IT_IT => 'Schleswig-Holstein',
         Locale::PL_PL => 'Szlezwik-Holsztyn',
-        Locale::SE_SE => 'Schleswig-Holstein',
+        Locale::SV_SE => 'Schleswig-Holstein',
     ];
     public const STATE_NAME_SL = [
         Locale::CS_CZ => 'Sársko',
@@ -198,7 +198,7 @@ class StateDe
         Locale::HR_HR => 'Saarland',
         Locale::IT_IT => 'Saarland',
         Locale::PL_PL => 'Saara',
-        Locale::SE_SE => 'Saarland',
+        Locale::SV_SE => 'Saarland',
     ];
     public const STATE_NAME_SN = [
         Locale::CS_CZ => 'Sasko',
@@ -209,7 +209,7 @@ class StateDe
         Locale::HR_HR => 'Saska',
         Locale::IT_IT => 'Sassonia',
         Locale::PL_PL => 'Saksonia',
-        Locale::SE_SE => 'Sachsen',
+        Locale::SV_SE => 'Sachsen',
     ];
     public const STATE_NAME_ST = [
         Locale::CS_CZ => 'Sasko-Anhaltsko',
@@ -220,7 +220,7 @@ class StateDe
         Locale::HR_HR => 'Saska-Anhalt',
         Locale::IT_IT => 'Sassonia-Anhalt',
         Locale::PL_PL => 'Saksonia-Anhalt',
-        Locale::SE_SE => 'Sachsen-Anhalt',
+        Locale::SV_SE => 'Sachsen-Anhalt',
     ];
     public const STATE_NAME_TH = [
         Locale::CS_CZ => 'Durynsko',
@@ -231,7 +231,7 @@ class StateDe
         Locale::HR_HR => 'Thüringen',
         Locale::IT_IT => 'Turingia',
         Locale::PL_PL => 'Turyngia',
-        Locale::SE_SE => 'Thüringen',
+        Locale::SV_SE => 'Thüringen',
     ];
 
     /* States */

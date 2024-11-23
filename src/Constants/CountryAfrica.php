@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class CountryAfrica (auto-generated with bin/build-countries from "data/africa.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2024-05-22 18:59:55)
- * @since 0.1.0 (2024-05-22 18:59:55) Generated version.
+ * @version 0.1.0 (2024-11-23 10:02:23)
+ * @since 0.1.0 (2024-11-23 10:02:23) Generated version.
  */
 class CountryAfrica
 {
@@ -92,7 +92,7 @@ class CountryAfrica
         Locale::HR_HR => 'Alžir',
         Locale::IT_IT => 'Algeria',
         Locale::PL_PL => 'Algieria',
-        Locale::SE_SE => 'Algeriet',
+        Locale::SV_SE => 'Algeriet',
     ];
     public const COUNTRY_NAME_AO = [
         Locale::CS_CZ => 'Angola',
@@ -103,7 +103,7 @@ class CountryAfrica
         Locale::HR_HR => 'Angola',
         Locale::IT_IT => 'Angola',
         Locale::PL_PL => 'Angola',
-        Locale::SE_SE => 'Angola',
+        Locale::SV_SE => 'Angola',
     ];
     public const COUNTRY_NAME_SH = [
         Locale::CS_CZ => 'Svatá Helena, Ascension a Tristan da Cunha',
@@ -114,7 +114,7 @@ class CountryAfrica
         Locale::HR_HR => 'Sveta Helena',
         Locale::IT_IT => 'Sant\'Elena',
         Locale::PL_PL => 'Wyspa Świętej Heleny, Wyspa Wniebowstąpienia i Tristan da Cunha',
-        Locale::SE_SE => 'Sankta Helena',
+        Locale::SV_SE => 'Sankta Helena',
     ];
     public const COUNTRY_NAME_BJ = [
         Locale::CS_CZ => 'Benin',
@@ -125,7 +125,7 @@ class CountryAfrica
         Locale::HR_HR => 'Benin',
         Locale::IT_IT => 'Benin',
         Locale::PL_PL => 'Benin',
-        Locale::SE_SE => 'Benin',
+        Locale::SV_SE => 'Benin',
     ];
     public const COUNTRY_NAME_BW = [
         Locale::CS_CZ => 'Botswana',
@@ -136,7 +136,7 @@ class CountryAfrica
         Locale::HR_HR => 'Bocvana',
         Locale::IT_IT => 'Botswana',
         Locale::PL_PL => 'Botswana',
-        Locale::SE_SE => 'Botswana',
+        Locale::SV_SE => 'Botswana',
     ];
     public const COUNTRY_NAME_BF = [
         Locale::CS_CZ => 'Burkina Faso',
@@ -147,7 +147,7 @@ class CountryAfrica
         Locale::HR_HR => 'Burkina Faso',
         Locale::IT_IT => 'Burkina Faso',
         Locale::PL_PL => 'Burkina Faso',
-        Locale::SE_SE => 'Burkina Faso',
+        Locale::SV_SE => 'Burkina Faso',
     ];
     public const COUNTRY_NAME_BI = [
         Locale::CS_CZ => 'Burundi',
@@ -158,7 +158,7 @@ class CountryAfrica
         Locale::HR_HR => 'Burundi',
         Locale::IT_IT => 'Burundi',
         Locale::PL_PL => 'Burundi',
-        Locale::SE_SE => 'Burundi',
+        Locale::SV_SE => 'Burundi',
     ];
     public const COUNTRY_NAME_CM = [
         Locale::CS_CZ => 'Kamerun',
@@ -169,7 +169,7 @@ class CountryAfrica
         Locale::HR_HR => 'Kamerun',
         Locale::IT_IT => 'Camerun',
         Locale::PL_PL => 'Kamerun',
-        Locale::SE_SE => 'Kamerun',
+        Locale::SV_SE => 'Kamerun',
     ];
     public const COUNTRY_NAME_CV = [
         Locale::CS_CZ => 'Kapverdy',
@@ -180,7 +180,7 @@ class CountryAfrica
         Locale::HR_HR => 'Zelenortska Republika',
         Locale::IT_IT => 'Capo Verde',
         Locale::PL_PL => 'Republika Zielonego Przylądka',
-        Locale::SE_SE => 'Kap Verde',
+        Locale::SV_SE => 'Kap Verde',
     ];
     public const COUNTRY_NAME_CF = [
         Locale::CS_CZ => 'Středoafrická republika',
@@ -191,7 +191,7 @@ class CountryAfrica
         Locale::HR_HR => 'Srednjoafrička Republika',
         Locale::IT_IT => 'Repubblica Centrafricana',
         Locale::PL_PL => 'Republika Środkowoafrykańska',
-        Locale::SE_SE => 'Centralafrikanska republiken',
+        Locale::SV_SE => 'Centralafrikanska republiken',
     ];
     public const COUNTRY_NAME_TD = [
         Locale::CS_CZ => 'Čad',
@@ -202,7 +202,7 @@ class CountryAfrica
         Locale::HR_HR => 'Čad',
         Locale::IT_IT => 'Ciad',
         Locale::PL_PL => 'Czad',
-        Locale::SE_SE => 'Tchad',
+        Locale::SV_SE => 'Tchad',
     ];
     public const COUNTRY_NAME_KM = [
         Locale::CS_CZ => 'Komory',
@@ -213,7 +213,7 @@ class CountryAfrica
         Locale::HR_HR => 'Komori',
         Locale::IT_IT => 'Comore',
         Locale::PL_PL => 'Komory',
-        Locale::SE_SE => 'Komorerna',
+        Locale::SV_SE => 'Komorerna',
     ];
     public const COUNTRY_NAME_CG = [
         Locale::CS_CZ => 'Kongo',
@@ -224,7 +224,7 @@ class CountryAfrica
         Locale::HR_HR => 'Kongo - Brazzaville',
         Locale::IT_IT => 'Congo',
         Locale::PL_PL => 'Kongo',
-        Locale::SE_SE => 'Kongo-Brazzaville',
+        Locale::SV_SE => 'Kongo-Brazzaville',
     ];
     public const COUNTRY_NAME_DJ = [
         Locale::CS_CZ => 'Džibutsko',
@@ -235,7 +235,7 @@ class CountryAfrica
         Locale::HR_HR => 'Džibuti',
         Locale::IT_IT => 'Gibuti',
         Locale::PL_PL => 'Dżibuti',
-        Locale::SE_SE => 'Djibouti',
+        Locale::SV_SE => 'Djibouti',
     ];
     public const COUNTRY_NAME_EG = [
         Locale::CS_CZ => 'Egypt',
@@ -246,7 +246,7 @@ class CountryAfrica
         Locale::HR_HR => 'Egipat',
         Locale::IT_IT => 'Egitto',
         Locale::PL_PL => 'Egipt',
-        Locale::SE_SE => 'Egypten',
+        Locale::SV_SE => 'Egypten',
     ];
     public const COUNTRY_NAME_GQ = [
         Locale::CS_CZ => 'Rovníková Guinea',
@@ -257,7 +257,7 @@ class CountryAfrica
         Locale::HR_HR => 'Ekvatorska Gvineja',
         Locale::IT_IT => 'Guinea Equatoriale',
         Locale::PL_PL => 'Gwinea Równikowa',
-        Locale::SE_SE => 'Ekvatorialguinea',
+        Locale::SV_SE => 'Ekvatorialguinea',
     ];
     public const COUNTRY_NAME_ER = [
         Locale::CS_CZ => 'Eritrea',
@@ -268,7 +268,7 @@ class CountryAfrica
         Locale::HR_HR => 'Eritreja',
         Locale::IT_IT => 'Eritrea',
         Locale::PL_PL => 'Erytrea',
-        Locale::SE_SE => 'Eritrea',
+        Locale::SV_SE => 'Eritrea',
     ];
     public const COUNTRY_NAME_ET = [
         Locale::CS_CZ => 'Etiopie',
@@ -279,7 +279,7 @@ class CountryAfrica
         Locale::HR_HR => 'Etiopija',
         Locale::IT_IT => 'Etiopia',
         Locale::PL_PL => 'Etiopia',
-        Locale::SE_SE => 'Etiopien',
+        Locale::SV_SE => 'Etiopien',
     ];
     public const COUNTRY_NAME_GA = [
         Locale::CS_CZ => 'Gabon',
@@ -290,7 +290,7 @@ class CountryAfrica
         Locale::HR_HR => 'Gabon',
         Locale::IT_IT => 'Gabon',
         Locale::PL_PL => 'Gabon',
-        Locale::SE_SE => 'Gabon',
+        Locale::SV_SE => 'Gabon',
     ];
     public const COUNTRY_NAME_GM = [
         Locale::CS_CZ => 'Gambie',
@@ -301,7 +301,7 @@ class CountryAfrica
         Locale::HR_HR => 'Gambija',
         Locale::IT_IT => 'Gambia',
         Locale::PL_PL => 'Gambia',
-        Locale::SE_SE => 'Gambia',
+        Locale::SV_SE => 'Gambia',
     ];
     public const COUNTRY_NAME_GH = [
         Locale::CS_CZ => 'Ghana',
@@ -312,7 +312,7 @@ class CountryAfrica
         Locale::HR_HR => 'Gana',
         Locale::IT_IT => 'Ghana',
         Locale::PL_PL => 'Ghana',
-        Locale::SE_SE => 'Ghana',
+        Locale::SV_SE => 'Ghana',
     ];
     public const COUNTRY_NAME_GW = [
         Locale::CS_CZ => 'Guinea-Bissau',
@@ -323,7 +323,7 @@ class CountryAfrica
         Locale::HR_HR => 'Gvineja Bisau',
         Locale::IT_IT => 'Guinea-Bissau',
         Locale::PL_PL => 'Gwinea Bissau',
-        Locale::SE_SE => 'Guinea-Bissau',
+        Locale::SV_SE => 'Guinea-Bissau',
     ];
     public const COUNTRY_NAME_GN = [
         Locale::CS_CZ => 'Guinea',
@@ -334,7 +334,7 @@ class CountryAfrica
         Locale::HR_HR => 'Gvineja',
         Locale::IT_IT => 'Guinea',
         Locale::PL_PL => 'Gwinea',
-        Locale::SE_SE => 'Guinea',
+        Locale::SV_SE => 'Guinea',
     ];
     public const COUNTRY_NAME_CI = [
         Locale::CS_CZ => 'Pobřeží slonoviny',
@@ -345,7 +345,7 @@ class CountryAfrica
         Locale::HR_HR => 'Obala Bjelokosti',
         Locale::IT_IT => 'Costa d\'Avorio',
         Locale::PL_PL => 'Wybrzeże Kości Słoniowej',
-        Locale::SE_SE => 'Elfenbenskusten',
+        Locale::SV_SE => 'Elfenbenskusten',
     ];
     public const COUNTRY_NAME_KE = [
         Locale::CS_CZ => 'Keňa',
@@ -356,7 +356,7 @@ class CountryAfrica
         Locale::HR_HR => 'Kenija',
         Locale::IT_IT => 'Kenya',
         Locale::PL_PL => 'Kenia',
-        Locale::SE_SE => 'Kenya',
+        Locale::SV_SE => 'Kenya',
     ];
     public const COUNTRY_NAME_LS = [
         Locale::CS_CZ => 'Lesotho',
@@ -367,7 +367,7 @@ class CountryAfrica
         Locale::HR_HR => 'Lesoto',
         Locale::IT_IT => 'Lesotho',
         Locale::PL_PL => 'Lesotho',
-        Locale::SE_SE => 'Lesotho',
+        Locale::SV_SE => 'Lesotho',
     ];
     public const COUNTRY_NAME_LR = [
         Locale::CS_CZ => 'Libérie',
@@ -378,7 +378,7 @@ class CountryAfrica
         Locale::HR_HR => 'Liberija',
         Locale::IT_IT => 'Liberia',
         Locale::PL_PL => 'Liberia',
-        Locale::SE_SE => 'Liberia',
+        Locale::SV_SE => 'Liberia',
     ];
     public const COUNTRY_NAME_LY = [
         Locale::CS_CZ => 'Libye',
@@ -389,7 +389,7 @@ class CountryAfrica
         Locale::HR_HR => 'Libija',
         Locale::IT_IT => 'Libia',
         Locale::PL_PL => 'Libia',
-        Locale::SE_SE => 'Libyen',
+        Locale::SV_SE => 'Libyen',
     ];
     public const COUNTRY_NAME_MG = [
         Locale::CS_CZ => 'Madagaskar',
@@ -400,7 +400,7 @@ class CountryAfrica
         Locale::HR_HR => 'Madagaskar',
         Locale::IT_IT => 'Madagascar',
         Locale::PL_PL => 'Madagaskar',
-        Locale::SE_SE => 'Madagaskar',
+        Locale::SV_SE => 'Madagaskar',
     ];
     public const COUNTRY_NAME_MW = [
         Locale::CS_CZ => 'Malawi',
@@ -411,7 +411,7 @@ class CountryAfrica
         Locale::HR_HR => 'Malavi',
         Locale::IT_IT => 'Malawi',
         Locale::PL_PL => 'Malawi',
-        Locale::SE_SE => 'Malawi',
+        Locale::SV_SE => 'Malawi',
     ];
     public const COUNTRY_NAME_ML = [
         Locale::CS_CZ => 'Mali',
@@ -422,7 +422,7 @@ class CountryAfrica
         Locale::HR_HR => 'Mali',
         Locale::IT_IT => 'Mali',
         Locale::PL_PL => 'Mali',
-        Locale::SE_SE => 'Mali',
+        Locale::SV_SE => 'Mali',
     ];
     public const COUNTRY_NAME_MR = [
         Locale::CS_CZ => 'Mauritánie',
@@ -433,7 +433,7 @@ class CountryAfrica
         Locale::HR_HR => 'Mauretanija',
         Locale::IT_IT => 'Mauritania',
         Locale::PL_PL => 'Mauretania',
-        Locale::SE_SE => 'Mauretanien',
+        Locale::SV_SE => 'Mauretanien',
     ];
     public const COUNTRY_NAME_MU = [
         Locale::CS_CZ => 'Mauricius',
@@ -444,7 +444,7 @@ class CountryAfrica
         Locale::HR_HR => 'Mauricijus',
         Locale::IT_IT => 'Mauritius',
         Locale::PL_PL => 'Mauritius',
-        Locale::SE_SE => 'Mauritius',
+        Locale::SV_SE => 'Mauritius',
     ];
     public const COUNTRY_NAME_YT = [
         Locale::CS_CZ => 'Mayotte',
@@ -455,7 +455,7 @@ class CountryAfrica
         Locale::HR_HR => 'Mayotte',
         Locale::IT_IT => 'Mayotte',
         Locale::PL_PL => 'Majotta',
-        Locale::SE_SE => 'Mayotte',
+        Locale::SV_SE => 'Mayotte',
     ];
     public const COUNTRY_NAME_MA = [
         Locale::CS_CZ => 'Maroko',
@@ -466,7 +466,7 @@ class CountryAfrica
         Locale::HR_HR => 'Maroko',
         Locale::IT_IT => 'Marocco',
         Locale::PL_PL => 'Maroko',
-        Locale::SE_SE => 'Marocko',
+        Locale::SV_SE => 'Marocko',
     ];
     public const COUNTRY_NAME_MZ = [
         Locale::CS_CZ => 'Mosambik',
@@ -477,7 +477,7 @@ class CountryAfrica
         Locale::HR_HR => 'Mozambik',
         Locale::IT_IT => 'Mozambico',
         Locale::PL_PL => 'Mozambik',
-        Locale::SE_SE => 'Moçambique',
+        Locale::SV_SE => 'Moçambique',
     ];
     public const COUNTRY_NAME_NA = [
         Locale::CS_CZ => 'Namibie',
@@ -488,7 +488,7 @@ class CountryAfrica
         Locale::HR_HR => 'Namibija',
         Locale::IT_IT => 'Namibia',
         Locale::PL_PL => 'Namibia',
-        Locale::SE_SE => 'Namibia',
+        Locale::SV_SE => 'Namibia',
     ];
     public const COUNTRY_NAME_NE = [
         Locale::CS_CZ => 'Niger',
@@ -499,7 +499,7 @@ class CountryAfrica
         Locale::HR_HR => 'Niger',
         Locale::IT_IT => 'Niger',
         Locale::PL_PL => 'Niger',
-        Locale::SE_SE => 'Niger',
+        Locale::SV_SE => 'Niger',
     ];
     public const COUNTRY_NAME_NG = [
         Locale::CS_CZ => 'Nigérie',
@@ -510,7 +510,7 @@ class CountryAfrica
         Locale::HR_HR => 'Nigerija',
         Locale::IT_IT => 'Nigeria',
         Locale::PL_PL => 'Nigeria',
-        Locale::SE_SE => 'Nigeria',
+        Locale::SV_SE => 'Nigeria',
     ];
     public const COUNTRY_NAME_ST = [
         Locale::CS_CZ => 'Svatý Tomáš a Princův ostrov',
@@ -521,7 +521,7 @@ class CountryAfrica
         Locale::HR_HR => 'Sveti Toma i Princip',
         Locale::IT_IT => 'São Tomé e Príncipe',
         Locale::PL_PL => 'Wyspy Świętego Tomasza i Książęca',
-        Locale::SE_SE => 'São Tomé och Príncipe',
+        Locale::SV_SE => 'São Tomé och Príncipe',
     ];
     public const COUNTRY_NAME_RE = [
         Locale::CS_CZ => 'Réunion',
@@ -532,7 +532,7 @@ class CountryAfrica
         Locale::HR_HR => 'Réunion',
         Locale::IT_IT => 'Riunione',
         Locale::PL_PL => 'Reunion',
-        Locale::SE_SE => 'Réunion',
+        Locale::SV_SE => 'Réunion',
     ];
     public const COUNTRY_NAME_RW = [
         Locale::CS_CZ => 'Rwanda',
@@ -543,7 +543,7 @@ class CountryAfrica
         Locale::HR_HR => 'Ruanda',
         Locale::IT_IT => 'Ruanda',
         Locale::PL_PL => 'Rwanda',
-        Locale::SE_SE => 'Rwanda',
+        Locale::SV_SE => 'Rwanda',
     ];
     public const COUNTRY_NAME_SN = [
         Locale::CS_CZ => 'Senegal',
@@ -554,7 +554,7 @@ class CountryAfrica
         Locale::HR_HR => 'Senegal',
         Locale::IT_IT => 'Senegal',
         Locale::PL_PL => 'Senegal',
-        Locale::SE_SE => 'Senegal',
+        Locale::SV_SE => 'Senegal',
     ];
     public const COUNTRY_NAME_SC = [
         Locale::CS_CZ => 'Seychely',
@@ -565,7 +565,7 @@ class CountryAfrica
         Locale::HR_HR => 'Sejšeli',
         Locale::IT_IT => 'Seychelles',
         Locale::PL_PL => 'Seszele',
-        Locale::SE_SE => 'Seychellerna',
+        Locale::SV_SE => 'Seychellerna',
     ];
     public const COUNTRY_NAME_SL = [
         Locale::CS_CZ => 'Sierra Leone',
@@ -576,7 +576,7 @@ class CountryAfrica
         Locale::HR_HR => 'Sijera Leone',
         Locale::IT_IT => 'Sierra Leone',
         Locale::PL_PL => 'Sierra Leone',
-        Locale::SE_SE => 'Sierra Leone',
+        Locale::SV_SE => 'Sierra Leone',
     ];
     public const COUNTRY_NAME_SO = [
         Locale::CS_CZ => 'Somálsko',
@@ -587,7 +587,7 @@ class CountryAfrica
         Locale::HR_HR => 'Somalija',
         Locale::IT_IT => 'Somalia',
         Locale::PL_PL => 'Somalia',
-        Locale::SE_SE => 'Somalia',
+        Locale::SV_SE => 'Somalia',
     ];
     public const COUNTRY_NAME_ZA = [
         Locale::CS_CZ => 'Jihoafrická republika',
@@ -598,7 +598,7 @@ class CountryAfrica
         Locale::HR_HR => 'Južnoafrička Republika',
         Locale::IT_IT => 'Sudafrica',
         Locale::PL_PL => 'Południowa Afryka',
-        Locale::SE_SE => 'Sydafrika',
+        Locale::SV_SE => 'Sydafrika',
     ];
     public const COUNTRY_NAME_SD = [
         Locale::CS_CZ => 'Súdán',
@@ -609,7 +609,7 @@ class CountryAfrica
         Locale::HR_HR => 'Sudan',
         Locale::IT_IT => 'Sudan',
         Locale::PL_PL => 'Sudan',
-        Locale::SE_SE => 'Sudan',
+        Locale::SV_SE => 'Sudan',
     ];
     public const COUNTRY_NAME_SZ = [
         Locale::CS_CZ => 'Svazijsko',
@@ -620,7 +620,7 @@ class CountryAfrica
         Locale::HR_HR => 'Esvatini',
         Locale::IT_IT => 'Eswatini',
         Locale::PL_PL => 'Eswatini',
-        Locale::SE_SE => 'Swaziland',
+        Locale::SV_SE => 'Swaziland',
     ];
     public const COUNTRY_NAME_TZ = [
         Locale::CS_CZ => 'Tanzanie',
@@ -631,7 +631,7 @@ class CountryAfrica
         Locale::HR_HR => 'Tanzanija',
         Locale::IT_IT => 'Tanzania',
         Locale::PL_PL => 'Tanzania',
-        Locale::SE_SE => 'Tanzania',
+        Locale::SV_SE => 'Tanzania',
     ];
     public const COUNTRY_NAME_TG = [
         Locale::CS_CZ => 'Togo',
@@ -642,7 +642,7 @@ class CountryAfrica
         Locale::HR_HR => 'Togo',
         Locale::IT_IT => 'Togo',
         Locale::PL_PL => 'Togo',
-        Locale::SE_SE => 'Togo',
+        Locale::SV_SE => 'Togo',
     ];
     public const COUNTRY_NAME_TN = [
         Locale::CS_CZ => 'Tunisko',
@@ -653,7 +653,7 @@ class CountryAfrica
         Locale::HR_HR => 'Tunis',
         Locale::IT_IT => 'Tunisia',
         Locale::PL_PL => 'Tunezja',
-        Locale::SE_SE => 'Tunisien',
+        Locale::SV_SE => 'Tunisien',
     ];
     public const COUNTRY_NAME_UG = [
         Locale::CS_CZ => 'Uganda',
@@ -664,7 +664,7 @@ class CountryAfrica
         Locale::HR_HR => 'Uganda',
         Locale::IT_IT => 'Uganda',
         Locale::PL_PL => 'Uganda',
-        Locale::SE_SE => 'Uganda',
+        Locale::SV_SE => 'Uganda',
     ];
     public const COUNTRY_NAME_CD = [
         Locale::CS_CZ => 'Konžská demokratická republika',
@@ -675,7 +675,7 @@ class CountryAfrica
         Locale::HR_HR => 'Kongo - Kinshasa',
         Locale::IT_IT => 'Congo',
         Locale::PL_PL => 'Demokratyczna Republika Konga',
-        Locale::SE_SE => 'Kongo-Kinshasa',
+        Locale::SV_SE => 'Kongo-Kinshasa',
     ];
     public const COUNTRY_NAME_ZM = [
         Locale::CS_CZ => 'Zambie',
@@ -686,7 +686,7 @@ class CountryAfrica
         Locale::HR_HR => 'Zambija',
         Locale::IT_IT => 'Zambia',
         Locale::PL_PL => 'Zambia',
-        Locale::SE_SE => 'Zambia',
+        Locale::SV_SE => 'Zambia',
     ];
     public const COUNTRY_NAME_ZW = [
         Locale::CS_CZ => 'Zimbabwe',
@@ -697,7 +697,7 @@ class CountryAfrica
         Locale::HR_HR => 'Zimbabve',
         Locale::IT_IT => 'Zimbabwe',
         Locale::PL_PL => 'Zimbabwe',
-        Locale::SE_SE => 'Zimbabwe',
+        Locale::SV_SE => 'Zimbabwe',
     ];
     public const COUNTRY_NAME_SS = [
         Locale::CS_CZ => 'Jižní Súdán',
@@ -708,7 +708,7 @@ class CountryAfrica
         Locale::HR_HR => 'Južni Sudan',
         Locale::IT_IT => 'Sud Sudan',
         Locale::PL_PL => 'Sudan Południowy',
-        Locale::SE_SE => 'Sydsudan',
+        Locale::SV_SE => 'Sydsudan',
     ];
     public const COUNTRY_NAME_EH = [
         Locale::CS_CZ => 'Západní Sahara',
@@ -719,7 +719,7 @@ class CountryAfrica
         Locale::HR_HR => 'Zapadna Sahara',
         Locale::IT_IT => 'Sahara occidentale',
         Locale::PL_PL => 'Sahara Zachodnia',
-        Locale::SE_SE => 'Västsahara',
+        Locale::SV_SE => 'Västsahara',
     ];
 
     /* Countries */

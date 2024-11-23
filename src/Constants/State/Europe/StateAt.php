@@ -46,7 +46,7 @@ class StateAt
         Locale::HR_HR => 'Sve savezne države',
         Locale::IT_IT => 'Tutti gli Stati federali',
         Locale::PL_PL => 'Wszystkie stany federalne',
-        Locale::SE_SE => 'Alla federala stater',
+        Locale::SV_SE => 'Alla federala stater',
     ];
     public const STATE_NAME_B = [
         Locale::CS_CZ => 'Burgenland',
@@ -57,7 +57,7 @@ class StateAt
         Locale::HR_HR => 'Gradišće',
         Locale::IT_IT => 'Burgenland',
         Locale::PL_PL => 'Burgenland',
-        Locale::SE_SE => 'Burgenland',
+        Locale::SV_SE => 'Burgenland',
     ];
     public const STATE_NAME_K = [
         Locale::CS_CZ => 'Korutany',
@@ -68,7 +68,7 @@ class StateAt
         Locale::HR_HR => 'Koruška',
         Locale::IT_IT => 'Carinzia',
         Locale::PL_PL => 'Karyntia',
-        Locale::SE_SE => 'Kärnten',
+        Locale::SV_SE => 'Kärnten',
     ];
     public const STATE_NAME_N = [
         Locale::CS_CZ => 'Dolní Rakousy',
@@ -79,7 +79,7 @@ class StateAt
         Locale::HR_HR => 'Donja Austrija',
         Locale::IT_IT => 'Bassa Austria',
         Locale::PL_PL => 'Dolna Austria',
-        Locale::SE_SE => 'Niederösterreich',
+        Locale::SV_SE => 'Niederösterreich',
     ];
     public const STATE_NAME_O = [
         Locale::CS_CZ => 'Horní Rakousy',
@@ -90,7 +90,7 @@ class StateAt
         Locale::HR_HR => 'Gornja Austrija',
         Locale::IT_IT => 'Alta Austria',
         Locale::PL_PL => 'Górna Austria',
-        Locale::SE_SE => 'Oberösterreich',
+        Locale::SV_SE => 'Oberösterreich',
     ];
     public const STATE_NAME_S = [
         Locale::CS_CZ => 'Salcbursko',
@@ -101,7 +101,7 @@ class StateAt
         Locale::HR_HR => 'Salzburg',
         Locale::IT_IT => 'Salisburghese',
         Locale::PL_PL => 'Salzburg',
-        Locale::SE_SE => 'Salzburg',
+        Locale::SV_SE => 'Salzburg',
     ];
     public const STATE_NAME_ST = [
         Locale::CS_CZ => 'Štýrsko',
@@ -112,7 +112,7 @@ class StateAt
         Locale::HR_HR => 'Štajerska',
         Locale::IT_IT => 'Stiria',
         Locale::PL_PL => 'Styria',
-        Locale::SE_SE => 'Steiermark',
+        Locale::SV_SE => 'Steiermark',
     ];
     public const STATE_NAME_T = [
         Locale::CS_CZ => 'Tyrolsko',
@@ -123,7 +123,7 @@ class StateAt
         Locale::HR_HR => 'Tirol',
         Locale::IT_IT => 'Tirolo',
         Locale::PL_PL => 'Tyrol',
-        Locale::SE_SE => 'Tyrolen',
+        Locale::SV_SE => 'Tyrolen',
     ];
     public const STATE_NAME_V = [
         Locale::CS_CZ => 'Vorarlbersko',
@@ -134,7 +134,7 @@ class StateAt
         Locale::HR_HR => 'Vorarlberg',
         Locale::IT_IT => 'Vorarlberg',
         Locale::PL_PL => 'Vorarlberg',
-        Locale::SE_SE => 'Vorarlberg',
+        Locale::SV_SE => 'Vorarlberg',
     ];
     public const STATE_NAME_W = [
         Locale::CS_CZ => 'Vídeň',
@@ -145,7 +145,7 @@ class StateAt
         Locale::HR_HR => 'Beč',
         Locale::IT_IT => 'Vienna',
         Locale::PL_PL => 'Wiedeń',
-        Locale::SE_SE => 'Wien',
+        Locale::SV_SE => 'Wien',
     ];
 
     /* States */

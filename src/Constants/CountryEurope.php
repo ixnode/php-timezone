@@ -17,8 +17,8 @@ namespace Ixnode\PhpTimezone\Constants;
  * Class CountryEurope (auto-generated with bin/build-countries from "data/europe.csv")
  *
  * @author Björn Hempel <bjoern@hempel.li>
- * @version 0.1.0 (2024-05-22 18:59:55)
- * @since 0.1.0 (2024-05-22 18:59:55) Generated version.
+ * @version 0.1.0 (2024-11-23 10:02:23)
+ * @since 0.1.0 (2024-11-23 10:02:23) Generated version.
  */
 class CountryEurope
 {
@@ -84,7 +84,7 @@ class CountryEurope
         Locale::HR_HR => 'Albanija',
         Locale::IT_IT => 'Albania',
         Locale::PL_PL => 'Albania',
-        Locale::SE_SE => 'Albanien',
+        Locale::SV_SE => 'Albanien',
     ];
     public const COUNTRY_NAME_AD = [
         Locale::CS_CZ => 'Andorra',
@@ -95,7 +95,7 @@ class CountryEurope
         Locale::HR_HR => 'Andora',
         Locale::IT_IT => 'Andorra',
         Locale::PL_PL => 'Andora',
-        Locale::SE_SE => 'Andorra',
+        Locale::SV_SE => 'Andorra',
     ];
     public const COUNTRY_NAME_AT = [
         Locale::CS_CZ => 'Rakousko',
@@ -106,7 +106,7 @@ class CountryEurope
         Locale::HR_HR => 'Austrija',
         Locale::IT_IT => 'Austria',
         Locale::PL_PL => 'Austria',
-        Locale::SE_SE => 'Österrike',
+        Locale::SV_SE => 'Österrike',
     ];
     public const COUNTRY_NAME_AX = [
         Locale::CS_CZ => 'Alandy',
@@ -117,7 +117,7 @@ class CountryEurope
         Locale::HR_HR => 'Ålandski otoci',
         Locale::IT_IT => 'Åland',
         Locale::PL_PL => 'Wyspy Alandzkie',
-        Locale::SE_SE => 'Åland',
+        Locale::SV_SE => 'Åland',
     ];
     public const COUNTRY_NAME_BY = [
         Locale::CS_CZ => 'Bělorusko',
@@ -128,7 +128,7 @@ class CountryEurope
         Locale::HR_HR => 'Bjelorusija',
         Locale::IT_IT => 'Bielorussia',
         Locale::PL_PL => 'Białoruś',
-        Locale::SE_SE => 'Belarus',
+        Locale::SV_SE => 'Belarus',
     ];
     public const COUNTRY_NAME_BE = [
         Locale::CS_CZ => 'Belgie',
@@ -139,7 +139,7 @@ class CountryEurope
         Locale::HR_HR => 'Belgija',
         Locale::IT_IT => 'Belgio',
         Locale::PL_PL => 'Belgia',
-        Locale::SE_SE => 'Belgien',
+        Locale::SV_SE => 'Belgien',
     ];
     public const COUNTRY_NAME_BA = [
         Locale::CS_CZ => 'Bosna a Hercegovina',
@@ -150,7 +150,7 @@ class CountryEurope
         Locale::HR_HR => 'Bosna i Hercegovina',
         Locale::IT_IT => 'Bosnia ed Erzegovina',
         Locale::PL_PL => 'Bośnia i Hercegowina',
-        Locale::SE_SE => 'Bosnien och Hercegovina',
+        Locale::SV_SE => 'Bosnien och Hercegovina',
     ];
     public const COUNTRY_NAME_BG = [
         Locale::CS_CZ => 'Bulharsko',
@@ -161,7 +161,7 @@ class CountryEurope
         Locale::HR_HR => 'Bugarska',
         Locale::IT_IT => 'Bulgaria',
         Locale::PL_PL => 'Bułgaria',
-        Locale::SE_SE => 'Bulgarien',
+        Locale::SV_SE => 'Bulgarien',
     ];
     public const COUNTRY_NAME_HR = [
         Locale::CS_CZ => 'Chorvatsko',
@@ -172,7 +172,7 @@ class CountryEurope
         Locale::HR_HR => 'Hrvatska',
         Locale::IT_IT => 'Croazia',
         Locale::PL_PL => 'Chorwacja',
-        Locale::SE_SE => 'Kroatien',
+        Locale::SV_SE => 'Kroatien',
     ];
     public const COUNTRY_NAME_CY = [
         Locale::CS_CZ => 'Kypr',
@@ -183,7 +183,7 @@ class CountryEurope
         Locale::HR_HR => 'Cipar',
         Locale::IT_IT => 'Cipro',
         Locale::PL_PL => 'Cypr',
-        Locale::SE_SE => 'Cypern',
+        Locale::SV_SE => 'Cypern',
     ];
     public const COUNTRY_NAME_CZ = [
         Locale::CS_CZ => 'Česko',
@@ -194,7 +194,7 @@ class CountryEurope
         Locale::HR_HR => 'Češka',
         Locale::IT_IT => 'Repubblica Ceca',
         Locale::PL_PL => 'Czechy',
-        Locale::SE_SE => 'Tjeckien',
+        Locale::SV_SE => 'Tjeckien',
     ];
     public const COUNTRY_NAME_DK = [
         Locale::CS_CZ => 'Dánsko',
@@ -205,7 +205,7 @@ class CountryEurope
         Locale::HR_HR => 'Danska',
         Locale::IT_IT => 'Danimarca',
         Locale::PL_PL => 'Dania',
-        Locale::SE_SE => 'Danmark',
+        Locale::SV_SE => 'Danmark',
     ];
     public const COUNTRY_NAME_EE = [
         Locale::CS_CZ => 'Estonsko',
@@ -216,7 +216,7 @@ class CountryEurope
         Locale::HR_HR => 'Estonija',
         Locale::IT_IT => 'Estonia',
         Locale::PL_PL => 'Estonia',
-        Locale::SE_SE => 'Estland',
+        Locale::SV_SE => 'Estland',
     ];
     public const COUNTRY_NAME_FO = [
         Locale::CS_CZ => 'Faerské ostrovy',
@@ -227,7 +227,7 @@ class CountryEurope
         Locale::HR_HR => 'Farski otoci',
         Locale::IT_IT => 'Isole Faroe',
         Locale::PL_PL => 'Wyspy Owcze',
-        Locale::SE_SE => 'Färöarna',
+        Locale::SV_SE => 'Färöarna',
     ];
     public const COUNTRY_NAME_FI = [
         Locale::CS_CZ => 'Finsko',
@@ -238,7 +238,7 @@ class CountryEurope
         Locale::HR_HR => 'Finska',
         Locale::IT_IT => 'Finlandia',
         Locale::PL_PL => 'Finlandia',
-        Locale::SE_SE => 'Finland',
+        Locale::SV_SE => 'Finland',
     ];
     public const COUNTRY_NAME_FR = [
         Locale::CS_CZ => 'Francie',
@@ -249,7 +249,7 @@ class CountryEurope
         Locale::HR_HR => 'Francuska',
         Locale::IT_IT => 'Francia',
         Locale::PL_PL => 'Francja',
-        Locale::SE_SE => 'Frankrike',
+        Locale::SV_SE => 'Frankrike',
     ];
     public const COUNTRY_NAME_DE = [
         Locale::CS_CZ => 'Německo',
@@ -260,7 +260,7 @@ class CountryEurope
         Locale::HR_HR => 'Njemačka',
         Locale::IT_IT => 'Germania',
         Locale::PL_PL => 'Niemcy',
-        Locale::SE_SE => 'Tyskland',
+        Locale::SV_SE => 'Tyskland',
     ];
     public const COUNTRY_NAME_GI = [
         Locale::CS_CZ => 'Gibraltar',
@@ -271,7 +271,7 @@ class CountryEurope
         Locale::HR_HR => 'Gibraltar',
         Locale::IT_IT => 'Gibilterra',
         Locale::PL_PL => 'Gibraltar',
-        Locale::SE_SE => 'Gibraltar',
+        Locale::SV_SE => 'Gibraltar',
     ];
     public const COUNTRY_NAME_GR = [
         Locale::CS_CZ => 'Řecko',
@@ -282,7 +282,7 @@ class CountryEurope
         Locale::HR_HR => 'Grčka',
         Locale::IT_IT => 'Grecia',
         Locale::PL_PL => 'Grecja',
-        Locale::SE_SE => 'Grekland',
+        Locale::SV_SE => 'Grekland',
     ];
     public const COUNTRY_NAME_HU = [
         Locale::CS_CZ => 'Maďarsko',
@@ -293,7 +293,7 @@ class CountryEurope
         Locale::HR_HR => 'Mađarska',
         Locale::IT_IT => 'Ungheria',
         Locale::PL_PL => 'Węgry',
-        Locale::SE_SE => 'Ungern',
+        Locale::SV_SE => 'Ungern',
     ];
     public const COUNTRY_NAME_IS = [
         Locale::CS_CZ => 'Island',
@@ -304,7 +304,7 @@ class CountryEurope
         Locale::HR_HR => 'Island',
         Locale::IT_IT => 'Islanda',
         Locale::PL_PL => 'Islandia',
-        Locale::SE_SE => 'Island',
+        Locale::SV_SE => 'Island',
     ];
     public const COUNTRY_NAME_IE = [
         Locale::CS_CZ => 'Irsko',
@@ -315,7 +315,7 @@ class CountryEurope
         Locale::HR_HR => 'Irska',
         Locale::IT_IT => 'Irlanda',
         Locale::PL_PL => 'Irlandia',
-        Locale::SE_SE => 'Irland',
+        Locale::SV_SE => 'Irland',
     ];
     public const COUNTRY_NAME_IT = [
         Locale::CS_CZ => 'Itálie',
@@ -326,7 +326,7 @@ class CountryEurope
         Locale::HR_HR => 'Italija',
         Locale::IT_IT => 'Italia',
         Locale::PL_PL => 'Włochy',
-        Locale::SE_SE => 'Italien',
+        Locale::SV_SE => 'Italien',
     ];
     public const COUNTRY_NAME_LV = [
         Locale::CS_CZ => 'Lotyšsko',
@@ -337,7 +337,7 @@ class CountryEurope
         Locale::HR_HR => 'Latvija',
         Locale::IT_IT => 'Lettonia',
         Locale::PL_PL => 'Łotwa',
-        Locale::SE_SE => 'Lettland',
+        Locale::SV_SE => 'Lettland',
     ];
     public const COUNTRY_NAME_LI = [
         Locale::CS_CZ => 'Lichtenštejnsko',
@@ -348,7 +348,7 @@ class CountryEurope
         Locale::HR_HR => 'Lihtenštajn',
         Locale::IT_IT => 'Liechtenstein',
         Locale::PL_PL => 'Liechtenstein',
-        Locale::SE_SE => 'Liechtenstein',
+        Locale::SV_SE => 'Liechtenstein',
     ];
     public const COUNTRY_NAME_LT = [
         Locale::CS_CZ => 'Litva',
@@ -359,7 +359,7 @@ class CountryEurope
         Locale::HR_HR => 'Litva',
         Locale::IT_IT => 'Lituania',
         Locale::PL_PL => 'Litwa',
-        Locale::SE_SE => 'Litauen',
+        Locale::SV_SE => 'Litauen',
     ];
     public const COUNTRY_NAME_LU = [
         Locale::CS_CZ => 'Lucembursko',
@@ -370,7 +370,7 @@ class CountryEurope
         Locale::HR_HR => 'Luksemburg',
         Locale::IT_IT => 'Lussemburgo',
         Locale::PL_PL => 'Luksemburg',
-        Locale::SE_SE => 'Luxemburg',
+        Locale::SV_SE => 'Luxemburg',
     ];
     public const COUNTRY_NAME_MK = [
         Locale::CS_CZ => 'Severní Makedonie',
@@ -381,7 +381,7 @@ class CountryEurope
         Locale::HR_HR => 'Sjeverna Makedonija',
         Locale::IT_IT => 'Macedonia del Nord',
         Locale::PL_PL => 'Macedonia Północna',
-        Locale::SE_SE => 'Nordmakedonien',
+        Locale::SV_SE => 'Nordmakedonien',
     ];
     public const COUNTRY_NAME_MT = [
         Locale::CS_CZ => 'Malta',
@@ -392,7 +392,7 @@ class CountryEurope
         Locale::HR_HR => 'Malta',
         Locale::IT_IT => 'Malta',
         Locale::PL_PL => 'Malta',
-        Locale::SE_SE => 'Malta',
+        Locale::SV_SE => 'Malta',
     ];
     public const COUNTRY_NAME_MD = [
         Locale::CS_CZ => 'Moldavsko',
@@ -403,7 +403,7 @@ class CountryEurope
         Locale::HR_HR => 'Moldavija',
         Locale::IT_IT => 'Moldavia',
         Locale::PL_PL => 'Mołdawia',
-        Locale::SE_SE => 'Moldavien',
+        Locale::SV_SE => 'Moldavien',
     ];
     public const COUNTRY_NAME_MC = [
         Locale::CS_CZ => 'Monako',
@@ -414,7 +414,7 @@ class CountryEurope
         Locale::HR_HR => 'Monako',
         Locale::IT_IT => 'Monaco',
         Locale::PL_PL => 'Monako',
-        Locale::SE_SE => 'Monaco',
+        Locale::SV_SE => 'Monaco',
     ];
     public const COUNTRY_NAME_NL = [
         Locale::CS_CZ => 'Nizozemsko',
@@ -425,7 +425,7 @@ class CountryEurope
         Locale::HR_HR => 'Nizozemska',
         Locale::IT_IT => 'Paesi Bassi',
         Locale::PL_PL => 'Holandia',
-        Locale::SE_SE => 'Nederländerna',
+        Locale::SV_SE => 'Nederländerna',
     ];
     public const COUNTRY_NAME_NO = [
         Locale::CS_CZ => 'Norsko',
@@ -436,7 +436,7 @@ class CountryEurope
         Locale::HR_HR => 'Norveška',
         Locale::IT_IT => 'Norvegia',
         Locale::PL_PL => 'Norwegia',
-        Locale::SE_SE => 'Norge',
+        Locale::SV_SE => 'Norge',
     ];
     public const COUNTRY_NAME_PL = [
         Locale::CS_CZ => 'Polsko',
@@ -447,7 +447,7 @@ class CountryEurope
         Locale::HR_HR => 'Poljska',
         Locale::IT_IT => 'Polonia',
         Locale::PL_PL => 'Polska',
-        Locale::SE_SE => 'Polen',
+        Locale::SV_SE => 'Polen',
     ];
     public const COUNTRY_NAME_PT = [
         Locale::CS_CZ => 'Portugalsko',
@@ -458,7 +458,7 @@ class CountryEurope
         Locale::HR_HR => 'Portugal',
         Locale::IT_IT => 'Portogallo',
         Locale::PL_PL => 'Portugalia',
-        Locale::SE_SE => 'Portugal',
+        Locale::SV_SE => 'Portugal',
     ];
     public const COUNTRY_NAME_RO = [
         Locale::CS_CZ => 'Rumunsko',
@@ -469,7 +469,7 @@ class CountryEurope
         Locale::HR_HR => 'Rumunjska',
         Locale::IT_IT => 'Romania',
         Locale::PL_PL => 'Rumunia',
-        Locale::SE_SE => 'Rumänien',
+        Locale::SV_SE => 'Rumänien',
     ];
     public const COUNTRY_NAME_RU = [
         Locale::CS_CZ => 'Rusko',
@@ -480,7 +480,7 @@ class CountryEurope
         Locale::HR_HR => 'Rusija',
         Locale::IT_IT => 'Russia',
         Locale::PL_PL => 'Rosja',
-        Locale::SE_SE => 'Ryssland',
+        Locale::SV_SE => 'Ryssland',
     ];
     public const COUNTRY_NAME_SM = [
         Locale::CS_CZ => 'San Marino',
@@ -491,7 +491,7 @@ class CountryEurope
         Locale::HR_HR => 'San Marino',
         Locale::IT_IT => 'San Marino',
         Locale::PL_PL => 'San Marino',
-        Locale::SE_SE => 'San Marino',
+        Locale::SV_SE => 'San Marino',
     ];
     public const COUNTRY_NAME_RS = [
         Locale::CS_CZ => 'Srbsko',
@@ -502,7 +502,7 @@ class CountryEurope
         Locale::HR_HR => 'Srbija',
         Locale::IT_IT => 'Serbia',
         Locale::PL_PL => 'Serbia',
-        Locale::SE_SE => 'Serbien',
+        Locale::SV_SE => 'Serbien',
     ];
     public const COUNTRY_NAME_SK = [
         Locale::CS_CZ => 'Slovensko',
@@ -513,7 +513,7 @@ class CountryEurope
         Locale::HR_HR => 'Slovačka',
         Locale::IT_IT => 'Slovacchia',
         Locale::PL_PL => 'Słowacja',
-        Locale::SE_SE => 'Slovakien',
+        Locale::SV_SE => 'Slovakien',
     ];
     public const COUNTRY_NAME_SI = [
         Locale::CS_CZ => 'Slovinsko',
@@ -524,7 +524,7 @@ class CountryEurope
         Locale::HR_HR => 'Slovenija',
         Locale::IT_IT => 'Slovenia',
         Locale::PL_PL => 'Słowenia',
-        Locale::SE_SE => 'Slovenien',
+        Locale::SV_SE => 'Slovenien',
     ];
     public const COUNTRY_NAME_ES = [
         Locale::CS_CZ => 'Španělsko',
@@ -535,7 +535,7 @@ class CountryEurope
         Locale::HR_HR => 'Španjolska',
         Locale::IT_IT => 'Spagna',
         Locale::PL_PL => 'Hiszpania',
-        Locale::SE_SE => 'Spanien',
+        Locale::SV_SE => 'Spanien',
     ];
     public const COUNTRY_NAME_SE = [
         Locale::CS_CZ => 'Švédsko',
@@ -546,7 +546,7 @@ class CountryEurope
         Locale::HR_HR => 'Švedska',
         Locale::IT_IT => 'Svezia',
         Locale::PL_PL => 'Szwecja',
-        Locale::SE_SE => 'Sverige',
+        Locale::SV_SE => 'Sverige',
     ];
     public const COUNTRY_NAME_CH = [
         Locale::CS_CZ => 'Švýcarsko',
@@ -557,7 +557,7 @@ class CountryEurope
         Locale::HR_HR => 'Švicarska',
         Locale::IT_IT => 'Svizzera',
         Locale::PL_PL => 'Szwajcaria',
-        Locale::SE_SE => 'Schweiz',
+        Locale::SV_SE => 'Schweiz',
     ];
     public const COUNTRY_NAME_UA = [
         Locale::CS_CZ => 'Ukrajina',
@@ -568,7 +568,7 @@ class CountryEurope
         Locale::HR_HR => 'Ukrajina',
         Locale::IT_IT => 'Ucraina',
         Locale::PL_PL => 'Ukraina',
-        Locale::SE_SE => 'Ukraina',
+        Locale::SV_SE => 'Ukraina',
     ];
     public const COUNTRY_NAME_GB = [
         Locale::CS_CZ => 'Spojené království Velké Británie a Severního Irska',
@@ -579,7 +579,7 @@ class CountryEurope
         Locale::HR_HR => 'Ujedinjeno Kraljevstvo',
         Locale::IT_IT => 'Regno Unito',
         Locale::PL_PL => 'Wielka Brytania',
-        Locale::SE_SE => 'Storbritannien',
+        Locale::SV_SE => 'Storbritannien',
     ];
     public const COUNTRY_NAME_VA = [
         Locale::CS_CZ => 'Vatikán',
@@ -590,7 +590,7 @@ class CountryEurope
         Locale::HR_HR => 'Vatikanski Grad',
         Locale::IT_IT => 'Città del Vaticano',
         Locale::PL_PL => 'Watykan',
-        Locale::SE_SE => 'Vatikanstaten',
+        Locale::SV_SE => 'Vatikanstaten',
     ];
     public const COUNTRY_NAME_IM = [
         Locale::CS_CZ => 'Ostrov Man',
@@ -601,7 +601,7 @@ class CountryEurope
         Locale::HR_HR => 'Otok Man',
         Locale::IT_IT => 'Isola di Man',
         Locale::PL_PL => 'Wyspa Man',
-        Locale::SE_SE => 'Isle of Man',
+        Locale::SV_SE => 'Isle of Man',
     ];
     public const COUNTRY_NAME_ME = [
         Locale::CS_CZ => 'Černá Hora',
@@ -612,7 +612,7 @@ class CountryEurope
         Locale::HR_HR => 'Crna Gora',
         Locale::IT_IT => 'Montenegro',
         Locale::PL_PL => 'Czarnogóra',
-        Locale::SE_SE => 'Montenegro',
+        Locale::SV_SE => 'Montenegro',
     ];
     public const COUNTRY_NAME_XK = [
         Locale::CS_CZ => 'Kosovo',
@@ -623,7 +623,7 @@ class CountryEurope
         Locale::HR_HR => 'Kosovo',
         Locale::IT_IT => 'Kosovo',
         Locale::PL_PL => 'Kosowo',
-        Locale::SE_SE => 'Kosovo',
+        Locale::SV_SE => 'Kosovo',
     ];
 
     /* Countries */
