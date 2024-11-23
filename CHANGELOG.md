@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Releases
 
+### [0.1.25] - 2024-11-23
+
+* Add italian and croatian language to languages
+
 ### [0.1.24] - 2024-11-23
 
 * Fix swedish locale: `sv_SE`
